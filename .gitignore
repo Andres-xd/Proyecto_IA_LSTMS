@@ -1,0 +1,28 @@
+# ── Entorno virtual ───────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Datos procesados (se regeneran con pipeline.py)
+data/processed/
+
+# ── Dataset de energía (muy pesado)
+data/raw/household_power_consumption.txt
+
+# ── Modelos entrenados (se regeneran con agents/)
+models/*.pth
+models/*.json
+
+# ── Node modules del frontend
+frontend/node_modules/
+
+# ── Python compilado
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# ── Misceláneos
+.DS_Store
+Thumbs.db
+*.log

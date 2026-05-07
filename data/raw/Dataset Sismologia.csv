@@ -1,0 +1,813 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2026-03-21T07:35:30.350Z,13.9371,-92.2218,35,4.1,mb,49,197,2.332,1.15,us,us7000s93z,2026-04-05T08:54:56.040Z,"51 km SW of Champerico, Guatemala",earthquake,8.35,1.987,0.086,37,reviewed,us,us
+2026-03-19T23:57:46.028Z,13.9246,-90.8099,93.96,4.4,mb,36,195,1,0.97,us,us6000shlj,2026-03-22T00:56:26.040Z,"1 km ESE of Puerto San José, Guatemala",earthquake,6.63,9.266,0.063,72,reviewed,us,us
+2026-03-18T17:35:31.620Z,15.4583,-89.0771,10,5,mww,114,53,1.69,0.72,us,us6000sh81,2026-03-29T21:20:03.443Z,"22 km N of Los Amates, Guatemala",earthquake,6.04,1.843,0.065,23,reviewed,us,us
+2026-03-17T19:54:48.202Z,14.2346,-91.1567,82.886,4.2,mb,48,178,1.376,0.81,us,us6000sh0w,2026-03-29T20:04:39.040Z,"15 km ENE of Nueva Concepción, Guatemala",earthquake,10.41,4.646,0.086,38,reviewed,us,us
+2026-03-15T00:22:49.294Z,15.407,-91.7686,178.856,4.8,mww,70,99,0.939,1.06,us,us6000sgdf,2026-04-03T03:23:47.282Z,"1 km S of Ixtahuacán, Guatemala",earthquake,8.53,6.132,0.069,20,reviewed,us,us
+2026-03-14T05:05:36.961Z,13.8316,-90.7449,83.063,4.5,mb,100,167,0.94,0.73,us,us6000sg8b,2026-04-02T12:07:09.064Z,"11 km SSW of Iztapa, Guatemala",earthquake,8.9,10.381,0.051,115,reviewed,us,us
+2026-03-09T02:52:37.894Z,14.3802,-91.3271,104.168,4.8,mww,126,158,1.574,0.8,us,us7000s32w,2026-04-01T04:49:05.322Z,"2 km SSW of Río Bravo, Guatemala",earthquake,5.56,6.245,0.068,21,reviewed,us,us
+2026-03-07T07:40:42.413Z,14.141,-90.2935,10,4.1,mb,33,173,0.552,1,us,us7000s2qy,2026-03-22T06:18:33.886Z,"5 km SSW of Santa María Ixhuatán, Guatemala",earthquake,8.11,1.943,0.089,35,reviewed,us,us
+2026-02-28T10:21:25.083Z,13.5616,-89.9442,73.755,4.6,mb,60,151,0.374,0.67,us,us7000s11c,2026-03-25T06:09:10.040Z,"13 km WSW of Acajutla, El Salvador",earthquake,8.74,6.412,0.032,282,reviewed,us,us
+2026-02-22T10:29:33.157Z,13.6735,-90.9776,65.861,4.1,mb,31,179,1.186,0.98,us,us6000sary,2026-03-17T15:06:08.040Z,"32 km SSW of Puerto San José, Guatemala",earthquake,8.26,9.94,0.069,58,reviewed,us,us
+2026-02-22T08:01:08.443Z,13.7274,-90.9575,50.445,4.2,mb,32,178,1.157,0.78,us,us7000s2kh,2026-03-12T07:15:34.040Z,"26 km SSW of Puerto San José, Guatemala",earthquake,8.7,9.985,0.125,18,reviewed,us,us
+2026-02-04T22:05:57.300Z,14.9685,-91.4424,187.706,4.2,mb,30,177,1.467,0.71,us,us6000s6i8,2026-02-25T05:08:58.040Z,"2 km N of San Francisco El Alto, Guatemala",earthquake,9.61,6.613,0.11,23,reviewed,us,us
+2026-01-27T21:06:35.967Z,13.5966,-88.3014,183.499,4.5,mb,48,91,0.129,0.61,us,us6000s4v5,2026-02-13T01:52:58.040Z,"5 km SW of Chapeltique, El Salvador",earthquake,8.59,8.836,0.06,81,reviewed,us,us
+2026-01-16T06:08:45.428Z,15.8229,-88.1529,11.729,5.2,mww,77,57,2.23,0.87,us,us7000rq11,2026-03-05T06:36:44.040Z,"13 km WNW of Omoa, Honduras",earthquake,6.74,4.592,0.058,29,reviewed,us,us
+2026-01-14T11:44:30.189Z,14.3731,-91.0118,10,4,mb,24,212,1.284,0.94,us,us7000rpl4,2026-02-04T08:36:39.222Z,"4 km NNE of Santa Lucía Cotzumalguapa, Guatemala",earthquake,16.39,2.004,0.125,17,reviewed,us,us
+2025-12-31T04:42:47.759Z,13.7314,-90.3793,78.589,4.6,mb,67,122,0.607,0.96,us,us7000rln7,2026-04-01T22:48:45.040Z,"33 km SW of Pasaco, Guatemala",earthquake,8.63,7.475,0.072,58,reviewed,us,us
+2025-12-28T09:55:25.593Z,13.6258,-88.4988,189.415,4.4,mb,54,148,0.231,0.87,us,us7000rl69,2026-04-01T22:48:27.040Z,"14 km NNE of Berlín, El Salvador",earthquake,12.1,4.766,0.06,81,reviewed,us,us
+2025-12-18T17:14:39.790Z,13.7632,-92.0983,35,4.4,mb,45,161,2.504,0.46,us,us6000rvrj,2026-03-19T13:56:03.040Z,"62 km SSW of Champerico, Guatemala",earthquake,9.32,1.97,0.059,83,reviewed,us,us
+2025-12-07T14:37:21.818Z,13.5319,-91.8787,35,4.3,mb,33,205,1.613,0.99,us,us6000rt5r,2026-03-04T18:42:54.040Z,"84 km S of Champerico, Guatemala",earthquake,7.82,1.988,0.089,36,reviewed,us,us
+2025-12-02T12:59:00.340Z,14.7856,-91.0593,169.27,4.3,mb,28,161,1.52,0.75,us,us6000rvsk,2026-02-25T16:18:42.040Z,"7 km WNW of Tecpán Guatemala, Guatemala",earthquake,10.97,13.509,0.126,18,reviewed,us,us
+2025-11-28T20:06:08.384Z,15.3677,-92.1037,153.161,5.8,mww,310,29,0.909,0.82,us,us7000rehl,2026-02-25T16:18:37.040Z,"7 km S of Amatenango de la Frontera, Mexico",earthquake,8.06,3.842,0.033,87,reviewed,us,us
+2025-11-26T10:49:02.896Z,13.58,-89.1021,141.256,4.3,mb,55,161,0.208,0.5,us,us7000rdwr,2026-02-25T16:18:32.040Z,"1 km NE of Olocuilta, El Salvador",earthquake,13.68,8.258,0.072,54,reviewed,us,us
+2025-11-20T03:44:38.860Z,13.8189,-91.7786,39.778,4.7,mww,54,158,1.364,0.89,us,us6000rpa2,2026-02-20T16:07:31.040Z,"54 km SSE of Champerico, Guatemala",earthquake,8.9,9.11,0.071,19,reviewed,us,us
+2025-11-19T21:09:30.458Z,13.7451,-90.3911,94.68,4.3,mb,55,160,3.034,0.65,us,us6000rp8c,2026-02-20T16:07:30.040Z,"32 km SW of Pasaco, Guatemala",earthquake,9.24,4.667,0.08,44,reviewed,us,us
+2025-11-06T12:14:49.951Z,14.0308,-91.8454,41.85,4.7,mb,106,179,1.143,0.85,us,us6000rlv6,2026-01-29T22:05:24.040Z,"29 km SSE of Champerico, Guatemala",earthquake,10.34,10.862,0.059,88,reviewed,us,us
+2025-10-25T16:56:22.283Z,14.4467,-91.1473,98.851,4.2,mb,100,177,1.433,0.76,us,us6000rjgk,2026-01-15T22:46:53.040Z,"2 km NNE of Patulul, Guatemala",earthquake,9.06,9.079,0.054,102,reviewed,us,us
+2025-10-22T18:58:28.256Z,14.3348,-91.8126,85.517,4.7,mb,112,40,1.961,0.92,us,us6000riqw,2026-01-15T22:46:48.040Z,"11 km ENE of Champerico, Guatemala",earthquake,8.99,5.342,0.033,279,reviewed,us,us
+2025-10-21T23:06:08.963Z,14.4479,-90.4307,177.934,4.7,mb,35,171,0.832,0.65,us,us6000rijz,2026-01-09T15:38:44.040Z,"2 km SSE of Fraijanes, Guatemala",earthquake,7.55,7.663,0.045,147,reviewed,us,us
+2025-10-14T00:47:40.463Z,13.9504,-91.2257,62.751,4,mb,33,192,1.281,0.67,us,us6000rlf5,2026-01-01T23:11:18.040Z,"23 km SW of La Gomera, Guatemala",earthquake,7.56,11.403,0.111,22,reviewed,us,us
+2025-10-08T11:58:06.263Z,13.8974,-92.0185,36.506,4.6,mb,73,142,0.796,0.54,us,us6000rfl9,2026-01-01T23:11:05.040Z,"45 km SSW of Champerico, Guatemala",earthquake,7.46,9.493,0.035,249,reviewed,us,us
+2025-10-08T10:16:18.201Z,13.7787,-92.0833,10,5,mww,200,133,0.929,0.97,us,us6000rfkv,2026-01-01T23:11:04.040Z,"59 km SSW of Champerico, Guatemala",earthquake,5.61,1.893,0.071,19,reviewed,us,us
+2025-09-19T21:37:13.219Z,14.1788,-91.6176,71.989,4.2,mb,29,217,0.383,1.39,us,us6000rgdb,2025-12-06T16:00:13.040Z,"30 km WSW of Tiquisate, Guatemala",earthquake,7.6,5.412,0.107,24,reviewed,us,us
+2025-08-29T10:30:39.700Z,13.5691,-90.893,35,4.1,mb,83,167,1.031,0.68,us,us7000qruk,2025-11-19T21:59:43.040Z,"40 km S of Puerto San José, Guatemala",earthquake,8.77,1.973,0.061,73,reviewed,us,us
+2025-08-25T06:54:51.918Z,14.0785,-91.3783,86.886,4.6,mb,78,94,0.509,0.79,us,us6000r3l9,2025-11-12T16:25:41.040Z,"15 km SSW of Nueva Concepción, Guatemala",earthquake,7.63,6.925,0.044,151,reviewed,us,us
+2025-08-22T23:13:33.005Z,14.0437,-89.8349,6.145,4.2,mb,16,128,0.151,1.08,us,us6000r380,2025-11-12T16:25:37.040Z,"10 km WSW of Jerez, Guatemala",earthquake,2.31,7.138,0.263,4,reviewed,us,us
+2025-08-22T03:31:16.469Z,14.0249,-89.8234,10,4.2,mb,20,126,0.129,0.75,us,us6000r2yy,2025-11-12T16:25:36.040Z,"9 km NW of Atiquizaya, El Salvador",earthquake,3.67,1.967,0.176,9,reviewed,us,us
+2025-08-20T18:33:19.169Z,13.5543,-91.0207,35,4.2,mb,45,201,1.096,0.68,us,us7000qwc0,2025-11-12T16:25:46.040Z,"46 km SSW of Puerto San José, Guatemala",earthquake,8.01,1.563,0.094,32,reviewed,us,us
+2025-08-19T08:05:39.440Z,14.3815,-90.5566,188.205,4.6,mb,53,141,0.16,1.02,us,us6000r20h,2025-11-04T16:43:59.040Z,"9 km ESE of San Vicente Pacaya, Guatemala",earthquake,8.13,7.398,0.038,206,reviewed,us,us
+2025-08-18T05:58:55.863Z,14.1924,-91.0356,97.322,4.3,mb,99,129,0.621,0.76,us,us6000r1u2,2025-11-04T16:43:54.040Z,"10 km WSW of La Democracia, Guatemala",earthquake,6.63,5.166,0.037,209,reviewed,us,us
+2025-08-10T21:49:44.867Z,13.5155,-92.4205,10,4.5,mb,44,177,1.334,0.88,us,us6000qzpn,2025-10-25T13:40:39.040Z,"102 km SSW of Champerico, Guatemala",earthquake,7.71,1.958,0.041,178,reviewed,us,us
+2025-08-10T20:37:49.849Z,13.5682,-92.4025,10,4.7,mb,59,164,1.283,0.83,us,us6000qzpg,2025-10-25T13:40:38.040Z,"96 km SSW of Champerico, Guatemala",earthquake,7.69,1.925,0.031,305,reviewed,us,us
+2025-08-10T14:31:58.255Z,13.6674,-92.347,10,4.6,mb,41,181,1.173,0.97,us,us6000qzn0,2025-10-25T13:40:38.040Z,"83 km SW of Champerico, Guatemala",earthquake,8.81,1.955,0.04,188,reviewed,us,us
+2025-08-06T02:32:52.121Z,14.0755,-89.8354,10,4.4,mwr,34,123,0.181,1.07,us,us6000qyg0,2025-10-25T13:40:27.040Z,"7 km S of Zapotitlán, Guatemala",earthquake,5.03,1.916,0.083,14,reviewed,us,us
+2025-07-31T00:32:49.503Z,13.9924,-89.8803,10,4,mb,23,147,0.132,0.77,us,us6000qwsc,2025-10-17T22:51:42.040Z,"8 km NNW of Ahuachapán, El Salvador",earthquake,2.93,1.934,0.15,12,reviewed,us,us
+2025-07-30T02:09:52.363Z,14.0602,-89.8196,10,4.3,mb,22,120,0.162,0.65,us,us6000qw80,2025-10-17T02:34:25.040Z,"8 km WSW of Jerez, Guatemala",earthquake,3.56,1.982,0.169,10,reviewed,us,us
+2025-07-29T23:05:21.056Z,14.0537,-89.8537,10,5.2,mww,99,60,0.167,0.65,us,us6000qw5x,2025-10-11T20:57:35.040Z,"9 km SE of Comapa, Guatemala",earthquake,4.46,1.777,0.059,28,reviewed,us,us
+2025-07-29T22:56:49.383Z,14.1402,-89.8738,10,4.3,mb,58,125,0.254,1,us,us6000qw5u,2025-10-11T20:57:35.040Z,"5 km W of Zapotitlán, Guatemala",earthquake,8.86,1.975,0.083,41,reviewed,us,us
+2025-07-29T21:57:54.501Z,14.0569,-89.8169,10,4.4,mb,48,119,0.158,0.47,us,us6000qw5e,2025-10-11T20:57:34.040Z,"8 km WSW of Jerez, Guatemala",earthquake,4.41,1.977,0.088,37,reviewed,us,us
+2025-07-29T21:53:44.393Z,14.0829,-89.8038,10,4.2,mb,34,113,0.181,0.85,us,us6000qw5g,2025-10-11T20:57:35.040Z,"5 km W of Jerez, Guatemala",earthquake,7.04,1.963,0.121,19,reviewed,us,us
+2025-07-29T21:42:26.973Z,14.0639,-89.9381,10,4.8,mb,62,60,0.222,0.39,us,us6000qw5c,2025-10-11T20:57:34.040Z,"5 km SSW of Comapa, Guatemala",earthquake,4.3,1.818,0.045,155,reviewed,us,us
+2025-07-29T21:25:23.916Z,14.0663,-89.8711,10,5.7,mww,126,38,0.186,0.81,us,us6000qw59,2025-10-11T20:57:34.040Z,"6 km SE of Comapa, Guatemala",earthquake,7.3,0.967,0.044,50,reviewed,us,us
+2025-07-29T21:21:47.885Z,14.0993,-89.791,11.913,5.6,mww,110,61,0.196,0.55,us,us6000qw58,2025-10-11T20:57:34.040Z,"4 km WNW of Jerez, Guatemala",earthquake,7.38,3.615,0.078,16,reviewed,us,us
+2025-07-24T01:50:40.564Z,15.1364,-91.9166,169.648,4.3,mb,45,142,0.67,0.93,us,us6000quj4,2025-10-11T20:57:05.040Z,"3 km SSE of Ixchiguán, Guatemala",earthquake,8.32,6.963,0.104,26,reviewed,us,us
+2025-07-13T04:03:46.618Z,14.4978,-90.6886,6.024,3.5,ml,10,150,0.188,0.76,us,us7000qccs,2025-09-20T22:26:56.040Z,"2 km E of Santa María de Jesús, Guatemala",earthquake,2.51,5.514,0.085,18,reviewed,us,us
+2025-07-10T14:38:29.261Z,14.0764,-90.2605,150.201,4.8,mww,55,88,0.498,1.1,us,us7000qbuf,2025-11-28T20:42:15.377Z,"1 km SE of San Juan Tecuaco, Guatemala",earthquake,7.29,5.203,0.071,19,reviewed,us,us
+2025-07-10T08:29:35.006Z,14.5484,-90.6664,6.714,4,mb,16,144,0.164,0.58,us,us7000qbrr,2025-11-28T20:12:00.243Z,"0 km E of Magdalena Milpas Altas, Guatemala",earthquake,4.05,3.79,0.212,6,reviewed,us,us
+2025-07-10T04:26:44.745Z,14.45,-90.6657,10,3.5,ml,8,155,0.182,0.96,us,us7000qbr4,2025-09-20T22:26:56.040Z,"4 km SW of Amatitlán, Guatemala",earthquake,2.31,1.988,0.081,20,reviewed,us,us
+2025-07-09T06:32:47.191Z,14.4667,-90.68,10,3.4,ml,9,153,0.188,0.37,us,us7000qbir,2025-09-20T22:26:57.040Z,"4 km SE of Santa María de Jesús, Guatemala",earthquake,2.71,1.953,0.081,20,reviewed,us,us
+2025-07-09T06:13:17.610Z,14.4468,-90.6549,10,3.7,ml,6,164,0.174,0.94,us,us7000qbk9,2025-09-20T22:26:56.040Z,"4 km SSW of Amatitlán, Guatemala",earthquake,3.53,1.95,0.091,16,reviewed,us,us
+2025-07-09T00:06:34.582Z,14.4255,-90.6812,10,3.9,ml,12,158,0.207,0.34,us,us7000qbgu,2025-09-20T22:26:54.040Z,"2 km NE of Palín, Guatemala",earthquake,2.21,1.972,0.077,22,reviewed,us,us
+2025-07-08T23:45:35.308Z,14.448,-90.6942,10,3.5,ml,9,156,0.208,0.71,us,us7000qbgn,2025-09-12T16:23:12.040Z,"4 km N of Palín, Guatemala",earthquake,3.02,1.975,0.081,20,reviewed,us,us
+2025-07-08T22:39:41.685Z,14.5403,-90.7044,7.442,4.2,mb,28,128,0.2,0.47,us,us7000qdhx,2025-09-12T16:23:12.040Z,"3 km WSW of Magdalena Milpas Altas, Guatemala",earthquake,5.31,6.004,0.128,17,reviewed,us,us
+2025-07-08T21:54:18.996Z,14.4503,-90.7496,5.39,4.8,mb,59,97,0.257,0.52,us,us7000qbfw,2025-09-12T16:23:12.040Z,"6 km SW of Santa María de Jesús, Guatemala",earthquake,5.46,5.045,0.05,125,reviewed,us,us
+2025-07-08T21:53:07.605Z,14.4488,-90.7809,7.961,4,ml,10,159,0.286,1.09,us,us6000qyda,2025-09-12T16:23:12.040Z,"4 km SSE of Alotenango, Guatemala",earthquake,2.75,6.371,0.085,18,reviewed,us,us
+2025-07-08T21:49:23.991Z,14.3891,-90.7527,10,4,mb,13,158,0.285,0.66,us,us6000qyd8,2025-09-12T16:23:12.040Z,"6 km WSW of Palín, Guatemala",earthquake,2.35,1.982,0.367,2,reviewed,us,us
+2025-07-08T21:41:31.063Z,14.4503,-90.6483,10,5.7,mww,124,39,0.167,0.55,us,us7000qbfv,2026-01-09T08:08:12.006Z,"3 km SSW of Amatitlán, Guatemala",earthquake,5.44,1.778,0.056,31,reviewed,us,us
+2025-07-08T21:11:30.114Z,14.4566,-90.6756,10,4.8,mww,55,69,0.188,0.57,us,us7000qbfm,2025-09-12T16:23:12.040Z,"4 km WSW of Amatitlán, Guatemala",earthquake,4.37,1.57,0.073,18,reviewed,us,us
+2025-07-01T12:58:53.270Z,14.7633,-92.4118,66.774,4.4,mb,35,135,0.852,0.5,us,us7000q9z2,2025-09-04T20:40:03.040Z,"3 km N of El Encanto, Mexico",earthquake,5.62,7.714,0.138,15,reviewed,us,us
+2025-06-28T19:35:22.701Z,13.7159,-90.8717,66.31,5,mww,63,80,0.888,0.99,us,us7000q9e7,2025-09-04T20:40:01.040Z,"24 km SSW of Puerto San José, Guatemala",earthquake,6.19,5.363,0.05,38,reviewed,us,us
+2025-06-22T17:56:44.987Z,13.5675,-91.2791,35,4.3,mb,36,130,1.023,1.12,us,us6000qlty,2025-09-02T21:23:41.040Z,"61 km SSW of La Gomera, Guatemala",earthquake,4.49,1.916,0.061,76,reviewed,us,us
+2025-06-20T10:01:23.207Z,14.075,-91.3428,76.758,4.6,mwr,147,164,0.525,0.55,us,us6000qlei,2025-09-02T21:23:39.040Z,"14 km SSW of Nueva Concepción, Guatemala",earthquake,3.27,5.839,0.08,15,reviewed,us,us
+2025-06-16T08:56:38.927Z,14.5854,-91.5632,127.024,4,mb,52,128,0.026,0.56,us,us6000qkjv,2025-08-22T20:26:02.040Z,"2 km ENE of San Andrés Villa Seca, Guatemala",earthquake,8.27,10.675,0.076,47,reviewed,us,us
+2025-06-06T00:07:10.735Z,15.0734,-91.2919,192.348,4.5,mb,64,83,0.571,1.08,us,us6000qibj,2025-08-20T16:08:56.040Z,"6 km NE of Santa María Chiquimula, Guatemala",earthquake,5.85,5.225,0.044,152,reviewed,us,us
+2025-05-30T23:31:39.966Z,14.6797,-92.4688,66.077,4,mb,35,177,0.891,0.81,us,us6000qh03,2025-08-16T21:54:11.040Z,"6 km SW of Puerto Madero, Mexico",earthquake,8.37,9.214,0.115,20,reviewed,us,us
+2025-05-27T22:53:05.538Z,13.6053,-89.9185,73.771,4.4,mb,37,167,0.324,0.94,us,us6000qgai,2025-08-13T15:14:25.040Z,"9 km W of Acajutla, El Salvador",earthquake,6.55,5.271,0.051,113,reviewed,us,us
+2025-05-27T07:11:31.888Z,13.6429,-91.3666,35,4.5,mb,185,154,0.93,1.17,us,us7000q1ql,2025-08-13T15:14:33.040Z,"59 km SW of La Gomera, Guatemala",earthquake,9.07,1.942,0.027,393,reviewed,us,us
+2025-05-26T12:15:02.192Z,13.6658,-91.2943,35,4.2,mb,98,181,0.925,1,us,us7000q1j2,2025-08-13T15:14:33.040Z,"52 km SSW of La Gomera, Guatemala",earthquake,8.16,1.979,0.052,102,reviewed,us,us
+2025-05-19T13:56:22.317Z,13.5341,-91.6326,32.216,4.1,mb,30,240,1.022,0.78,us,us6000qhn4,2025-07-25T17:06:14.040Z,"81 km SSW of Nueva Concepción, Guatemala",earthquake,9.5,9.299,0.107,24,reviewed,us,us
+2025-05-12T14:34:02.183Z,13.8229,-90.9285,69.462,4.5,mb,90,107,0.819,0.64,us,us7000pytk,2025-07-24T21:30:15.040Z,"16 km SW of Puerto San José, Guatemala",earthquake,7.9,6.789,0.047,134,reviewed,us,us
+2025-05-07T06:42:40.175Z,13.9576,-92.3821,39.858,4.1,mb,32,184,0.999,0.96,us,us6000qi8u,2025-07-24T21:30:10.040Z,"62 km SW of Champerico, Guatemala",earthquake,2.29,11.396,0.117,20,reviewed,us,us
+2025-04-19T08:43:51.140Z,13.7442,-91.8565,29.174,4.3,mb,110,181,0.861,0.8,us,us6000q772,2025-06-27T00:34:31.040Z,"61 km S of Champerico, Guatemala",earthquake,8.03,8.596,0.05,115,reviewed,us,us
+2025-03-19T02:47:45.667Z,13.7206,-89.0896,149.611,4.9,mb,164,121,0.148,1.05,us,us6000pzpd,2025-05-29T17:36:23.040Z,"2 km NE of Ilopango, El Salvador",earthquake,6.4,5.463,0.049,132,reviewed,us,us
+2025-03-15T21:00:24.682Z,13.9004,-92.1936,30.168,4.3,mb,34,210,0.901,1.14,us,us6000pz2y,2025-05-17T19:19:58.040Z,"53 km SW of Champerico, Guatemala",earthquake,8.22,9.363,0.101,28,reviewed,us,us
+2025-03-14T15:05:39.851Z,14.7073,-92.0953,92.459,4.4,mb,46,131,0.429,1,us,us6000pyuq,2025-05-17T19:19:58.040Z,"5 km NE of Ciudad Tecún Umán, Guatemala",earthquake,5.3,4.883,0.045,141,reviewed,us,us
+2025-03-01T04:01:08.428Z,13.6626,-91.867,37.388,4.4,mb,49,160,0.941,0.95,us,us6000pw7t,2025-05-08T19:24:43.040Z,"69 km S of Champerico, Guatemala",earthquake,7.77,8.908,0.042,161,reviewed,us,us
+2025-03-01T02:28:32.108Z,13.5727,-91.9089,10,4.3,mb,44,191,1.039,1.39,us,us6000pw7c,2025-05-08T19:24:43.040Z,"79 km S of Champerico, Guatemala",earthquake,7.84,1.974,0.081,43,reviewed,us,us
+2025-02-26T21:12:41.833Z,13.633,-90.6563,78.855,4.2,mb,17,199,0.893,1,us,us6000pvpg,2025-05-08T19:24:41.040Z,"33 km S of Iztapa, Guatemala",earthquake,5.71,11.309,0.199,7,reviewed,us,us
+2025-02-17T19:56:26.490Z,13.7688,-90.7139,81.997,4.4,mb,50,155,0.787,1.11,us,us7000pebq,2025-05-02T16:26:21.040Z,"18 km S of Iztapa, Guatemala",earthquake,6.86,6.228,0.07,58,reviewed,us,us
+2025-02-16T20:47:26.890Z,13.8119,-92.3969,10,4.9,mww,81,142,1.103,1.06,us,us7000pe58,2025-05-02T16:26:20.040Z,"74 km SW of Champerico, Guatemala",earthquake,5.63,1.907,0.068,21,reviewed,us,us
+2025-02-10T08:11:20.239Z,13.8792,-90.6251,99.064,4.5,mb,176,149,0.66,0.71,us,us7000pclr,2025-04-26T14:47:06.040Z,"10 km SE of Iztapa, Guatemala",earthquake,4.52,5.408,0.028,371,reviewed,us,us
+2025-02-06T02:33:26.624Z,13.8165,-91.4697,61.664,4.4,mb,87,214,0.744,0.95,us,us7000pbqa,2025-04-26T14:47:02.040Z,"46 km SSW of Nueva Concepción, Guatemala",earthquake,6.17,7.449,0.055,96,reviewed,us,us
+2025-02-05T22:39:36.534Z,13.8048,-91.6655,47.481,4,mb,21,208,0.758,0.9,us,us7000pbp2,2025-04-26T14:47:02.040Z,"58 km SW of Nueva Concepción, Guatemala",earthquake,7.26,14.63,0.15,12,reviewed,us,us
+2025-02-05T13:56:11.324Z,13.7812,-91.7001,48.698,4.2,mb,69,183,0.786,0.73,us,us7000pbjy,2025-04-26T14:47:02.040Z,"61 km SSE of Champerico, Guatemala",earthquake,6.54,9.694,0.076,48,reviewed,us,us
+2025-02-05T07:22:10.653Z,13.7969,-91.5946,58.424,4.1,mb,43,182,0.759,0.83,us,us7000pbfs,2025-04-26T14:47:02.040Z,"54 km SW of Nueva Concepción, Guatemala",earthquake,7.76,3.187,0.087,36,reviewed,us,us
+2025-02-05T07:01:18.108Z,13.9242,-91.5982,58.159,5.6,mww,110,62,0.633,0.89,us,us7000pbfb,2025-04-26T14:47:02.040Z,"44 km SW of Nueva Concepción, Guatemala",earthquake,5.24,4.131,0.037,71,reviewed,us,us
+2025-01-23T01:56:55.712Z,14.4711,-90.5525,188.477,4.8,mb,161,109,0.08,0.91,us,us6000plr3,2025-04-08T22:00:58.040Z,"2 km WSW of Villa Canales, Guatemala",earthquake,8.68,6.482,0.034,260,reviewed,us,us
+2025-01-22T06:01:44.938Z,15.2096,-88.7614,10,4.2,mb,31,58,1.498,0.93,us,us7000pac3,2025-04-08T22:01:03.040Z,"6 km NW of Concepción de la Barranca, Honduras",earthquake,3.48,1.938,0.152,12,reviewed,us,us
+2025-01-11T03:33:38.566Z,15.8447,-92.3541,199.678,4.9,mb,60,105,0.482,0.91,us,us6000pjd4,2025-03-20T20:55:05.040Z,"8 km W of Pablo L. Sidar, Mexico",earthquake,6.58,4.463,0.041,186,reviewed,us,us
+2025-01-09T16:31:45.323Z,13.599,-89.7339,95,5.8,mww,169,37,0.304,1.05,us,us6000pixh,2025-03-20T20:54:55.040Z,"10 km E of Acajutla, El Salvador",earthquake,6.07,1.88,0.034,85,reviewed,us,us
+2024-12-31T00:16:48.789Z,13.8871,-92.0177,35,3.8,mb,19,215,0.804,0.51,us,us6000pgkl,2025-03-11T13:12:27.040Z,"46 km SSW of Champerico, Guatemala",earthquake,4.77,1.994,0.207,6,reviewed,us,us
+2024-12-18T18:55:13.680Z,13.6582,-92.4902,10,4.2,mb,27,204,1.274,0.65,us,us6000phhb,2025-02-27T17:30:48.040Z,"94 km SW of Champerico, Guatemala",earthquake,3.95,1.968,0.2,7,reviewed,us,us
+2024-12-17T04:22:27.200Z,14.5407,-91.8501,78.353,4,mb,15,174,0.285,0.65,us,us7000nzgc,2025-02-27T17:30:51.040Z,"9 km S of Génova, Guatemala",earthquake,6.49,3.99,0.365,2,reviewed,us,us
+2024-12-12T10:26:48.858Z,15.2083,-89.9801,10,4.3,mb,36,55,0.668,0.93,us,us7000ny4a,2025-02-18T20:02:56.040Z,"17 km ESE of Tucurú, Guatemala",earthquake,5.31,1.976,0.104,26,reviewed,us,us
+2024-12-11T11:07:38.400Z,14.3561,-92.203,48.478,4.3,mb,81,210,0.658,0.94,us,us7000nxtz,2025-02-18T20:02:55.040Z,"17 km S of Ocós, Guatemala",earthquake,5.66,9.605,0.061,77,reviewed,us,us
+2024-12-03T04:33:23.480Z,14.5996,-92.4747,71.367,4.2,mb,49,163,0.564,1.04,us,us7000nvk2,2025-02-15T18:29:07.040Z,"14 km SSW of Puerto Madero, Mexico",earthquake,5.72,5.929,0.121,19,reviewed,us,us
+2024-12-02T23:06:59.736Z,13.8111,-91.1881,53.909,4,mb,34,179,0.826,0.48,us,us7000nvj8,2025-02-15T18:29:04.040Z,"33 km SSW of La Gomera, Guatemala",earthquake,5.68,11.37,0.119,19,reviewed,us,us
+2024-11-30T10:53:22.363Z,13.7792,-91.9269,34.182,4.1,mb,35,164,0.855,0.71,us,us7000nv45,2025-02-02T00:54:03.040Z,"56 km S of Champerico, Guatemala",earthquake,7.45,7.952,0.088,35,reviewed,us,us
+2024-11-19T14:56:40.701Z,14.5488,-90.7382,179.148,4.7,mb,88,148,0.233,0.8,us,us7000nsm9,2025-01-30T17:00:35.040Z,"1 km SSW of Antigua Guatemala, Guatemala",earthquake,7.19,5.846,0.049,129,reviewed,us,us
+2024-11-19T10:22:20.156Z,15.3049,-92.0939,170.023,4,mb,35,70,0.136,0.49,us,us7000nwd5,2025-01-30T17:00:36.040Z,"3 km W of Tectitán, Guatemala",earthquake,6.21,3.976,0.15,12,reviewed,us,us
+2024-11-10T11:56:33.499Z,13.7555,-92.0678,25.556,4,mb,28,201,0.941,1.29,us,us7000nqzv,2025-01-24T19:51:29.040Z,"61 km SSW of Champerico, Guatemala",earthquake,7.19,11.33,0.156,11,reviewed,us,us
+2024-11-08T18:16:00.138Z,13.8087,-91.9041,34.93,4.2,mb,69,158,1.339,0.77,us,us7000nqqj,2025-01-24T19:51:24.040Z,"53 km S of Champerico, Guatemala",earthquake,6.34,7.73,0.071,60,reviewed,us,us
+2024-11-07T12:47:19.827Z,13.5796,-90.6367,51.916,4.3,mb,40,171,0.892,1.08,us,us7000nqe2,2025-01-24T19:51:20.040Z,"39 km S of Iztapa, Guatemala",earthquake,6.9,11.901,0.085,39,reviewed,us,us
+2024-11-04T05:37:55.632Z,13.8133,-90.8041,92.253,4.3,mwr,163,173,0.774,0.53,us,us7000npt3,2025-01-24T19:51:12.040Z,"12 km S of Puerto San José, Guatemala",earthquake,6.55,5.59,0.083,14,reviewed,us,us
+2024-10-28T05:28:12.413Z,13.6677,-92.3457,10,4.2,mb,56,162,1.445,0.61,us,us7000nnkw,2025-01-16T18:44:09.040Z,"83 km SW of Champerico, Guatemala",earthquake,6.78,1.967,0.089,35,reviewed,us,us
+2024-10-14T13:10:23.453Z,14.1203,-91.2932,106.196,4.3,mwr,93,211,0.506,0.88,us,us6000nykg,2024-12-26T23:03:38.040Z,"8 km S of Nueva Concepción, Guatemala",earthquake,7.21,5.665,0.093,11,reviewed,us,us
+2024-10-14T13:08:12.282Z,13.738,-89.0315,187.105,4.4,mb,85,113,0.095,0.59,us,us6000nykd,2024-12-26T23:03:33.040Z,"6 km SSW of Tecoluca, El Salvador",earthquake,7.49,5.018,0.055,96,reviewed,us,us
+2024-10-11T18:28:38.171Z,14.4052,-91.2103,109.107,4,mb,24,168,0.701,0.43,us,us6000ny5a,2024-12-23T15:46:54.040Z,"3 km SSE of Santa Bárbara, Guatemala",earthquake,6.13,8.301,0.173,9,reviewed,us,us
+2024-10-11T13:27:52.231Z,15.3045,-90.8712,4.782,4.2,mwr,41,120,0.701,0.69,us,us6000ny2n,2024-12-23T15:46:51.040Z,"4 km S of Uspantán, Guatemala",earthquake,4.35,5.12,0.075,17,reviewed,us,us
+2024-10-09T09:20:21.979Z,13.815,-91.1308,70.561,4.3,mb,64,203,0.848,0.71,us,us6000nxhj,2024-12-23T15:46:15.040Z,"30 km SSW of La Gomera, Guatemala",earthquake,6.72,7.689,0.068,62,reviewed,us,us
+2024-10-03T01:54:42.809Z,13.6571,-91.7403,35,4,mb,49,215,0.915,1.37,us,us7000nmml,2024-12-14T14:51:13.040Z,"72 km SSE of Champerico, Guatemala",earthquake,7.19,1.987,0.085,37,reviewed,us,us
+2024-09-23T14:37:49.603Z,13.5755,-90.873,23.312,4.1,mb,24,229,1.018,0.58,us,us6000ntv4,2024-12-06T19:30:12.040Z,"39 km S of Puerto San José, Guatemala",earthquake,7.4,13.35,0.127,17,reviewed,us,us
+2024-09-16T22:43:06.688Z,14.5575,-91.4472,133.649,4,mb,36,158,0.92,0.56,us,us7000nec9,2024-11-23T23:27:21.040Z,"2 km NE of San Bernardino, Guatemala",earthquake,7.95,10.29,0.116,20,reviewed,us,us
+2024-09-05T02:11:24.734Z,13.507,-89.776,62.699,4.2,mb,22,173,0.35,0.92,us,us6000npsa,2024-11-15T16:19:55.040Z,"11 km SSE of Acajutla, El Salvador",earthquake,6.35,6.941,0.216,6,reviewed,us,us
+2024-08-27T05:38:46.983Z,14.3415,-92.1555,63.584,4.4,mwr,80,148,1.533,0.83,us,us6000nn0t,2024-11-09T21:18:11.040Z,"19 km SSE of Ocós, Guatemala",earthquake,7.35,6.747,0.073,18,reviewed,us,us
+2024-08-26T07:05:04.796Z,14.2873,-90.4663,10,4.1,mb,25,177,0.245,0.62,us,us7000n9gb,2024-11-09T21:19:14.040Z,"6 km N of Pueblo Nuevo Viñas, Guatemala",earthquake,4.81,1.921,0.145,13,reviewed,us,us
+2024-08-22T03:57:10.617Z,14.1864,-91.2925,98.807,4.3,mb,139,173,0.843,0.83,us,us7000n8pd,2024-11-02T21:28:44.040Z,"1 km SSE of Nueva Concepción, Guatemala",earthquake,8.86,8.526,0.047,130,reviewed,us,us
+2024-08-07T15:26:56.760Z,17.3969,-91.3073,10,4.2,mb,29,56,1.364,0.88,us,us6000nn98,2024-10-24T17:58:19.040Z,"14 km SE of Tenosique, Mexico",earthquake,2.65,1.902,0.104,26,reviewed,us,us
+2024-07-26T23:15:30.576Z,13.5168,-88.4422,174.629,4.5,mb,107,102,0.125,0.63,us,us6000ng9n,2026-03-26T17:31:56.949Z,"4 km NE of Santiago de María, El Salvador",earthquake,9.47,5.74,0.06,80,reviewed,us,us
+2024-07-26T01:56:54.831Z,14.0773,-90.6646,144.281,4.2,mb,29,119,0.48,1.02,us,us6000ng14,2024-10-08T21:49:12.005Z,"16 km NNE of Iztapa, Guatemala",earthquake,9.1,6.559,0.086,38,reviewed,us,us
+2024-07-22T04:30:44.148Z,13.5067,-91.2277,40.054,4.1,mb,36,183,1.095,0.66,us,us7000n0s0,2024-10-08T21:49:16.005Z,"63 km SW of Puerto San José, Guatemala",earthquake,4.11,10.577,0.064,66,reviewed,us,us
+2024-07-21T02:53:48.910Z,14.6445,-89.9316,272,6.2,mww,138,29,0.56,1.04,us,us7000n0ka,2024-10-08T16:17:55.257Z,"6 km E of Jalapa, Guatemala",earthquake,7.64,1.867,0.025,155,reviewed,us,us
+2024-06-24T04:32:26.085Z,14.2817,-90.5722,146.047,4.3,mb,32,161,0.259,0.83,us,us7000mu7v,2024-09-04T21:57:39.040Z,"9 km NE of Guanagazapa, Guatemala",earthquake,9.49,8.563,0.069,59,reviewed,us,us
+2024-06-22T22:29:05.464Z,14.5645,-92.4399,48.785,4,mb,59,114,0.381,0.8,us,us7000mu0n,2024-08-30T18:17:06.040Z,"17 km S of Puerto Madero, Mexico",earthquake,5.12,10.76,0.092,32,reviewed,us,us
+2024-06-22T00:38:03.188Z,14.2734,-91.6358,69.656,4.5,mb,93,87,0.295,0.67,us,us7000mtvs,2024-08-30T18:17:07.040Z,"27 km SSW of San Lorenzo, Guatemala",earthquake,8.31,4.775,0.051,114,reviewed,us,us
+2024-06-12T02:55:06.200Z,14.8286,-90.4539,14.709,4.9,mww,46,67,0.298,0.91,us,us7000mrv6,2025-07-08T22:54:49.016Z,"5 km N of San Pedro Ayampuc, Guatemala",earthquake,2.35,4.448,0.069,20,reviewed,us,us
+2024-06-06T03:58:13.562Z,13.6795,-92.0424,10,4,mb,55,164,0.994,1.09,us,us7000mqm1,2024-08-16T21:59:22.040Z,"69 km SSW of Champerico, Guatemala",earthquake,3.22,1.966,0.086,36,reviewed,us,us
+2024-05-12T11:39:12.718Z,14.4264,-92.4617,61.91,6.4,mww,267,30,0.515,1.05,us,us6000my20,2024-10-08T21:11:23.868Z,"28 km WSW of Brisas Barra de Suchiate, Mexico",earthquake,3.41,3.065,0.029,111,reviewed,us,us
+2024-05-09T01:07:42.241Z,13.8613,-91.034,67.936,4.3,mb,72,213,0.845,1,us,us6000mxc2,2024-07-20T22:20:03.040Z,"24 km WSW of Puerto San José, Guatemala",earthquake,7.66,9.246,0.062,74,reviewed,us,us
+2024-05-07T01:15:47.428Z,13.7955,-92.2561,10,4.2,mb,23,200,1.018,0.74,us,us6000myim,2024-07-20T22:20:01.040Z,"66 km SW of Champerico, Guatemala",earthquake,3.35,1.979,0.187,8,reviewed,us,us
+2024-04-22T02:12:43.775Z,13.9924,-91.5168,50.602,4.1,mb,49,178,0.566,0.87,us,us7000mdrg,2024-07-02T22:12:54.040Z,"32 km SW of Nueva Concepción, Guatemala",earthquake,5.91,4.699,0.089,34,reviewed,us,us
+2024-04-17T09:09:17.583Z,15.2698,-91.5214,221.682,4.1,mb,26,106,0.706,0.55,us,us7000mcm9,2024-06-25T21:02:54.040Z,"3 km NW of Malacatancito, Guatemala",earthquake,9.68,8.153,0.139,14,reviewed,us,us
+2024-04-16T19:36:32.824Z,13.9966,-91.2373,72.154,4.4,mb,52,108,0.64,0.95,us,us7000mci1,2024-06-25T21:02:51.040Z,"21 km WSW of La Gomera, Guatemala",earthquake,5.19,2.928,0.056,92,reviewed,us,us
+2024-04-14T19:14:58.353Z,13.9423,-91.1667,80.948,4.7,mwr,69,136,0.721,0.64,us,us7000mc2f,2024-06-17T02:15:35.040Z,"19 km SW of La Gomera, Guatemala",earthquake,6.08,6.232,0.078,16,reviewed,us,us
+2024-04-09T05:11:30.711Z,13.8619,-92.288,35,4,mb,34,139,0.992,1.3,us,us7000mcw0,2024-06-17T02:14:55.040Z,"62 km SW of Champerico, Guatemala",earthquake,4.85,1.804,0.149,12,reviewed,us,us
+2024-04-07T17:49:32.447Z,13.8143,-88.9836,193.139,5,mb,78,87,0.11,0.78,us,us7000man5,2024-06-12T21:51:56.040Z,"2 km S of Tenancingo, El Salvador",earthquake,8.54,5.097,0.026,477,reviewed,us,us
+2024-04-03T23:06:54.663Z,14.0171,-90.2252,137.054,4.4,mb,53,153,0.447,0.75,us,us7000m9rf,2024-06-12T21:51:53.040Z,"4 km NNW of Pasaco, Guatemala",earthquake,9.32,6.673,0.081,44,reviewed,us,us
+2024-04-03T03:48:24.256Z,13.7042,-89.9807,94.602,4.4,mb,48,152,0.277,0.58,us,us7000m9ik,2024-06-12T21:51:52.040Z,"15 km WSW of Guaymango, El Salvador",earthquake,6.74,5.183,0.059,83,reviewed,us,us
+2024-03-19T05:52:01.393Z,13.6172,-90.9711,74.655,4.1,mb,21,217,1.019,1.15,us,us6000mkir,2024-05-27T14:19:22.040Z,"37 km SSW of Puerto San José, Guatemala",earthquake,8.19,9.649,0.127,17,reviewed,us,us
+2024-03-08T06:04:13.070Z,13.8015,-91.7634,35,4.2,mb,47,215,0.78,0.54,us,us6000miv3,2024-05-15T17:35:02.040Z,"56 km SSE of Champerico, Guatemala",earthquake,4.98,2.012,0.077,47,reviewed,us,us
+2024-03-08T06:03:44.493Z,13.6334,-91.9644,26.057,4.1,mb,60,186,1.002,0.92,us,us7000m42p,2024-05-15T17:35:02.040Z,"73 km S of Champerico, Guatemala",earthquake,8.58,9.26,0.077,46,reviewed,us,us
+2024-03-03T16:46:38.549Z,15.5998,-92.4391,181.465,4.1,mb,24,106,0.477,0.59,us,us7000m9cb,2024-05-10T21:26:02.040Z,"13 km WNW of Siltepec, Mexico",earthquake,5.41,4.98,0.158,11,reviewed,us,us
+2024-03-03T16:28:14.662Z,13.5452,-91.2468,46.266,4.2,mb,21,200,1.221,1.25,us,us6000mghg,2024-05-10T21:25:59.040Z,"62 km SW of Puerto San José, Guatemala",earthquake,8.64,14.573,0.099,30,reviewed,us,us
+2024-03-03T03:20:29.792Z,13.8651,-89.7981,94.214,4.3,mb,40,133,0.041,0.98,us,us6000mge6,2024-05-10T21:25:58.040Z,"5 km E of Concepción de Ataco, El Salvador",earthquake,8.82,4.254,0.069,60,reviewed,us,us
+2024-02-25T22:14:44.429Z,14.0869,-91.8134,67.116,4.1,mb,39,203,1.35,0.93,us,us7000m1js,2024-05-02T15:50:14.040Z,"25 km SSE of Champerico, Guatemala",earthquake,8.17,9.655,0.099,28,reviewed,us,us
+2024-02-21T11:01:07.955Z,14.5272,-90.2632,241.887,4.7,mb,125,103,0.227,0.67,us,us7000m0iw,2024-05-02T15:50:12.040Z,"8 km W of Mataquescuintla, Guatemala",earthquake,8.63,5.927,0.046,143,reviewed,us,us
+2024-02-19T10:04:14.264Z,13.7875,-91.4835,48.361,4.3,mb,25,181,0.771,0.7,us,us7000m13q,2024-05-02T15:50:13.040Z,"49 km SSW of Nueva Concepción, Guatemala",earthquake,6.32,8.646,0.2,7,reviewed,us,us
+2024-02-12T03:10:04.693Z,13.9241,-90.5005,110.892,4.1,mb,68,168,0.604,0.71,us,us7000lyj3,2024-04-24T14:42:00.040Z,"16 km SSW of Taxisco, Guatemala",earthquake,7.72,5.588,0.069,58,reviewed,us,us
+2024-02-05T14:21:24.652Z,13.6963,-89.7436,64.767,4.2,mb,36,164,0.206,0.68,us,us7000ly0i,2024-04-20T19:33:04.040Z,"2 km SSW of San Antonio del Monte, El Salvador",earthquake,8.07,4.336,0.098,29,reviewed,us,us
+2024-01-29T21:38:33.921Z,13.5419,-88.6575,183.251,4.5,mb,81,82,0.321,0.5,us,us7000luun,2024-04-13T19:27:05.040Z,"13 km NNW of San Agustín, El Salvador",earthquake,8.59,5.8,0.067,65,reviewed,us,us
+2024-01-27T05:52:48.419Z,14.0636,-90.6159,90,6.1,mww,134,57,0.479,0.84,us,us7000luai,2024-09-15T05:04:21.428Z,"15 km W of Taxisco, Guatemala",earthquake,7.28,1.935,0.033,87,reviewed,us,us
+2024-01-22T22:05:08.235Z,13.7626,-92.0903,34.469,4.5,mb,115,105,1.151,1.15,us,us7000lt1k,2024-03-30T22:32:31.040Z,"61 km SSW of Champerico, Guatemala",earthquake,5.43,3.13,0.057,90,reviewed,us,us
+2024-01-22T21:54:36.632Z,13.7916,-92.0689,21.626,4.3,mb,26,228,1.126,0.66,us,us7000lu3c,2024-03-30T22:34:01.040Z,"58 km SSW of Champerico, Guatemala",earthquake,2.63,7.688,0.147,13,reviewed,us,us
+2024-01-22T21:52:54.093Z,13.8003,-92.0793,35.251,4.6,mb,107,114,1.115,0.96,us,us7000lt1e,2024-03-30T22:32:30.040Z,"57 km SSW of Champerico, Guatemala",earthquake,2.54,6.695,0.06,83,reviewed,us,us
+2024-01-22T05:45:13.906Z,15.7657,-88.742,10,4,mb,27,64,1.973,0.29,us,us6000m5cx,2024-03-30T22:32:18.040Z,"6 km S of Lívingston, Guatemala",earthquake,4.94,1.964,0.134,15,reviewed,us,us
+2024-01-21T07:12:21.720Z,14.1429,-91.9055,59.805,4,mb,24,193,1.418,0.34,us,us6000m57k,2024-03-29T17:37:55.040Z,"16 km S of Champerico, Guatemala",earthquake,8.29,12.54,0.144,13,reviewed,us,us
+2024-01-20T22:21:13.306Z,14.7311,-92.3963,92.068,4.3,mb,24,175,0.217,0.53,us,us7000lu08,2024-03-29T17:37:57.040Z,"1 km E of El Encanto, Mexico",earthquake,4.2,5.694,0.237,5,reviewed,us,us
+2024-01-15T14:33:45.538Z,13.5843,-91.4894,29.793,4.2,mb,52,146,1.347,0.59,us,us6000m3sj,2024-03-29T17:37:51.040Z,"71 km SSW of Nueva Concepción, Guatemala",earthquake,8.35,7.181,0.081,42,reviewed,us,us
+2024-01-14T21:14:49.186Z,13.6209,-91.2772,64.575,4.3,mb,68,94,1.18,0.76,us,us6000m3n4,2024-03-16T19:00:40.040Z,"56 km SSW of La Gomera, Guatemala",earthquake,8.08,6.678,0.073,53,reviewed,us,us
+2024-01-14T16:31:25.224Z,13.8374,-92.1197,35,4.2,mb,32,178,1.349,0.81,us,us6000m4ru,2024-03-16T18:59:05.040Z,"55 km SSW of Champerico, Guatemala",earthquake,3.81,1.946,0.124,18,reviewed,us,us
+2024-01-13T05:25:33.592Z,13.8885,-90.9374,62.163,4.2,mb,23,182,0.769,0.67,us,us6000m3g6,2024-03-16T19:00:33.040Z,"13 km WSW of Puerto San José, Guatemala",earthquake,8.54,10.196,0.16,11,reviewed,us,us
+2024-01-09T00:37:18.165Z,13.7496,-92.3151,28.678,4.1,mb,29,188,1.152,1.15,us,us6000m48x,2024-03-16T18:59:50.040Z,"74 km SW of Champerico, Guatemala",earthquake,5.91,7.757,0.198,7,reviewed,us,us
+2024-01-07T20:48:05.886Z,14.1237,-89.9055,199.38,4.2,mb,29,164,0.252,0.58,us,us6000m41y,2024-03-09T21:40:56.040Z,"1 km NE of Comapa, Guatemala",earthquake,10.07,6.66,0.124,18,reviewed,us,us
+2023-12-29T12:33:33.662Z,14.2517,-91.4038,83.572,4.1,mb,49,176,1.614,0.5,us,us6000m2qf,2024-03-02T21:39:37.040Z,"5 km SW of Tiquisate, Guatemala",earthquake,9.88,11.185,0.087,36,reviewed,us,us
+2023-12-14T17:55:01.836Z,13.988,-91.3759,78.238,5.4,mww,205,91,1.552,0.83,us,us7000lj39,2024-02-17T22:43:09.040Z,"24 km SSW of Nueva Concepción, Guatemala",earthquake,3.38,4.279,0.057,30,reviewed,us,us
+2023-12-12T21:07:08.497Z,14.6225,-91.6098,115.425,4.6,mb,133,132,1.726,0.62,us,us7000lii1,2024-02-17T22:43:07.040Z,"1 km W of San Felipe, Guatemala",earthquake,9.26,6.397,0.048,130,reviewed,us,us
+2023-12-02T00:59:16.643Z,15.1695,-91.6718,185.813,4.2,mb,32,114,1.193,0.59,us,us7000lgyl,2024-02-06T21:54:00.040Z,"6 km SW of Sipacapa, Guatemala",earthquake,8.65,5.506,0.118,20,reviewed,us,us
+2023-11-11T21:07:15.359Z,15.8416,-89.1655,10,4.3,mb,42,81,2.018,0.68,us,us7000lae0,2024-01-13T23:11:39.040Z,"38 km NNE of El Estor, Guatemala",earthquake,6.84,1.956,0.086,38,reviewed,us,us
+2023-11-09T08:23:42.787Z,14.4511,-91.3596,11.188,4.4,mb,63,182,1.626,0.57,us,us7000l9sw,2024-01-13T23:10:49.040Z,"6 km E of San José El Ídolo, Guatemala",earthquake,10.98,6.409,0.067,63,reviewed,us,us
+2023-11-06T06:50:06.692Z,13.6769,-90.4388,83.004,4.1,mb,45,193,0.678,0.42,us,us7000l943,2024-01-13T23:10:11.040Z,"40 km SE of Iztapa, Guatemala",earthquake,9.75,6.345,0.09,35,reviewed,us,us
+2023-11-05T18:56:08.102Z,14.15,-91.2104,93.012,4.4,mb,110,98,1.78,0.77,us,us7000l91w,2024-01-13T23:10:07.040Z,"11 km ESE of Nueva Concepción, Guatemala",earthquake,7.73,4.634,0.042,165,reviewed,us,us
+2023-11-04T14:03:24.877Z,14.0528,-91.5399,60.967,4.2,mb,32,178,1.715,1.11,us,us7000l8vc,2024-01-10T06:01:57.040Z,"30 km WSW of Nueva Concepción, Guatemala",earthquake,9.47,12.464,0.08,43,reviewed,us,us
+2023-11-03T16:34:46.014Z,13.6633,-90.6989,55.881,4.4,mb,28,177,0.924,0.77,us,us7000l8mz,2024-01-27T06:11:24.010Z,"29 km S of Iztapa, Guatemala",earthquake,5.54,9.14,0.064,70,reviewed,us,us
+2023-11-01T21:52:16.903Z,13.5497,-90.7696,50.606,5.3,mww,209,54,1.288,0.71,us,us7000l875,2024-01-10T06:01:36.040Z,"42 km S of Puerto San José, Guatemala",earthquake,6.96,3.921,0.057,30,reviewed,us,us
+2023-10-27T13:23:59.032Z,14.7448,-92.0963,103.182,4,mb,43,126,0.23,0.74,us,us7000l835,2024-01-04T04:22:25.040Z,"7 km WNW of Pajapita, Guatemala",earthquake,6.34,4.295,0.093,31,reviewed,us,us
+2023-10-21T05:11:26.100Z,13.5154,-91.0642,53.465,4.4,mb,66,214,1.306,0.65,us,us6000lh3e,2023-12-26T21:24:51.040Z,"52 km SSW of Puerto San José, Guatemala",earthquake,10.85,11.267,0.065,68,reviewed,us,us
+2023-10-13T23:21:46.065Z,13.6634,-91.9249,10,4.3,mb,26,205,2.098,0.48,us,us6000lfg2,2023-12-16T22:13:08.040Z,"69 km S of Champerico, Guatemala",earthquake,7.33,1.953,0.138,15,reviewed,us,us
+2023-10-08T03:39:54.718Z,13.8993,-90.3988,97.871,4.4,mb,62,103,0.601,0.81,us,us6000ldy4,2023-12-16T22:13:05.040Z,"19 km S of Guazacapán, Guatemala",earthquake,7.16,4.442,0.046,138,reviewed,us,us
+2023-09-25T06:57:45.859Z,13.8654,-91.9861,35,4.6,mb,136,166,1.071,0.51,us,us7000kxy5,2023-12-09T22:00:45.040Z,"48 km S of Champerico, Guatemala",earthquake,6.7,1.934,0.032,284,reviewed,us,us
+2023-09-24T09:21:41.091Z,13.7845,-90.6794,90.465,4.2,mb,55,150,0.882,0.52,us,us7000kxt1,2023-12-09T22:00:44.040Z,"16 km S of Iztapa, Guatemala",earthquake,7.35,8.246,0.057,85,reviewed,us,us
+2023-09-18T08:38:13.221Z,14.0922,-92.3444,35,4.2,mb,146,133,0.814,0.5,us,us7000kwf2,2023-12-02T23:01:07.040Z,"49 km SSW of Ocós, Guatemala",earthquake,4.62,1.922,0.047,129,reviewed,us,us
+2023-08-28T22:18:55.025Z,14.3713,-92.1968,60.367,4.2,mb,64,159,0.537,0.76,us,us7000krp9,2023-11-04T21:35:43.040Z,"15 km S of Ocós, Guatemala",earthquake,6.03,6.817,0.076,48,reviewed,us,us
+2023-08-14T11:09:47.265Z,14.2591,-91.7394,73.912,4.2,mb,50,155,1.934,0.48,us,us6000kzu8,2023-10-27T21:39:01.040Z,"19 km ESE of Champerico, Guatemala",earthquake,9.05,10.898,0.062,71,reviewed,us,us
+2023-08-13T06:22:03.852Z,14.3381,-89.7713,236.904,4.8,mb,108,129,0.433,0.56,us,us6000kzng,2023-10-27T21:39:00.040Z,"6 km W of Asunción Mita, Guatemala",earthquake,9.66,6.539,0.028,391,reviewed,us,us
+2023-08-08T00:04:16.474Z,14.0458,-92.2697,35,4.1,mb,41,181,0.857,0.66,us,us6000kyjc,2023-10-17T22:01:27.040Z,"47 km SW of Champerico, Guatemala",earthquake,3.4,1.976,0.112,22,reviewed,us,us
+2023-08-03T05:46:36.264Z,13.7326,-90.3357,80.139,4.2,mb,59,150,0.566,0.41,us,us6000kxgi,2023-10-07T21:38:57.040Z,"30 km SSW of Pasaco, Guatemala",earthquake,8.59,6.337,0.057,85,reviewed,us,us
+2023-07-25T03:42:19.364Z,14.0117,-92.0828,52.665,4.5,mb,171,95,2.258,0.86,us,us7000ki5i,2023-09-30T21:36:40.040Z,"36 km SSW of Champerico, Guatemala",earthquake,7.05,5.875,0.029,366,reviewed,us,us
+2023-07-24T14:22:05.563Z,16.041,-91.3174,12.128,4.1,mb,44,93,0.823,0.79,us,us6000kxau,2023-09-30T21:36:35.040Z,"10 km S of Santo Domingo de las Palmas, Mexico",earthquake,3.8,5.322,0.092,32,reviewed,us,us
+2023-07-23T18:23:08.997Z,16.0371,-91.2293,10,4.7,mb,226,57,0.905,0.87,us,us7000khuf,2023-09-30T21:36:39.040Z,"13 km SSE of Maravilla Tenejapa, Mexico",earthquake,4.54,1.813,0.031,312,reviewed,us,us
+2023-07-14T20:17:13.542Z,14.0728,-89.7397,195.629,4.3,mb,94,57,0.174,0.82,us,us7000khdz,2023-09-16T19:16:25.040Z,"2 km SSE of Jerez, Guatemala",earthquake,7.28,4.334,0.063,76,reviewed,us,us
+2023-06-29T14:03:03.091Z,13.7451,-90.5829,81.122,4.3,mb,31,198,0.796,0.93,us,us6000knvr,2023-09-08T14:18:27.040Z,"24 km SSE of Iztapa, Guatemala",earthquake,4.89,7.981,0.073,53,reviewed,us,us
+2023-06-24T01:46:08.814Z,14.5558,-90.6806,188.338,4.3,mb,30,124,1.089,0.52,us,us6000kpvr,2023-08-26T20:54:21.040Z,"1 km NW of Magdalena Milpas Altas, Guatemala",earthquake,10.61,7.301,0.08,45,reviewed,us,us
+2023-06-23T10:15:10.558Z,14.0533,-90.9124,98.675,4.3,mb,127,151,1.11,0.46,us,us7000kaig,2023-08-26T20:54:27.040Z,"15 km ESE of La Gomera, Guatemala",earthquake,8.37,7.227,0.039,187,reviewed,us,us
+2023-06-20T12:22:20.110Z,13.791,-92.2761,28.106,4.4,mb,25,162,2.427,0.95,us,us6000knnd,2023-08-26T20:54:13.040Z,"68 km SW of Champerico, Guatemala",earthquake,6.62,6.847,0.155,12,reviewed,us,us
+2023-06-01T10:02:08.943Z,14.6587,-90.6804,211.792,4.6,mb,71,113,1.152,0.99,us,us7000k5gi,2023-08-05T22:07:44.040Z,"Guatemala",earthquake,6.18,6.371,0.045,148,reviewed,us,us
+2023-05-30T23:30:58.078Z,13.6198,-91.5107,42.496,4.2,mb,48,181,1.705,0.77,us,us7000k54j,2024-01-18T20:02:24.359Z,"68 km SSW of Nueva Concepci?n, Guatemala",earthquake,4.5,9.679,0.083,40,reviewed,us,us
+2023-05-21T03:28:56.706Z,14.711,-92.3372,87.294,4,mb,27,176,0.208,0.84,us,us6000kdjt,2023-07-29T22:00:24.040Z,"1 km SW of Tinajas 1ra. Sección, Mexico",earthquake,5.88,4.139,0.139,14,reviewed,us,us
+2023-05-18T22:55:45.997Z,13.7811,-91.4682,35,4.2,mb,45,184,1.644,0.65,us,us6000kczi,2024-01-18T19:57:29.562Z,"49 km SSW of Nueva Concepci?n, Guatemala",earthquake,7.53,1.963,0.082,41,reviewed,us,us
+2023-05-17T23:01:59.919Z,15.1066,-90.8052,252,6.4,mww,349,37,1.556,0.86,us,us6000kcnb,2024-06-12T03:06:12.807Z,"8 km SE of Canillá, Guatemala",earthquake,6.92,1.674,0.024,174,reviewed,us,us
+2023-05-06T04:56:24.543Z,15.882,-92.4035,177.839,5,mww,65,94,0.473,0.95,us,us6000k9yt,2023-07-15T22:10:05.040Z,"11 km WSW of Nueva América, Mexico",earthquake,5.42,5.392,0.048,41,reviewed,us,us
+2023-04-28T08:39:37.787Z,13.9242,-90.9972,65.363,4.3,mb,56,161,1.182,0.58,us,us7000jwl4,2023-07-11T01:45:25.040Z,"18 km SSE of La Gomera, Guatemala",earthquake,10.06,8.232,0.067,64,reviewed,us,us
+2023-04-20T15:00:00.526Z,13.7375,-91.3652,57.34,4.8,mb,174,78,1.549,0.69,us,us6000k5ss,2023-07-03T02:46:58.040Z,"50 km SW of La Gomera, Guatemala",earthquake,8.58,5.634,0.027,425,reviewed,us,us
+2023-04-14T17:06:19.464Z,14.2282,-92.2331,46.851,4.4,mb,124,182,2.403,0.56,us,us6000k4if,2023-06-17T21:36:54.040Z,"near the coast of Chiapas, Mexico",earthquake,14.21,10.383,0.048,125,reviewed,us,us
+2023-04-11T19:04:58.151Z,14.3905,-90.4617,177.891,4.4,mb,71,83,0.82,0.76,us,us6000k5b7,2023-06-17T21:37:00.040Z,"8 km SSW of Fraijanes, Guatemala",earthquake,9.15,5.839,0.073,58,reviewed,us,us
+2023-04-09T03:18:00.923Z,14.1303,-91.6438,87.642,4.3,mb,43,136,1.823,1.18,us,us6000k2yb,2023-06-17T21:36:39.040Z,"Guatemala",earthquake,9.93,8.293,0.065,67,reviewed,us,us
+2023-04-09T03:14:57.889Z,13.8911,-90.6071,85.331,4.4,mb,63,88,0.803,0.98,us,us6000k2y8,2023-06-17T21:36:39.040Z,"11 km ESE of Iztapa, Guatemala",earthquake,5.47,5.77,0.038,199,reviewed,us,us
+2023-04-05T19:06:54.900Z,15.1393,-91.1083,263.055,4.4,mb,109,95,2.537,0.67,us,us6000k27e,2023-06-13T03:12:48.040Z,"6 km SSW of San Bartolomé Jocotenango, Guatemala",earthquake,8.89,6.672,0.056,97,reviewed,us,us
+2023-03-27T16:31:20.543Z,14.095,-90.9261,102.524,4.3,mb,103,128,0.601,0.7,us,us7000jn1g,2023-06-03T22:06:27.040Z,"13 km E of La Gomera, Guatemala",earthquake,7.77,5.576,0.061,76,reviewed,us,us
+2023-03-27T12:04:32.332Z,13.5962,-88.5516,175.403,4.4,mb,66,110,0.256,0.55,us,us7000jmzt,2023-06-03T22:06:27.040Z,"10 km N of Berlín, El Salvador",earthquake,8.9,6.631,0.04,179,reviewed,us,us
+2023-03-24T14:01:21.950Z,13.7137,-90.4943,59.852,4.2,mb,35,198,0.718,0.77,us,us7000jmfv,2023-05-26T21:54:16.040Z,"near the coast of Guatemala",earthquake,8.15,11.301,0.11,23,reviewed,us,us
+2023-03-18T19:27:01.852Z,13.6897,-88.563,184.005,4.3,mb,33,116,0.32,0.97,us,us7000jl4v,2023-05-20T23:20:38.040Z,"21 km SSE of Sensuntepeque, El Salvador",earthquake,8.8,4.984,0.142,14,reviewed,us,us
+2023-03-14T10:35:46.288Z,14.4412,-91.5121,116.622,4.2,mb,62,150,1.707,0.74,us,us7000jjsx,2023-05-20T23:20:23.040Z,"Guatemala",earthquake,4.74,8.947,0.071,55,reviewed,us,us
+2023-03-12T04:39:10.799Z,13.732,-90.6426,68.839,4.6,mb,57,99,0.808,0.81,us,us7000jjah,2023-05-20T23:20:17.040Z,"23 km SSE of Iztapa, Guatemala",earthquake,6.33,5.319,0.031,319,reviewed,us,us
+2023-03-11T22:56:47.776Z,13.5981,-90.6883,60.818,4.4,mb,99,125,0.933,0.62,us,us7000jj84,2023-05-15T02:49:06.040Z,"37 km S of Iztapa, Guatemala",earthquake,5.46,5.571,0.039,188,reviewed,us,us
+2023-03-10T13:11:41.535Z,14.098,-91.4625,58.456,4.2,mb,77,157,1.03,0.67,us,us7000jist,2023-05-15T02:49:26.040Z,"20 km WSW of Nueva Concepción, Guatemala",earthquake,7.36,12.578,0.062,72,reviewed,us,us
+2023-02-28T19:44:35.386Z,13.6009,-90.7301,69.345,5.2,mww,209,74,0.953,0.77,us,us7000jgbl,2023-05-08T01:59:58.040Z,"36 km S of Iztapa, Guatemala",earthquake,6.18,4.455,0.043,52,reviewed,us,us
+2023-02-27T09:53:36.712Z,14.2126,-91.9996,69.013,4.3,mb,56,103,0.737,1.32,us,us6000jrwq,2023-05-08T01:59:42.040Z,"12 km SW of Champerico, Guatemala",earthquake,5.57,4.29,0.067,64,reviewed,us,us
+2023-02-26T13:07:09.602Z,13.8138,-92.1974,28.119,4.2,mb,30,184,1.089,0.59,us,us7000jhnr,2023-05-08T01:59:32.040Z,"61 km SSW of Champerico, Guatemala",earthquake,3.19,8.753,0.095,31,reviewed,us,us
+2023-02-23T22:11:57.250Z,13.6893,-91.5235,35,4.2,mb,53,127,1.301,0.59,us,us6000jr4l,2023-04-29T21:57:31.040Z,"61 km SSW of Nueva Concepción, Guatemala",earthquake,8.62,1.926,0.071,56,reviewed,us,us
+2023-02-15T22:58:17.772Z,13.5026,-90.0975,66.86,4.3,mb,59,170,0.503,0.83,us,us6000jp95,2023-04-22T21:33:11.040Z,"30 km WSW of Acajutla, El Salvador",earthquake,6.43,5.226,0.091,34,reviewed,us,us
+2023-02-02T17:42:18.946Z,14.0205,-91.4021,74.172,4.7,mb,130,89,1.013,0.56,us,us6000jl0g,2023-04-13T21:53:19.040Z,"22 km SSW of Nueva Concepción, Guatemala",earthquake,5.64,5.062,0.03,331,reviewed,us,us
+2023-02-01T23:10:56.567Z,14.0522,-89.9163,12.668,4.4,mb,68,140,0.199,0.66,us,us6000jkv9,2023-04-13T21:53:17.040Z,"6 km S of Comapa, Guatemala",earthquake,6.32,4.502,0.076,50,reviewed,us,us
+2023-01-29T03:19:37.782Z,15.3662,-91.7543,205.98,4.3,mb,24,146,0.982,0.79,us,us6000jmx4,2023-04-13T21:53:32.040Z,"3 km SW of San Gaspar Ixchil, Guatemala",earthquake,8.34,7.554,0.142,14,reviewed,us,us
+2023-01-22T22:08:56.492Z,14.1103,-91.3508,76.109,4,mb,17,220,0.927,0.29,us,us7000j6a4,2023-04-11T18:51:53.040Z,"11 km SSW of Nueva Concepción, Guatemala",earthquake,3.55,15.194,0.3,3,reviewed,us,us
+2023-01-21T20:36:03.215Z,13.6541,-90.508,70.498,4.5,mb,17,161,0.749,0.46,us,us6000jjqy,2023-03-31T19:43:52.040Z,"37 km SE of Iztapa, Guatemala",earthquake,4.65,9.065,0.205,7,reviewed,us,us
+2023-01-19T18:26:17.407Z,13.9676,-89.8728,9.693,4.1,mb,24,185,0.111,0.81,us,us7000j5kw,2023-03-31T19:45:32.040Z,"5 km NNW of Ahuachapán, El Salvador",earthquake,5.08,7.132,0.151,12,reviewed,us,us
+2023-01-18T02:20:02.867Z,14.3601,-91.2682,121.397,4.2,mb,78,124,0.766,0.6,us,us7000j543,2023-03-31T19:45:02.040Z,"6 km SE of Río Bravo, Guatemala",earthquake,7.65,6.754,0.073,52,reviewed,us,us
+2023-01-16T11:43:18.483Z,14.055,-89.8418,10,4,mb,20,148,0.163,0.38,us,us7000j4ny,2023-03-31T19:44:37.040Z,"9 km S of Zapotitlán, Guatemala",earthquake,2.77,1.895,0.173,9,reviewed,us,us
+2023-01-16T04:47:12.256Z,14.0805,-89.8596,7.997,5,mww,143,127,0.193,0.62,us,us7000j4mi,2023-03-31T19:44:33.040Z,"6 km ESE of Comapa, Guatemala",earthquake,4.52,4.2,0.052,35,reviewed,us,us
+2023-01-16T01:54:02.874Z,14.0685,-89.8253,10.534,4.4,mwr,78,93,0.17,0.67,us,us7000j4ly,2023-03-31T19:44:31.040Z,"7 km S of Zapotitlán, Guatemala",earthquake,6.46,4.962,0.069,20,reviewed,us,us
+2023-01-15T23:07:53.815Z,14.0226,-89.7977,10,5.2,mww,105,68,0.121,0.81,us,us7000j4ld,2023-03-31T19:44:30.040Z,"7 km NW of Atiquizaya, El Salvador",earthquake,6.56,1.799,0.078,16,reviewed,us,us
+2023-01-01T19:37:15.835Z,15.7411,-92.2028,199.949,4.6,mb,95,67,0.541,0.73,us,us7000j1gs,2024-01-18T19:07:59.757Z,"1 km S of Nueva Libertad, Mexico",earthquake,6.37,4.897,0.039,195,reviewed,us,us
+2022-12-22T05:16:52.462Z,14.0287,-91.2495,88.517,4.1,mb,37,176,0.884,0.32,us,us6000jb0h,2023-02-28T23:06:42.040Z,"19 km SSE of Nueva Concepción, Guatemala",earthquake,8.19,10.374,0.103,27,reviewed,us,us
+2022-12-15T05:17:02.034Z,13.7847,-91.8237,35,4.1,mb,25,207,1.485,0.53,us,us6000j9ci,2023-02-18T22:04:11.040Z,"57 km S of Champerico, Guatemala",earthquake,7.47,1.974,0.174,12,reviewed,us,us
+2022-12-11T15:03:11.145Z,14.1437,-89.8707,189.564,5,mww,92,123,0.256,0.74,us,us6000j8lw,2023-02-18T22:04:04.040Z,"4 km W of Zapotitlán, Guatemala",earthquake,8.4,4.056,0.054,33,reviewed,us,us
+2022-12-05T00:43:45.127Z,14.1119,-92.0912,35,4,mb,36,175,0.809,0.69,us,us6000j6xy,2023-02-11T23:03:07.040Z,"27 km SW of Champerico, Guatemala",earthquake,2.9,1.982,0.172,9,reviewed,us,us
+2022-11-23T02:39:53.129Z,13.7202,-90.5766,64.242,4.1,mb,47,168,0.795,0.5,us,us7000irpw,2023-01-30T06:01:05.040Z,"27 km SSE of Iztapa, Guatemala",earthquake,5.53,10.747,0.09,34,reviewed,us,us
+2022-11-22T16:01:22.780Z,15.4679,-91.9434,212.765,4.3,mb,33,66,0.353,0.42,us,us7000irj7,2023-01-30T06:00:58.040Z,"6 km N of Cuilco, Guatemala",earthquake,6.76,4.93,0.161,11,reviewed,us,us
+2022-11-21T20:23:17.521Z,13.9612,-90.6214,84.257,4.3,mb,30,133,0.58,0.81,us,us7000irdu,2023-01-30T06:00:39.040Z,"near the coast of Guatemala",earthquake,8.07,7.236,0.097,30,reviewed,us,us
+2022-11-17T17:43:05.131Z,13.5409,-91.862,10,4.7,mb,84,94,1.414,0.91,us,us7000iqig,2023-01-28T19:58:23.040Z,"83 km S of Champerico, Guatemala",earthquake,5.13,1.672,0.05,121,reviewed,us,us
+2022-11-12T04:39:46.329Z,14.1024,-90.94,93.543,5.8,mww,117,60,0.605,0.95,us,us7000ip7p,2023-01-28T19:58:08.040Z,"12 km E of La Gomera, Guatemala",earthquake,5.44,2.956,0.031,103,reviewed,us,us
+2022-11-07T11:42:44.107Z,13.7033,-89.0171,170.489,4.3,mb,31,133,0.078,0.58,us,us7000in21,2023-01-21T19:27:12.040Z,"9 km W of Cojutepeque, El Salvador",earthquake,7.85,4.806,0.137,15,reviewed,us,us
+2022-11-02T23:37:22.568Z,14.1686,-92.1784,61.553,4.8,mb,131,94,0.74,0.88,us,us7000im2r,2023-01-12T23:11:06.040Z,"31 km WSW of Champerico, Guatemala",earthquake,5.71,4.79,0.054,104,reviewed,us,us
+2022-10-30T18:40:46.310Z,13.6346,-90.6549,51.165,4.2,mb,25,173,0.891,0.63,us,us7000ilcv,2023-01-12T23:10:41.040Z,"33 km S of Iztapa, Guatemala",earthquake,8.18,14.495,0.092,33,reviewed,us,us
+2022-10-30T15:09:16.616Z,13.5575,-90.6983,61.414,4.5,mb,103,197,0.956,0.57,us,us7000ilc4,2023-01-12T23:10:39.040Z,"near the coast of Guatemala",earthquake,8.45,5.494,0.042,164,reviewed,us,us
+2022-10-28T10:39:15.297Z,13.553,-92.1245,10,4.1,mb,51,189,1.822,0.52,us,us7000ikwn,2023-01-03T15:23:23.040Z,"85 km SSW of Champerico, Guatemala",earthquake,6.67,1.944,0.09,34,reviewed,us,us
+2022-10-14T08:56:27.272Z,17.3761,-92.3789,7.618,4,mb,59,46,0.927,1.07,us,us6000iv52,2022-12-17T22:54:23.040Z,"4 km N of Mariscal Subikuski, Mexico",earthquake,4.66,5.623,0.105,24,reviewed,us,us
+2022-10-06T12:01:59.447Z,16.7529,-91.2759,22.913,4.2,mb,45,66,0.886,0.82,us,us6000irgi,2022-12-10T22:53:25.040Z,"Mexico-Guatemala border region",earthquake,3.71,8.375,0.088,36,reviewed,us,us
+2022-09-30T12:56:31.653Z,15.7625,-88.4429,10,4.1,mb,25,64,2.093,0.4,us,us6000ipmk,2022-12-03T22:02:48.040Z,"16 km ENE of Puerto Barrios, Guatemala",earthquake,6.56,1.964,0.151,12,reviewed,us,us
+2022-09-30T12:05:36.855Z,15.7829,-88.4044,10,4.1,mb,26,106,2.121,0.55,us,us6000ipm2,2022-12-03T22:02:48.040Z,"19 km NW of Potrerillos, Honduras",earthquake,6.89,1.991,0.14,14,reviewed,us,us
+2022-09-29T04:32:42.781Z,13.5579,-91.0525,35,4.3,mb,37,157,1.283,0.97,us,us6000ip6l,2022-12-03T22:02:38.040Z,"47 km SSW of Puerto San José, Guatemala",earthquake,6.66,1.899,0.053,100,reviewed,us,us
+2022-09-25T21:30:21.709Z,15.852,-88.4046,10,5.1,mwr,245,17,2.093,0.75,us,us7000iazy,2022-12-03T22:03:24.040Z,"24 km NE of Puerto Barrios, Guatemala",earthquake,2,1.735,0.052,36,reviewed,us,us
+2022-09-25T21:28:15.796Z,15.7713,-88.327,10,4.4,mb,88,24,1.986,0.8,us,us7000iazx,2022-12-03T22:03:24.040Z,"15 km N of Potrerillos, Honduras",earthquake,5.48,1.829,0.053,106,reviewed,us,us
+2022-09-22T14:15:44.148Z,13.682,-91.7963,29.354,4.4,mb,34,190,1.301,0.65,us,us7000ia6n,2022-11-26T20:57:53.040Z,"68 km S of Champerico, Guatemala",earthquake,6.53,6.781,0.068,62,reviewed,us,us
+2022-09-19T10:29:30.187Z,14.267,-92.0618,58.528,4.2,mb,57,131,0.667,1.13,us,us7000i98u,2022-11-26T20:57:41.040Z,"16 km W of Champerico, Guatemala",earthquake,6.4,6.529,0.054,97,reviewed,us,us
+2022-09-09T09:38:40.422Z,13.5388,-89.6859,73.709,4.3,mb,89,190,0.257,0.56,us,us6000iidl,2022-11-15T19:05:51.040Z,"16 km ESE of Acajutla, El Salvador",earthquake,9.94,7.269,0.043,154,reviewed,us,us
+2022-09-01T04:03:13.894Z,13.8733,-91.9335,35,4.7,mb,65,97,1.538,0.93,us,us7000i47f,2022-11-06T04:36:35.040Z,"46 km S of Champerico, Guatemala",earthquake,6.53,1.668,0.026,463,reviewed,us,us
+2022-08-31T09:25:41.882Z,14.1292,-91.0529,88.665,4.2,mb,38,210,0.671,0.63,us,us7000i3yi,2022-11-06T04:37:00.040Z,"Guatemala",earthquake,8.16,8.977,0.1,28,reviewed,us,us
+2022-08-30T03:55:41.670Z,13.57,-91.1724,35,4.4,mb,49,108,1.159,0.52,us,us7000i3lb,2022-11-06T04:37:44.040Z,"54 km SW of Puerto San José, Guatemala",earthquake,7.45,1.92,0.037,207,reviewed,us,us
+2022-08-26T18:00:23.975Z,13.5926,-90.8863,59.217,4.4,mb,114,86,1.007,0.76,us,us7000i2r9,2022-11-01T15:14:22.040Z,"37 km S of Puerto San José, Guatemala",earthquake,6.71,5.284,0.038,205,reviewed,us,us
+2022-08-19T18:43:09.751Z,14.0628,-90.6871,110.577,4.2,mb,71,161,0.501,0.74,us,us6000ic7f,2022-10-28T02:27:11.040Z,"14 km N of Iztapa, Guatemala",earthquake,4.34,6.314,0.072,56,reviewed,us,us
+2022-08-06T15:07:21.469Z,14.6144,-90.7039,203.389,4.1,mb,20,88,0.216,0.4,us,us6000i8nf,2022-10-21T23:18:30.040Z,"2 km WNW of San Bartolomé Milpas Altas, Guatemala",earthquake,8.14,6.697,0.234,5,reviewed,us,us
+2022-08-03T06:53:24.702Z,13.7696,-89.1286,10.3,4,mb,35,114,0.194,0.93,us,us6000i7pb,2022-10-12T14:50:10.040Z,"1 km SW of Tonacatepeque, El Salvador",earthquake,8.82,6.847,0.111,22,reviewed,us,us
+2022-07-31T08:00:14.851Z,13.9792,-92.3494,35,4.1,mb,50,176,1.877,0.75,us,us6000i6xk,2024-01-18T16:41:59.516Z,"58 km SW of Champerico, Guatemala",earthquake,7.22,1.995,0.074,50,reviewed,us,us
+2022-07-29T13:41:25.859Z,13.627,-88.5283,178.619,4.3,mb,50,109,0.254,0.72,us,us6000i6gd,2022-10-01T22:09:29.040Z,"14 km N of Berlín, El Salvador",earthquake,6.24,5.552,0.066,65,reviewed,us,us
+2022-07-20T03:42:28.264Z,13.8433,-92.0054,35,4.6,mb,84,114,1.088,0.96,us,us7000hs0v,2022-09-27T16:57:08.040Z,"50 km SSW of Champerico, Guatemala",earthquake,5.47,1.857,0.029,353,reviewed,us,us
+2022-07-17T16:53:21.832Z,13.9849,-89.7953,9.802,4.2,mb,51,138,0.084,1.2,us,us6000i3a8,2022-09-27T16:56:57.040Z,"4 km W of Atiquizaya, El Salvador",earthquake,8.91,6.219,0.08,43,reviewed,us,us
+2022-07-16T15:27:53.808Z,13.8077,-91.0495,74.027,4,mb,28,200,0.897,1.11,us,us6000i31z,2022-09-27T16:56:53.040Z,"27 km WSW of Puerto San José, Guatemala",earthquake,8.08,10.604,0.133,15,reviewed,us,us
+2022-07-15T08:41:41.337Z,13.9366,-89.8426,10,4.4,mb,47,171,0.069,0.72,us,us6000i2mb,2022-09-24T21:25:34.040Z,"1 km N of Ahuachapán, El Salvador",earthquake,6,2,0.107,25,reviewed,us,us
+2022-07-08T16:15:55.931Z,14.6186,-91.381,153.233,4.2,mb,26,164,0.859,0.68,us,us6000i0yk,2022-09-13T06:25:29.040Z,"3 km ESE of Santo Tomás La Unión, Guatemala",earthquake,9.31,7.264,0.136,15,reviewed,us,us
+2022-07-01T01:56:49.126Z,14.0164,-91.417,73.82,4.1,mb,32,179,1.027,0.67,us,us6000hz0d,2022-09-03T21:03:24.040Z,"23 km SSW of Nueva Concepción, Guatemala",earthquake,4.7,10,0.127,17,reviewed,us,us
+2022-06-29T17:02:21.750Z,13.9407,-91.3709,66.92,4.4,mb,123,127,1.03,1.03,us,us6000hyih,2022-09-03T21:03:17.040Z,"29 km SSW of Nueva Concepción, Guatemala",earthquake,7.7,7.8,0.047,130,reviewed,us,us
+2022-06-26T07:05:00.894Z,14.6387,-90.8296,195.69,4.6,mb,131,142,0.338,0.58,us,us7000hkby,2022-09-03T21:03:40.040Z,"2 km NE of San Andrés Itzapa, Guatemala",earthquake,8.7,7.2,0.046,138,reviewed,us,us
+2022-06-17T02:09:41.140Z,14.6076,-92.2246,74.19,4,mb,27,179,0.301,0.76,us,us7000hi0r,2022-08-21T00:18:06.040Z,"3 km WNW of La Libertad, Mexico",earthquake,6.5,3.9,0.156,11,reviewed,us,us
+2022-06-10T08:18:34.209Z,14.0607,-91.3384,81.64,4.9,mwr,150,136,0.939,1,us,us7000hger,2022-08-13T21:51:50.040Z,"15 km SSW of Nueva Concepción, Guatemala",earthquake,6.9,6.4,0.075,17,reviewed,us,us
+2022-06-03T20:58:50.942Z,14.1546,-91.4091,87.85,4.7,mwr,124,121,0.959,0.92,us,us7000hery,2022-08-06T22:13:27.040Z,"12 km WSW of Nueva Concepción, Guatemala",earthquake,5.3,4.9,0.08,15,reviewed,us,us
+2022-05-23T04:17:55.003Z,13.5799,-88.6672,189.4,4.2,mb,43,139,0.293,0.82,us,us6000hn7d,2022-08-02T19:50:42.040Z,"15 km ESE of San Vicente, El Salvador",earthquake,9.1,5.8,0.076,48,reviewed,us,us
+2022-05-18T00:47:41.285Z,16.6889,-91.287,10,4.4,mb,147,44,0.839,1.05,us,us6000hlwq,2022-07-24T02:39:42.040Z,"14 km SSW of Nueva Palestina, Mexico",earthquake,3.7,1.8,0.043,156,reviewed,us,us
+2022-05-09T13:11:54.800Z,13.995,-91.4593,54.67,4.3,mb,23,206,1.074,0.43,us,us7000h83s,2022-07-22T18:31:08.040Z,"28 km SW of Nueva Concepción, Guatemala",earthquake,8.4,4.7,0.189,12,reviewed,us,us
+2022-05-09T13:00:24.868Z,14.0074,-91.4465,68.33,4.6,mb,68,137,1.373,0.76,us,us7000h83m,2022-07-22T18:31:08.040Z,"26 km SW of Nueva Concepción, Guatemala",earthquake,7.6,5.9,0.044,156,reviewed,us,us
+2022-05-07T01:17:54.939Z,14.1054,-91.2785,84.11,4.7,mb,86,136,1.191,1.22,us,us7000h7p6,2022-07-22T18:31:04.040Z,"10 km SSE of Nueva Concepción, Guatemala",earthquake,5.9,5.1,0.027,418,reviewed,us,us
+2022-05-05T22:18:53.249Z,14.8721,-92.3665,106.09,4.1,mb,34,210,0.104,0.9,us,us6000hklr,2024-01-18T16:35:03.647Z,"5 km W of Raymundo Enr?quez, Mexico",earthquake,8.8,4.7,0.127,17,reviewed,us,us
+2022-05-01T08:53:48.750Z,14.0328,-91.4027,68.24,4.2,mb,29,183,1.58,0.45,us,us7000h66f,2022-07-09T21:39:45.040Z,"21 km SSW of Nueva Concepción, Guatemala",earthquake,9.8,7.5,0.136,15,reviewed,us,us
+2022-04-20T15:14:22.332Z,13.5984,-90.6325,51.21,4.4,mb,,175,0.881,0.9,us,us7000h6gq,2022-06-26T01:20:06.040Z,"37 km SSE of Iztapa, Guatemala",earthquake,8.6,7.9,0.087,38,reviewed,us,us
+2022-04-13T22:56:34.369Z,14.0325,-92.0088,41.02,4.2,mb,,176,0.904,0.98,us,us7000h1zz,2022-08-06T06:22:41.614Z,"near the coast of Chiapas, Mexico",earthquake,6.3,8.3,0.076,49,reviewed,us,us
+2022-04-13T03:12:59.039Z,13.5577,-89.9163,77.43,4.3,mb,,181,0.367,0.64,us,us7000h1m0,2022-06-20T22:08:01.040Z,"10 km WSW of Acajutla, El Salvador",earthquake,10.1,5.1,0.2,7,reviewed,us,us
+2022-04-10T12:00:46.704Z,14.9456,-91.5109,169.01,4.4,mb,,131,1.459,0.73,us,us7000h12n,2022-06-20T22:07:42.040Z,"4 km NE of San Francisco la Unión, Guatemala",earthquake,6.5,6.8,0.058,87,reviewed,us,us
+2022-03-30T16:00:58.820Z,13.9532,-91.936,22.76,5.3,mww,,94,1.449,0.98,us,us7000gyfc,2022-06-04T20:42:24.040Z,"37 km S of Champerico, Guatemala",earthquake,7.1,3.1,0.044,50,reviewed,us,us
+2022-03-23T04:08:23.512Z,16.5448,-90.8375,10,4.3,mb,,92,1.274,0.44,us,us6000h6vc,2022-05-28T18:35:26.040Z,"19 km W of Benemérito de las Américas, Mexico",earthquake,3.4,1.9,0.062,74,reviewed,us,us
+2022-03-23T00:23:49.972Z,13.8074,-91.4614,35,4.3,mb,,135,1.636,0.99,us,us6000h6uk,2022-05-28T18:35:26.040Z,"46 km SSW of Nueva Concepción, Guatemala",earthquake,7.3,2,0.067,63,reviewed,us,us
+2022-03-21T21:01:56.028Z,15.0617,-92.2951,97.1,4.2,mb,,118,1.096,0.89,us,us7000gxa9,2022-05-28T18:35:38.040Z,"8 km E of Chamulapita, Mexico",earthquake,7,4.1,0.112,22,reviewed,us,us
+2022-03-21T11:32:07.031Z,15.1847,-91.6407,173.5,4.8,mb,,153,1.19,0.7,us,us6000h6dj,2022-05-28T18:35:22.040Z,"3 km SSW of Sipacapa, Guatemala",earthquake,12.1,8.3,0.031,328,reviewed,us,us
+2022-03-20T07:43:07.527Z,14.0769,-92.1314,35,4.1,mb,,172,1.929,0.63,us,us6000h65l,2022-05-28T18:35:20.040Z,"33 km SW of Champerico, Guatemala",earthquake,6.8,2,0.065,65,reviewed,us,us
+2022-03-12T16:39:27.492Z,14.1523,-91.2153,78.85,4.2,mb,,105,1.415,1.12,us,us6000h41d,2022-05-27T14:55:20.040Z,"Guatemala",earthquake,8.7,7.6,0.084,39,reviewed,us,us
+2022-03-10T22:42:12.388Z,13.8562,-91.6965,35,4,mb,,164,1.861,1.13,us,us6000h3p0,2022-05-14T21:52:30.040Z,"53 km SSE of Champerico, Guatemala",earthquake,7.6,2,0.138,14,reviewed,us,us
+2022-03-08T21:53:58.007Z,14.2082,-91.2935,82.21,4.1,mb,,151,1.5,0.9,us,us6000h35x,2022-05-14T21:52:24.040Z,"1 km NE of Nueva Concepción, Guatemala",earthquake,7.8,6.8,0.078,45,reviewed,us,us
+2022-03-03T18:24:36.238Z,13.8408,-91.0853,65.84,4.2,mb,,178,1.269,0.95,us,us6000h1uj,2022-05-07T21:32:49.040Z,"26 km S of La Gomera, Guatemala",earthquake,6.8,9.1,0.07,57,reviewed,us,us
+2022-02-23T22:33:42.134Z,14.1293,-91.2823,86.85,4.2,mb,,176,1.475,0.88,us,us6000gzn7,2022-05-04T13:40:10.040Z,"8 km SSE of Nueva Concepción, Guatemala",earthquake,8.4,9.4,0.115,21,reviewed,us,us
+2022-02-16T07:56:32.843Z,14.0719,-91.4184,70.34,4.1,mb,,152,1.599,0.79,us,us7000gla3,2022-04-30T14:18:18.040Z,"19 km SW of Nueva Concepción, Guatemala",earthquake,6.7,7.8,0.097,29,reviewed,us,us
+2022-02-16T07:50:14.394Z,14.1463,-91.4233,73.24,4.5,mb,,136,0.921,0.96,us,us7000gla0,2022-04-30T14:18:18.040Z,"14 km WSW of Nueva Concepción, Guatemala",earthquake,5.5,5.8,0.05,118,reviewed,us,us
+2022-02-16T07:12:22.847Z,14.1476,-91.3982,60,6.2,mww,,32,1.129,1.11,us,us7000gl8w,2022-11-12T05:29:59.830Z,"12 km WSW of Nueva Concepción, Guatemala",earthquake,6.5,1.8,0.033,86,reviewed,us,us
+2022-02-14T23:04:04.333Z,13.633,-89.8561,110.83,4.3,mb,,184,0.277,0.71,us,us7000gkwy,2022-04-30T14:18:13.040Z,"5 km NW of Acajutla, El Salvador",earthquake,11.3,4.5,0.071,56,reviewed,us,us
+2022-02-13T04:43:34.127Z,13.9622,-91.807,34.92,4.8,mb,,97,1.039,1.08,us,us7000gkfd,2022-08-06T10:49:40.237Z,"38 km SSE of Champerico, Guatemala",earthquake,6,4.6,0.024,518,reviewed,us,us
+2022-02-06T03:51:17.967Z,13.8159,-92.3328,10,4.6,mb,,162,1.087,1.09,us,us7000gicq,2022-04-19T17:38:42.040Z,"69 km SW of Champerico, Guatemala",earthquake,4.5,1.9,0.032,288,reviewed,us,us
+2022-02-02T22:17:21.048Z,13.8344,-92.3852,28.45,4.4,mb,,169,1.073,0.8,us,us7000gj4f,2022-04-15T17:57:26.040Z,"72 km SW of Champerico, Guatemala",earthquake,5,5.2,0.123,19,reviewed,us,us
+2022-02-02T22:13:42.061Z,13.919,-92.3862,30.14,4.8,mb,,91,0.989,1.04,us,us7000ghg0,2022-04-15T17:57:14.040Z,"Near the coast of Guatemala",earthquake,6,4.4,0.042,175,reviewed,us,us
+2022-01-31T07:25:25.402Z,15.2966,-91.8746,214.62,4,mb,,82,0.308,0.56,us,us7000ghqq,2022-04-15T17:57:16.040Z,"7 km NNW of Concepción Tutuapa, Guatemala",earthquake,7,6.9,0.096,29,reviewed,us,us
+2022-01-29T19:07:22.373Z,14.7785,-92.4241,74.96,4.3,mb,,162,0.2,0.8,us,us7000ghqp,2022-04-15T17:57:16.040Z,"5 km NNW of El Encanto, Mexico",earthquake,5.3,3.3,0.218,6,reviewed,us,us
+2022-01-27T14:02:03.748Z,13.8088,-92.3854,10,4.3,mb,,93,2.47,1.03,us,us7000ghdk,2022-04-09T20:19:10.040Z,"74 km SW of Champerico, Guatemala",earthquake,4,1.9,0.064,69,reviewed,us,us
+2022-01-26T06:08:45.006Z,13.8009,-90.6932,72.19,4.3,mb,,167,0.892,1.37,us,us7000gf7b,2022-04-09T20:19:06.040Z,"14 km S of Iztapa, Guatemala",earthquake,7.9,6.7,0.054,96,reviewed,us,us
+2022-01-21T16:05:42.895Z,14.2782,-90.149,188.03,4.4,mb,,82,0.517,0.74,us,us7000gfwa,2022-04-01T17:40:37.040Z,"2 km WNW of San José Acatempa, Guatemala",earthquake,8.4,5.6,0.112,23,reviewed,us,us
+2022-01-13T07:40:08.590Z,13.6028,-91.3014,35,4.2,mb,,179,1.508,0.58,us,us7000gbk5,2022-03-19T22:07:57.040Z,"59 km SSW of La Gomera, Guatemala",earthquake,6.6,2,0.088,36,reviewed,us,us
+2022-01-01T09:35:01.615Z,14.8283,-92.0444,103.82,4.4,mb,,142,0.385,0.72,us,us7000g8av,2022-03-12T22:18:59.040Z,"4 km SE of Catarina, Guatemala",earthquake,6.3,6.4,0.032,289,reviewed,us,us
+2021-12-26T16:06:26.236Z,14.307,-91.2326,54.61,4.5,mb,,192,1.465,0.39,us,us6000gfgl,2022-03-05T23:10:42.040Z,"13 km SE of Río Bravo, Guatemala",earthquake,9.8,17.9,0.205,9,reviewed,us,us
+2021-12-21T02:21:21.374Z,14.16,-92.3992,35,4.4,mb,,204,0.754,0.74,us,us6000ge22,2022-03-01T16:38:41.040Z,"44 km SSW of Ocós, Guatemala",earthquake,9,2,0.08,45,reviewed,us,us
+2021-12-20T03:58:40.614Z,13.7674,-92.4743,10,4.5,mb,,189,1.151,0.91,us,us6000gdqy,2022-03-01T16:38:07.040Z,"84 km SW of Champerico, Guatemala",earthquake,6.5,1.9,0.059,85,reviewed,us,us
+2021-12-18T17:48:42.958Z,13.9967,-92.0757,35,4.5,mb,,130,0.924,0.9,us,us6000gdfl,2022-03-01T16:37:35.040Z,"37 km SSW of Champerico, Guatemala",earthquake,5.1,1.9,0.038,216,reviewed,us,us
+2021-12-16T04:48:11.409Z,14.6959,-92.3822,78.75,4.2,mb,,127,0.239,0.95,us,us6000gcnv,2022-02-24T21:01:34.040Z,"4 km SE of El Encanto, Mexico",earthquake,6.3,7.9,0.086,38,reviewed,us,us
+2021-12-14T21:22:15.873Z,14.2868,-90.612,191.23,4.5,mb,,175,0.727,0.78,us,us6000gd5f,2022-02-24T21:02:20.040Z,"7 km NNE of Guanagazapa, Guatemala",earthquake,9.1,6.8,0.08,46,reviewed,us,us
+2021-12-13T07:03:07.238Z,15.5707,-92.0281,167,5.7,mww,,82,0.714,0.55,us,us6000gbt6,2025-12-22T22:22:24.263Z,"3 km SSE of El Pacayal, Mexico",earthquake,7.5,1.9,0.054,33,reviewed,us,us
+2021-12-01T15:20:46.042Z,16.8941,-91.3364,10,4.3,mb,,107,0.979,1.39,us,us6000ga13,2022-02-05T23:04:04.040Z,"4 km SE of Cintalapa, Mexico",earthquake,3.5,1.9,0.103,27,reviewed,us,us
+2021-11-22T11:58:53.865Z,14.1579,-92.2535,17.16,4,mb,,185,0.745,0.47,us,us7000fw6i,2022-01-29T22:55:21.040Z,"39 km S of Ocós, Guatemala",earthquake,5.8,8.9,0.084,38,reviewed,us,us
+2021-11-18T17:26:54.589Z,13.6851,-90.7413,62.56,4.7,mb,,80,1.256,0.82,us,us7000fv63,2022-01-22T20:52:04.040Z,"27 km S of Iztapa, Guatemala",earthquake,2.9,6,0.032,299,reviewed,us,us
+2021-11-18T17:23:51.920Z,13.5725,-90.8027,61.44,4.5,mb,,88,1.318,1.19,us,us7000fv60,2022-08-06T19:16:06.238Z,"39 km S of Puerto San José, Guatemala",earthquake,7.9,5.9,0.039,197,reviewed,us,us
+2021-11-18T17:00:25.964Z,14.1682,-90.1632,149.67,5,mb,,141,0.861,1.18,us,us7000fwhj,2022-01-22T20:52:11.040Z,"6 km SSE of Oratorio, Guatemala",earthquake,8.9,6.1,0.116,47,reviewed,us,us
+2021-11-18T16:56:56.794Z,13.5668,-90.7812,27.62,5.8,mww,,63,1.298,1.35,us,us7000fv5p,2025-12-22T22:20:28.185Z,"40 km S of Puerto San José, Guatemala",earthquake,7.7,3,0.04,60,reviewed,us,us
+2021-11-17T19:01:49.746Z,13.8748,-90.0032,98.56,4.9,mb,,114,1.682,1.03,us,us7000fuwd,2025-12-30T18:15:10.807Z,"3 km NNE of San Francisco Menéndez, El Salvador",earthquake,7.8,5.4,0.033,286,reviewed,us,us
+2021-11-11T03:39:29.105Z,14.1299,-92.2709,33.05,4.5,mb,,180,0.773,0.82,us,us7000ft4m,2022-01-15T20:51:47.040Z,"42 km WSW of Champerico, Guatemala",earthquake,6.4,6.1,0.036,222,reviewed,us,us
+2021-11-08T12:39:53.243Z,13.5179,-90.7538,35,4.1,mb,,194,1.276,0.58,us,us7000ftk6,2022-01-15T20:51:51.040Z,"45 km S of Puerto San José, Guatemala",earthquake,4.1,2,0.135,15,reviewed,us,us
+2021-11-06T05:04:16.900Z,13.5375,-89.9507,60.57,4.3,mb,,189,0.501,0.86,us,us7000frxa,2022-01-15T20:51:35.040Z,"14 km WSW of Acajutla, El Salvador",earthquake,9.8,9.3,0.16,11,reviewed,us,us
+2021-10-13T14:21:48.777Z,13.8224,-90.6391,98.94,4.5,mb,,207,0.838,0.6,us,us6000fu7u,2021-12-18T19:59:02.040Z,"14 km SSE of Iztapa, Guatemala",earthquake,9.2,7.7,0.049,125,reviewed,us,us
+2021-10-12T00:48:49.184Z,14.7414,-92.425,75.64,4.1,mb,,173,0.226,0.86,us,us6000ftvk,2021-12-18T19:58:56.040Z,"1 km NW of El Encanto, Mexico",earthquake,3.2,5.8,0.092,32,reviewed,us,us
+2021-10-09T09:33:12.512Z,15.7081,-92.2686,188.62,4.6,mb,,90,0.519,0.63,us,us6000ft8y,2021-12-18T19:58:42.040Z,"1 km WSW of Lázaro Cárdenas, Mexico",earthquake,5.6,4.7,0.043,160,reviewed,us,us
+2021-09-19T22:08:53.355Z,14.2802,-91.294,59.3,5,mb,,130,1.516,0.62,us,us7000fcr5,2025-12-22T22:15:19.050Z,"Guatemala",earthquake,6.7,8.5,0.116,24,reviewed,us,us
+2021-09-10T08:58:14.098Z,13.6976,-90.6397,53.53,4,mb,,119,0.859,0.5,us,us7000f9xy,2021-11-23T15:08:56.040Z,"27 km SSE of Iztapa, Guatemala",earthquake,8.5,6.8,0.196,7,reviewed,us,us
+2021-08-26T18:23:55.581Z,14.0851,-91.7166,72.11,4.3,mb,,214,2.221,1.04,us,us7000f7j0,2021-11-02T14:56:47.040Z,"31 km SE of Champerico, Guatemala",earthquake,10.7,11.8,0.109,24,reviewed,us,us
+2021-08-25T21:04:19.627Z,15.476,-88.3355,7.78,5.2,mww,,41,1.745,0.74,us,us7000f3w2,2025-12-22T22:24:34.490Z,"11 km NNE of Pinalejo, Honduras",earthquake,4.7,3,0.042,54,reviewed,us,us
+2021-08-24T09:33:53.599Z,13.5036,-91.8731,10,4.1,mb,,170,2.362,0.76,us,us7000f2yp,2021-11-02T14:54:54.040Z,"87 km S of Champerico, Guatemala",earthquake,10.1,2,0.091,33,reviewed,us,us
+2021-08-23T13:23:49.592Z,13.6739,-92.0535,10,4.4,mb,,109,1.445,1.11,us,us6000fa12,2021-11-02T14:54:41.040Z,"70 km SSW of Champerico, Guatemala",earthquake,7.2,1.9,0.047,132,reviewed,us,us
+2021-08-20T23:16:33.790Z,14.0465,-91.6637,75.46,4,mb,,152,1.501,0.61,us,us7000f6be,2021-11-02T14:55:40.040Z,"38 km SE of Champerico, Guatemala",earthquake,8.3,11.1,0.07,55,reviewed,us,us
+2021-08-20T01:26:33.383Z,14.8055,-92.373,72.61,4.2,mb,,170,0.145,1.11,us,us6000f8kf,2021-11-02T14:53:29.040Z,"6 km WNW of Congregación Reforma, Mexico",earthquake,6.2,4.3,0.058,85,reviewed,us,us
+2021-08-13T19:52:23.429Z,14.2,-91.1855,108.24,4.1,mb,,170,1.771,0.82,us,us6000f5um,2021-10-29T14:46:08.040Z,"12 km E of Nueva Concepción, Guatemala",earthquake,7.4,16.3,0.302,3,reviewed,us,us
+2021-07-30T11:59:00.822Z,13.5076,-91.2252,35,4.3,mb,,149,1.733,0.91,us,us6000f0l2,2021-10-14T01:03:42.040Z,"63 km SW of Puerto San José, Guatemala",earthquake,8.2,2,0.064,69,reviewed,us,us
+2021-07-25T05:21:32.129Z,15.9776,-92.2645,205.9,5,mww,,95,0.326,0.42,us,us6000eyux,2025-12-22T22:12:10.859Z,"Mexico-Guatemala border region",earthquake,8.1,6.1,0.058,29,reviewed,us,us
+2021-07-18T04:33:00.314Z,15.7532,-91.3386,10,4.6,mb,,137,0.93,1.31,us,us7000en2v,2021-09-25T21:08:03.040Z,"6 km SSW of Barillas, Guatemala",earthquake,4.6,1.9,0.031,315,reviewed,us,us
+2021-07-15T00:29:04.295Z,13.8234,-91.2213,70.02,4,mb,,180,1.73,0.96,us,us7000em1i,2021-09-17T22:50:36.040Z,"33 km SSW of La Gomera, Guatemala",earthquake,9.7,15.8,0.1,27,reviewed,us,us
+2021-07-13T08:29:05.305Z,14.2021,-92.1368,46.24,4.6,mb,,123,0.712,1.3,us,us7000elgr,2021-09-17T22:50:07.040Z,"26 km WSW of Champerico, Guatemala",earthquake,5.2,7.6,0.027,420,reviewed,us,us
+2021-07-12T05:13:10.780Z,14.0159,-92.1876,38.81,4.1,mb,,146,0.889,0.62,us,us6000euj7,2021-09-17T22:49:47.040Z,"42 km SW of Champerico, Guatemala",earthquake,6.6,9.7,0.06,78,reviewed,us,us
+2021-07-06T06:15:10.353Z,13.7366,-91.1872,64.38,4.2,mb,,180,2.186,0.9,us,us7000ej19,2021-09-10T20:08:01.040Z,"40 km SSW of La Gomera, Guatemala",earthquake,8.8,7,0.043,149,reviewed,us,us
+2021-06-29T15:21:10.276Z,15.9094,-92.2512,233.18,4.4,mb,,77,0.386,0.89,us,us6000equk,2021-09-09T22:05:53.040Z,"6 km ESE of Nueva América, Mexico",earthquake,8.2,6.8,0.077,50,reviewed,us,us
+2021-06-28T07:40:40.432Z,13.8887,-92.2926,28.24,4.3,mb,,126,1.013,0.6,us,us6000eqfu,2021-09-09T22:05:34.040Z,"60 km SW of Champerico, Guatemala",earthquake,4.9,6.5,0.066,66,reviewed,us,us
+2021-06-25T02:44:34.373Z,13.5413,-91.9886,10,4.6,mb,,185,1.384,1.36,us,us6000epk0,2021-09-09T22:04:46.040Z,"83 km S of Champerico, Guatemala",earthquake,4.4,1.9,0.036,235,reviewed,us,us
+2021-06-25T00:49:07.695Z,13.9003,-91.7011,35,4.2,mb,,220,1.365,0.61,us,us6000er26,2021-09-09T22:06:03.040Z,"49 km SSE of Champerico, Guatemala",earthquake,12.2,13.6,0.086,38,reviewed,us,us
+2021-06-24T20:02:21.461Z,13.868,-91.5891,35,4.6,mb,,174,2.581,0.9,us,us6000epg5,2021-08-27T18:58:56.040Z,"48 km SW of Nueva Concepción, Guatemala",earthquake,10.3,2,0.038,213,reviewed,us,us
+2021-06-19T18:57:16.196Z,16.0504,-92.4142,216.12,5.4,mww,,61,0.352,1.08,us,us7000eegn,2025-12-22T19:02:46.399Z,"11 km NE of Rizo de Oro, Mexico",earthquake,6.1,4.5,0.036,75,reviewed,us,us
+2021-06-14T02:18:45.582Z,13.677,-90.4279,67.22,4,mb,,183,0.951,0.9,us,us7000ecuc,2021-08-26T21:59:17.040Z,"40 km SW of Pasaco, Guatemala",earthquake,8.9,8.7,0.086,36,reviewed,us,us
+2021-06-13T23:08:13.433Z,14.1724,-91.4242,64,4.2,mb,,149,1.986,1.24,us,us7000ectp,2021-08-26T21:59:16.040Z,"13 km WSW of Nueva Concepción, Guatemala",earthquake,7.1,10.3,0.113,23,reviewed,us,us
+2021-06-13T02:58:15.452Z,14.0489,-91.4442,57.65,5.4,mww,,125,1.166,1.39,us,us7000eckp,2025-12-22T19:06:38.131Z,"22 km SW of Nueva Concepción, Guatemala",earthquake,7,4.5,0.044,49,reviewed,us,us
+2021-06-12T13:17:12.613Z,13.5945,-90.3732,69.17,4.3,mb,,193,0.9,0.61,us,us7000ecfg,2021-08-26T21:59:11.040Z,"46 km SSW of Pasaco, Guatemala",earthquake,9.8,12.2,0.085,39,reviewed,us,us
+2021-06-12T02:45:39.114Z,14.0917,-91.6523,70.53,4,mb,,165,2.183,1.05,us,us7000ec9l,2021-08-26T21:59:07.040Z,"35 km SE of Champerico, Guatemala",earthquake,9.1,3.7,0.079,43,reviewed,us,us
+2021-06-10T20:18:04.188Z,14.0039,-91.5956,70.6,4.2,mb,,192,2.114,1.16,us,us7000ebv3,2021-08-24T21:33:24.040Z,"38 km SW of Nueva Concepción, Guatemala",earthquake,8.6,11.1,0.108,24,reviewed,us,us
+2021-06-07T07:10:25.843Z,13.9608,-90.4362,112.09,4.3,mb,,144,1.006,0.52,us,us7000eams,2021-08-24T21:34:38.040Z,"12 km SSE of Taxisco, Guatemala",earthquake,7.2,6.9,0.053,102,reviewed,us,us
+2021-06-07T03:00:17.956Z,14.012,-91.3455,78.92,4.1,mb,,178,1.876,0.81,us,us7000eall,2021-08-24T21:34:40.040Z,"21 km SSW of Nueva Concepción, Guatemala",earthquake,9.2,12.2,0.094,31,reviewed,us,us
+2021-05-18T02:43:49.635Z,14.1365,-92.3741,40.51,4.1,mb,,176,0.763,0.89,us,us7000e3za,2021-07-24T21:07:47.040Z,"45 km SSW of Ocós, Guatemala",earthquake,2.3,13.6,0.069,57,reviewed,us,us
+2021-05-17T15:08:56.093Z,14.4714,-91.4686,97.48,4.2,mb,,157,0.225,0.94,us,us7000e3u0,2021-07-24T21:07:39.040Z,"1 km ESE of Santo Domingo Suchitepéquez, Guatemala",earthquake,8.4,2.9,0.078,45,reviewed,us,us
+2021-05-10T10:13:42.890Z,14.1027,-91.9065,54.23,4.3,mb,,97,0.466,1.24,us,us7000e1s2,2021-07-23T18:08:28.040Z,"21 km S of Champerico, Guatemala",earthquake,6,7.1,0.067,63,reviewed,us,us
+2021-05-02T05:54:19.203Z,14.0764,-91.7408,52.4,4.6,mb,,157,0.447,0.64,us,us7000dzf3,2025-12-22T18:57:44.631Z,"30 km SE of Champerico, Guatemala",earthquake,7.3,7,0.03,321,reviewed,us,us
+2021-05-02T04:31:33.371Z,13.9749,-91.7793,51.64,4.2,mb,,158,0.552,1.15,us,us7000dzei,2021-07-10T20:14:56.040Z,"38 km SSE of Champerico, Guatemala",earthquake,6.2,7.8,0.051,107,reviewed,us,us
+2021-04-25T14:48:04.054Z,14.1249,-91.2411,42.97,4.2,mb,,187,0.592,0.18,us,us6000e4nv,2021-07-07T18:34:59.040Z,"10 km SE of Nueva Concepción, Guatemala",earthquake,6.3,25.3,0.263,4,reviewed,us,us
+2021-04-25T01:48:28.534Z,13.8106,-91.6396,55.99,4.3,mb,,215,0.711,0.82,us,us6000e4i8,2021-07-07T18:34:43.040Z,"56 km SW of Nueva Concepción, Guatemala",earthquake,8.7,10.8,0.06,79,reviewed,us,us
+2021-04-24T13:36:50.461Z,13.5543,-89.6822,105.02,4.2,mb,,157,0.247,0.99,us,us6000e4db,2021-07-07T18:34:29.040Z,"16 km ESE of Acajutla, El Salvador",earthquake,7.7,5.4,0.152,12,reviewed,us,us
+2021-04-13T11:57:05.865Z,13.9833,-91.2552,63.06,4.1,mb,,157,0.686,0.61,us,us6000e171,2021-06-19T21:25:23.040Z,"24 km WSW of La Gomera, Guatemala",earthquake,6.8,3.1,0.055,91,reviewed,us,us
+2021-04-11T18:19:16.466Z,14.9659,-92.4933,98.97,4.5,mb,,161,0.888,1.02,us,us6000e0vj,2021-06-19T21:25:08.040Z,"near the coast of Chiapas, Mexico",earthquake,6.9,6.6,0.074,54,reviewed,us,us
+2021-04-06T11:33:13.770Z,13.6051,-90.6648,44.66,4.1,mb,,108,1.183,0.56,us,us6000dze9,2021-06-12T21:37:46.040Z,"36 km S of Iztapa, Guatemala",earthquake,4.2,12.3,0.076,48,reviewed,us,us
+2021-03-29T14:38:22.269Z,15.2756,-91.7762,205.36,4.4,mb,,116,0.267,0.87,us,us6000dxe5,2021-06-08T17:59:04.040Z,"Mexico-Guatemala border region",earthquake,8.5,4.4,0.161,11,reviewed,us,us
+2021-03-29T13:42:56.629Z,16.0938,-91.5472,10,4.5,mb,,102,0.596,0.42,us,us6000dzn6,2021-06-08T18:00:02.040Z,"12 km WSW of Nuevo San Juan Chamula, Mexico",earthquake,3.3,1.9,0.181,9,reviewed,us,us
+2021-03-29T01:49:08.471Z,14.3227,-89.7413,226.19,4.6,mb,,95,0.453,1.1,us,us6000dx9w,2021-06-08T17:59:00.040Z,"3 km WSW of Asunción Mita, Guatemala",earthquake,8,5.8,0.035,242,reviewed,us,us
+2021-03-24T00:40:07.633Z,13.9845,-92.4788,35,4.9,mb,,169,0.93,1,us,us6000dvxk,2025-12-22T18:55:03.936Z,"65 km SSW of Ocós, Guatemala",earthquake,6.1,2,0.029,360,reviewed,us,us
+2021-03-18T01:55:17.402Z,15.5211,-91.886,190.63,4.8,mb,,63,0.421,0.9,us,us7000dkfy,2021-05-26T22:08:46.040Z,"1 km WNW of La Libertad, Guatemala",earthquake,6.4,4.8,0.032,293,reviewed,us,us
+2021-02-27T10:43:49.732Z,14.1006,-92.3591,25.52,4.3,mb,,170,0.769,1.06,us,us7000de51,2021-05-13T22:36:26.040Z,"48 km SSW of Ocós, Guatemala",earthquake,5.8,8.1,0.046,132,reviewed,us,us
+2021-02-27T10:27:38.623Z,14.1445,-92.3994,22.4,4.6,mb,,170,0.769,0.89,us,us7000de4x,2021-05-13T22:36:25.040Z,"46 km SSW of Ocós, Guatemala",earthquake,6,5.8,0.031,310,reviewed,us,us
+2021-02-14T09:20:54.773Z,13.6899,-91.3627,55.03,4.9,mb,,158,0.89,0.68,us,us6000dhkh,2021-04-23T21:04:33.040Z,"54 km SW of La Gomera, Guatemala",earthquake,7.3,4.8,0.084,46,reviewed,us,us
+2021-02-11T23:14:59.556Z,14.3911,-91.5024,64.2,4.3,mb,,166,0.228,1.25,us,us6000dgtq,2022-08-09T02:48:49.298Z,"9 km SSW of Santo Domingo Suchitepéquez, Guatemala",earthquake,8.8,7,0.068,62,reviewed,us,us
+2021-02-09T13:08:20.649Z,14.2927,-91.3988,62.43,4.1,mb,,125,0.368,0.98,us,us6000dfy6,2021-04-22T21:52:02.040Z,"4 km WNW of Tiquisate, Guatemala",earthquake,8,6.3,0.092,32,reviewed,us,us
+2021-02-06T07:41:55.588Z,13.6663,-90.6822,43.15,4.3,mb,,172,1.301,0.97,us,us6000df35,2021-04-22T21:50:38.040Z,"29 km S of Iztapa, Guatemala",earthquake,8,8,0.133,16,reviewed,us,us
+2021-02-02T03:17:28.295Z,14.679,-92.3227,75.86,4.4,mb,,163,0.234,0.87,us,us6000ddsw,2021-04-16T19:02:58.040Z,"4 km S of Tinajas 1ra. Sección, Mexico",earthquake,6.3,4.3,0.049,120,reviewed,us,us
+2021-02-01T20:53:19.898Z,13.6975,-90.7714,83.66,4.6,mb,,178,1.216,0.51,us,us6000ddrb,2021-04-16T19:02:53.040Z,"26 km SSE of Puerto San José, Guatemala",earthquake,4.2,8.5,0.141,15,reviewed,us,us
+2021-01-28T10:38:44.260Z,13.9193,-91.9945,33.4,4.9,mb,,99,0.668,1.19,us,us6000dcme,2025-12-22T18:49:03.653Z,"42 km SSW of Champerico, Guatemala",earthquake,4.6,4.3,0.031,316,reviewed,us,us
+2021-01-22T22:52:14.248Z,13.7912,-92.058,39.31,4.3,mb,,161,0.809,0.83,us,us7000d2kf,2021-04-13T17:05:24.040Z,"57 km SSW of Champerico, Guatemala",earthquake,5.7,8.6,0.051,109,reviewed,us,us
+2021-01-15T23:41:18.653Z,14.2526,-91.3607,61.18,3.9,mb,,192,0.421,1,us,us7000d0ix,2021-03-27T21:04:43.040Z,"3 km S of Tiquisate, Guatemala",earthquake,5.8,12.7,0.082,39,reviewed,us,us
+2021-01-15T21:32:56.390Z,14.0134,-92.1432,24.3,4.9,mb,,155,0.668,1.23,us,us7000d0gm,2025-12-22T19:06:26.278Z,"39 km SW of Champerico, Guatemala",earthquake,4.7,4,0.029,369,reviewed,us,us
+2021-01-15T16:18:06.893Z,13.8421,-92.184,10,4.5,mb,,174,0.827,0.98,us,us7000d2fv,2021-03-27T21:06:04.040Z,"57 km SSW of Champerico, Guatemala",earthquake,4.1,1.9,0.131,17,reviewed,us,us
+2021-01-15T16:10:52.240Z,13.9469,-92.1506,21,5.8,mww,,86,0.724,1.26,us,us7000d0d0,2025-12-22T19:06:27.492Z,"46 km SW of Champerico, Guatemala",earthquake,6,1.8,0.045,47,reviewed,us,us
+2021-01-15T04:43:11.406Z,13.5944,-92.0045,10,4.3,mb,,227,0.972,1.18,us,us7000d2fd,2021-03-27T21:06:02.040Z,"77 km S of Champerico, Guatemala",earthquake,3.2,1.9,0.122,20,reviewed,us,us
+2021-01-15T04:20:50.218Z,13.5164,-91.936,10,4.4,mb,,183,1.029,1.1,us,us7000d07c,2021-03-27T21:04:29.040Z,"86 km S of Champerico, Guatemala",earthquake,4.7,1.9,0.063,74,reviewed,us,us
+2021-01-03T03:25:47.340Z,14.2762,-92.0056,62.61,4.3,mb,,171,0.389,1.14,us,us6000d54b,2021-03-13T22:58:52.040Z,"10 km W of Champerico, Guatemala",earthquake,5.1,4.3,0.061,75,reviewed,us,us
+2021-01-02T00:42:17.918Z,13.667,-91.2274,35,4.3,mb,,92,0.965,1.16,us,us6000d4wa,2021-03-13T22:58:36.040Z,"49 km SSW of La Gomera, Guatemala",earthquake,8.3,1.7,0.05,114,reviewed,us,us
+2021-01-01T22:49:01.341Z,13.5123,-90.6981,50.29,4.4,mb,,125,1.395,0.71,us,us6000d4vr,2021-03-13T22:58:36.040Z,"46 km S of Iztapa, Guatemala",earthquake,8.6,4.6,0.046,139,reviewed,us,us
+2020-12-28T22:45:14.246Z,13.8207,-92.0447,10,4.4,mb,,200,0.777,0.92,us,us6000d3tw,2022-08-09T02:08:43.425Z,"54 km SSW of Champerico, Guatemala",earthquake,6.9,1.9,0.05,113,reviewed,us,us
+2020-12-21T16:28:50.241Z,13.8253,-92.3632,7.38,4.4,mb,,245,0.95,0.76,us,us6000d5fe,2021-02-27T23:24:33.040Z,"71 km SW of Champerico, Guatemala",earthquake,6.6,5.7,0.103,27,reviewed,us,us
+2020-12-05T19:30:32.528Z,15.6389,-90.0179,2.09,4.3,mb,,62,0.764,0.67,us,us7000cnh0,2021-02-12T22:39:29.040Z,"9 km NW of Lanquín, Guatemala",earthquake,3.7,5.9,0.084,40,reviewed,us,us
+2020-11-17T03:50:27.590Z,13.7806,-92.0178,10,4.2,mb,,186,0.803,0.81,us,us7000cfyz,2021-01-27T17:30:06.040Z,"57 km SSW of Champerico, Guatemala",earthquake,4.8,1.8,0.072,54,reviewed,us,us
+2020-11-12T03:21:45.155Z,14.2305,-91.8961,52.43,4.7,mwr,,67,0.351,0.83,us,us7000cdmk,2021-01-27T17:28:44.040Z,"7 km SSE of Champerico, Guatemala",earthquake,6.2,1.9,0.078,16,reviewed,us,us
+2020-11-10T16:40:58.917Z,13.6587,-91.2701,36.38,4.8,mb,,120,0.954,0.72,us,us7000cehf,2021-01-23T22:25:47.040Z,"52 km SSW of La Gomera, Guatemala",earthquake,7.3,7.9,0.161,15,reviewed,us,us
+2020-11-08T01:23:25.659Z,13.8038,-91.2895,53.44,4.5,mb,,96,0.817,1.27,us,us7000cbz0,2021-01-23T22:25:35.040Z,"near the coast of Guatemala",earthquake,4.7,6.3,0.045,146,reviewed,us,us
+2020-10-23T18:21:18.961Z,14.1517,-91.2007,73.42,4.2,mb,,154,0.605,0.77,us,us6000cc8q,2021-01-09T20:05:22.040Z,"11 km ESE of Nueva Concepción, Guatemala",earthquake,6.9,7.4,0.06,87,reviewed,us,us
+2020-10-22T07:55:15.206Z,13.6017,-88.1045,236.17,4.3,mb,,107,0.925,0.69,us,us6000cb7w,2021-01-09T20:05:18.040Z,"9 km W of Jocoro, El Salvador",earthquake,7.7,5.8,0.05,115,reviewed,us,us
+2020-10-21T20:51:18.849Z,14.0796,-92.3091,41.88,4.5,mb,,211,0.741,0.72,us,us6000cb02,2021-01-09T20:05:17.040Z,"48 km WSW of Champerico, Guatemala",earthquake,11.1,13.8,0.063,73,reviewed,us,us
+2020-10-20T21:37:19.527Z,13.6892,-90.6203,41.89,4.5,mb,,91,1.332,0.84,us,us6000cad1,2020-12-29T23:08:06.040Z,"28 km SSE of Iztapa, Guatemala",earthquake,12.6,5.5,0.075,52,reviewed,us,us
+2020-10-15T21:40:56.563Z,15.3061,-89.041,10,4,mwr,,71,0.953,0.75,us,us6000c8lx,2020-12-29T23:07:25.040Z,"8 km NE of Los Amates, Guatemala",earthquake,2.3,2,0.063,24,reviewed,us,us
+2020-10-14T10:17:04.661Z,15.6038,-88.7618,10,4.1,mb,,65,1.33,0.76,us,us6000c87u,2020-12-29T23:07:20.040Z,"16 km NNE of Morales, Guatemala",earthquake,6.1,1.8,0.099,28,reviewed,us,us
+2020-10-14T06:56:15.033Z,13.8961,-92.3294,34.5,4.5,mb,,118,0.876,1.41,us,us6000c86y,2020-12-29T23:07:20.040Z,"62 km SW of Champerico, Guatemala",earthquake,4.2,4.9,0.034,259,reviewed,us,us
+2020-10-14T00:40:02.070Z,15.4921,-88.8688,10,4.3,mb,,87,1.186,1,us,us6000c856,2022-08-09T00:57:00.929Z,"3 km NW of Morales, Guatemala",earthquake,12.2,1.9,0.084,40,reviewed,us,us
+2020-10-12T06:06:55.814Z,14.5717,-91.7423,100.9,5.1,mww,,131,0.065,0.95,us,us6000c7q4,2025-12-22T18:43:40.273Z,"3 km SSW of El Asintal, Guatemala",earthquake,4.4,3.9,0.043,53,reviewed,us,us
+2020-10-10T00:59:08.879Z,13.6273,-90.1327,62.13,4.3,mb,,150,1.072,0.97,us,us6000c76r,2020-12-19T17:22:42.040Z,"27 km SSW of San Francisco Menéndez, El Salvador",earthquake,5.6,13.5,0.113,22,reviewed,us,us
+2020-10-09T06:27:50.354Z,14.9052,-91.9157,109.22,4.5,mb,,120,0.337,0.51,us,us6000c6z8,2020-12-19T17:22:41.040Z,"2 km S of San Rafael Pie de la Cuesta, Guatemala",earthquake,6.3,4.9,0.096,32,reviewed,us,us
+2020-09-27T09:40:56.522Z,14.2028,-90.7908,109.83,5.3,mww,,124,1.305,0.81,us,us6000c1w6,2025-12-22T19:05:31.543Z,"6 km E of Masagua, Guatemala",earthquake,7,6.7,0.034,82,reviewed,us,us
+2020-09-22T22:56:31.099Z,14.2293,-92.323,62.19,4.8,mb,,184,0.675,0.96,us,us6000bzvq,2020-11-28T21:32:05.040Z,"34 km SSW of Ocós, Guatemala",earthquake,4.1,6.6,0.059,88,reviewed,us,us
+2020-09-19T22:23:07.478Z,13.6888,-89.3847,10,3.2,ml,,192,0.706,0.1,us,us7000bqdw,2020-11-28T21:31:55.040Z,"11 km W of Santa Tecla, El Salvador",earthquake,5.2,2,0.091,16,reviewed,us,us
+2020-09-17T01:13:59.399Z,15.2631,-92.4356,95.58,5.2,mww,,30,0.243,1.05,us,us7000bp7s,2025-12-22T17:58:46.553Z,"7 km SW of Belisario Domínguez, Mexico",earthquake,5.8,3.3,0.04,61,reviewed,us,us
+2020-09-14T14:29:28.426Z,14.4089,-91.1015,137.36,4.6,mb,,120,0.586,0.87,us,us7000bn11,2020-11-21T20:10:41.040Z,"6 km ESE of Patulul, Guatemala",earthquake,2.6,4.9,0.059,87,reviewed,us,us
+2020-09-09T11:59:36.864Z,15.3316,-91.6945,181.32,4.5,mb,,99,0.185,0.75,us,us7000bn35,2020-11-21T20:10:42.040Z,"6 km WNW of Santa Bárbara, Guatemala",earthquake,9.1,5.1,0.242,5,reviewed,us,us
+2020-08-18T10:01:35.465Z,14.2893,-91.0294,96.37,4.8,mb,,135,1.621,1,us,us6000bggm,2025-12-22T18:40:40.704Z,"5 km S of Santa Lucía Cotzumalguapa, Guatemala",earthquake,7.9,5.2,0.029,373,reviewed,us,us
+2020-07-09T03:52:13.171Z,13.9337,-91.8895,35,4,mb,,159,0.617,0.97,us,us7000akjj,2020-09-19T20:57:59.040Z,"39 km S of Champerico, Guatemala",earthquake,6.5,2,0.071,54,reviewed,us,us
+2020-06-26T07:41:03.733Z,13.7185,-88.866,173.86,4.2,mb,,150,0.829,0.57,us,us7000abye,2020-09-05T17:35:22.040Z,"3 km WSW of San Sebastián, El Salvador",earthquake,9.2,6.5,0.098,29,reviewed,us,us
+2020-06-22T12:02:17.627Z,14.7727,-92.3348,83.4,4,mb,,121,0.15,0.94,us,us6000agg3,2020-08-30T00:01:03.040Z,"2 km WSW of Congregación Reforma, Mexico",earthquake,6.8,4.1,0.062,70,reviewed,us,us
+2020-06-20T00:57:50.467Z,14.843,-92.2611,102.68,4.4,mb,,125,0.064,0.94,us,us7000aj8u,2020-08-30T00:01:28.040Z,"1 km S of Los Palacios, Mexico",earthquake,6.1,3.7,0.18,9,reviewed,us,us
+2020-06-13T08:54:39.016Z,13.868,-91.6635,42.09,4.4,mb,,177,0.653,0.76,us,us6000ab77,2020-08-22T19:14:49.040Z,"53 km SW of Nueva Concepción, Guatemala",earthquake,8.1,11.5,0.105,26,reviewed,us,us
+2020-06-05T19:20:54.282Z,15.7507,-90.9834,10,4.1,mb,,61,0.659,1.19,us,us6000a6tp,2020-08-18T17:58:54.040Z,"12 km ESE of San Luis Ixcán, Guatemala",earthquake,2.9,1.9,0.081,47,reviewed,us,us
+2020-06-02T18:38:37.637Z,14.3659,-90.7538,186.03,4.4,mb,,151,0.693,1.01,us,us6000a8pm,2020-08-15T20:20:06.040Z,"7 km SW of Palín, Guatemala",earthquake,6.9,6.2,0.087,38,reviewed,us,us
+2020-05-31T11:47:25.665Z,13.7731,-92.322,10,4,mb,,176,0.963,0.8,us,us6000a35i,2020-08-15T20:19:57.040Z,"72 km SW of Champerico, Guatemala",earthquake,7,2,0.134,15,reviewed,us,us
+2020-05-29T10:04:16.548Z,13.6518,-91.4223,35,4.7,mb,,139,0.907,0.86,us,us6000a1m2,2025-12-22T18:35:06.399Z,"62 km SW of La Gomera, Guatemala",earthquake,7.2,2,0.029,375,reviewed,us,us
+2020-05-24T05:53:05.578Z,14.7219,-92.4554,75.63,4.2,mb,,143,0.26,0.8,us,us70009pc1,2020-08-08T18:17:54.040Z,"3 km W of Puerto Madero, Mexico",earthquake,6.4,5.8,0.061,74,reviewed,us,us
+2020-05-22T07:15:15.022Z,14.6203,-92.3848,58.45,4.1,mb,,165,0.308,0.69,us,us6000a3zw,2020-08-08T18:17:36.040Z,"11 km SSE of Puerto Madero, Mexico",earthquake,6.5,7.1,0.233,5,reviewed,us,us
+2020-05-20T07:49:54.631Z,14.1859,-91.358,75.13,4.1,mb,,202,0.469,1.33,us,us70009lfm,2020-08-08T18:17:41.040Z,"6 km WSW of Nueva Concepción, Guatemala",earthquake,7.4,8.7,0.084,38,reviewed,us,us
+2020-05-02T19:30:03.842Z,13.5743,-91.2971,44.31,4.1,mb,,178,1.02,0.97,us,us700098yj,2020-07-18T21:57:13.040Z,"62 km SSW of La Gomera, Guatemala",earthquake,7.7,6.9,0.117,20,reviewed,us,us
+2020-04-23T06:58:15.853Z,13.7108,-91.3005,35,4.1,mb,,158,0.894,0.87,us,us60009ae3,2020-07-11T22:18:54.040Z,"48 km SSW of La Gomera, Guatemala",earthquake,3.7,2,0.068,58,reviewed,us,us
+2020-04-22T21:15:48.230Z,15.4375,-92.0688,179.19,4.3,mb,,71,0.263,0.41,us,us700099nk,2020-07-11T22:19:29.040Z,"5 km E of Amatenango de la Frontera, Mexico",earthquake,4.1,4.7,0.168,10,reviewed,us,us
+2020-04-19T08:18:31.919Z,14.4079,-90.4682,10,4.2,mb,,135,1.073,0.7,us,us70008ztt,2020-07-09T14:31:29.040Z,"7 km SSW of Fraijanes, Guatemala",earthquake,3.5,2,0.08,44,reviewed,us,us
+2020-04-08T20:04:46.651Z,13.5467,-92.1053,10,4.5,mb,,166,1.05,1.19,us,us70008rx6,2020-06-30T14:02:47.040Z,"85 km SSW of Champerico, Guatemala",earthquake,4.8,1.9,0.047,132,reviewed,us,us
+2020-04-01T18:40:43.506Z,14.7115,-92.1324,101.18,4.2,mb,,179,0.233,0.98,us,us700099nn,2020-06-21T00:54:34.040Z,"3 km NNE of Ciudad Tecún Umán, Guatemala",earthquake,4,4.1,0.215,6,reviewed,us,us
+2020-03-29T20:26:02.806Z,13.5869,-91.4015,35,4.7,mb,,196,0.974,1.33,us,us70008iee,2020-06-13T18:44:43.040Z,"66 km SW of La Gomera, Guatemala",earthquake,8,2,0.034,267,reviewed,us,us
+2020-03-27T09:36:51.795Z,13.9798,-91.3084,63.47,4.4,mb,,151,0.658,1.25,us,us70008h70,2020-06-13T18:44:51.040Z,"24 km S of Nueva Concepción, Guatemala",earthquake,6.7,6.3,0.039,193,reviewed,us,us
+2020-03-15T09:34:52.470Z,14.8859,-91.1962,162.24,4.4,mb,,94,0.521,0.95,us,us60008fzz,2020-05-30T22:17:10.040Z,"8 km S of Patzité, Guatemala",earthquake,6.7,9.9,0.135,16,reviewed,us,us
+2020-03-09T07:19:30.803Z,13.8654,-91.5735,35,4.3,mb,,115,0.665,0.97,us,us60008ccq,2020-05-23T22:03:20.040Z,"47 km SW of Nueva Concepción, Guatemala",earthquake,6,1.9,0.039,189,reviewed,us,us
+2020-03-09T06:13:27.750Z,13.8414,-91.7797,35,4.3,mb,,180,0.684,0.56,us,us60008f4a,2020-05-23T22:03:20.040Z,"52 km SSE of Champerico, Guatemala",earthquake,7.2,2,0.168,10,reviewed,us,us
+2020-03-05T21:18:16.357Z,13.9232,-91.2882,44.49,4,mb,,175,0.716,0.72,us,us60008d87,2020-05-23T22:03:20.040Z,"30 km S of Nueva Concepción, Guatemala",earthquake,6.5,16.1,0.231,5,reviewed,us,us
+2020-02-27T01:59:04.391Z,13.5293,-91.0504,35,4.3,mb,,182,1.17,0.92,us,us60008521,2020-05-19T22:13:59.040Z,"50 km SSW of Puerto San José, Guatemala",earthquake,6.4,2,0.073,52,reviewed,us,us
+2020-02-25T00:13:31.842Z,13.577,-91.5529,35,4.7,mwr,,136,0.952,0.86,us,us70007w6u,2020-05-09T21:41:16.040Z,"74 km SSW of Nueva Concepción, Guatemala",earthquake,7,2,0.075,17,reviewed,us,us
+2020-02-03T13:02:51.688Z,14.1166,-91.2983,89.89,4.2,mb,,176,0.558,0.6,us,us60007ndp,2020-04-18T22:10:20.040Z,"9 km S of Nueva Concepción, Guatemala",earthquake,6.7,6.3,0.099,28,reviewed,us,us
+2020-02-03T03:32:05.636Z,13.6736,-91.9721,23.7,4.4,mb,,161,0.887,0.76,us,us60007n3r,2020-04-18T22:10:18.040Z,"68 km S of Champerico, Guatemala",earthquake,7.3,6.8,0.058,86,reviewed,us,us
+2020-02-02T17:59:17.217Z,13.7784,-91.903,64.74,4.1,mb,,128,0.768,1.02,us,us60007muj,2020-04-18T22:10:17.040Z,"56 km S of Champerico, Guatemala",earthquake,5.4,9.2,0.088,35,reviewed,us,us
+2020-02-01T08:37:05.061Z,13.56,-91.3053,35,4.1,mb,,153,1.03,0.87,us,us60007m1n,2020-04-18T22:10:08.040Z,"63 km SSW of La Gomera, Guatemala",earthquake,8.2,2,0.158,11,reviewed,us,us
+2020-01-29T07:14:55.437Z,14.4057,-89.9472,247.91,4.1,mb,,112,0.568,0.94,us,us60007ivt,2020-04-18T22:09:51.040Z,"11 km WNW of El Progreso, Guatemala",earthquake,8.5,5.8,0.099,28,reviewed,us,us
+2020-01-16T10:29:36.472Z,15.6764,-90.1505,10,3.4,mb,,106,1.262,0.27,us,us700071a9,2020-04-08T19:40:14.040Z,"21 km SE of Chisec, Guatemala",earthquake,4,2,0.282,3,reviewed,us,us
+2020-01-11T02:16:50.793Z,13.6003,-91.2661,35,4.9,mb,,79,1.008,1.36,us,us70006y2u,2020-04-02T21:28:13.040Z,"58 km SSW of La Gomera, Guatemala",earthquake,6.5,1.9,0.027,437,reviewed,us,us
+2020-01-02T01:21:59.261Z,13.9689,-92.2266,35,4.5,mb,,149,0.755,0.91,us,us70006tdt,2020-03-21T17:13:32.040Z,"49 km SW of Champerico, Guatemala",earthquake,7,1.9,0.043,159,reviewed,us,us
+2019-12-31T08:37:23.319Z,13.6723,-91.2748,43.1,4.3,mb,,187,0.94,1.28,us,us70006suk,2022-08-08T17:48:08.654Z,"51 km SSW of La Gomera, Guatemala",earthquake,7.3,9.6,0.056,91,reviewed,us,us
+2019-12-24T22:41:32.739Z,13.7238,-91.4175,35,4.3,mb,,162,0.84,0.98,us,us70006qrm,2020-03-14T22:25:07.040Z,"54 km SSW of Nueva Concepción, Guatemala",earthquake,4.6,2,0.058,85,reviewed,us,us
+2019-12-23T23:09:46.039Z,14.3585,-92.0378,58.13,4.5,mb,,175,0.371,1.08,us,us70006qce,2020-03-07T17:47:54.040Z,"15 km WNW of Champerico, Guatemala",earthquake,5.8,3.3,0.044,147,reviewed,us,us
+2019-12-23T02:51:05.833Z,13.8626,-90.0161,102.73,4,mb,,121,0.829,0.68,us,us70006q18,2020-03-07T17:47:49.040Z,"2 km N of San Francisco Menéndez, El Salvador",earthquake,5.7,7.5,0.089,34,reviewed,us,us
+2019-12-21T18:06:28.462Z,17.0964,-91.3102,90.16,4.1,mb,,82,1.392,1.15,us,us70006x1d,2020-03-07T17:48:03.040Z,"7 km N of Nuevo Francisco León, Mexico",earthquake,6,8.2,0.105,26,reviewed,us,us
+2019-12-21T02:06:00.329Z,13.7226,-91.3966,35,4.5,mb,,184,0.848,1.38,us,us70006pb2,2020-03-07T17:47:39.040Z,"53 km S of Nueva Concepción, Guatemala",earthquake,6.8,2,0.065,68,reviewed,us,us
+2019-12-20T03:08:52.430Z,15.4263,-91.8267,204.56,4.5,mb,,128,0.33,0.86,us,us70006nwm,2020-03-07T17:47:36.040Z,"6 km W of Ixtahuacán, Guatemala",earthquake,7.9,5.5,0.083,43,reviewed,us,us
+2019-12-19T14:41:54.884Z,13.6368,-91.2958,25.19,4.8,mb,,154,0.963,1.25,us,us70006nhs,2020-03-07T17:47:35.040Z,"55 km SSW of La Gomera, Guatemala",earthquake,8.1,5.5,0.032,309,reviewed,us,us
+2019-12-19T12:39:11.130Z,13.6727,-91.2935,35,5.1,mb,,103,0.932,1.36,us,us70006ngc,2020-03-07T17:47:34.040Z,"52 km SSW of La Gomera, Guatemala",earthquake,6.5,1.9,0.057,101,reviewed,us,us
+2019-12-19T12:35:31.287Z,13.7354,-91.2255,21,5.9,mww,,58,0.907,1.41,us,us70006ng5,2025-12-22T18:23:54.797Z,"42 km SSW of La Gomera, Guatemala",earthquake,7.3,1.6,0.034,85,reviewed,us,us
+2019-12-05T15:11:45.251Z,13.9515,-91.931,40.55,4.6,mb,,130,0.614,1,us,us60006mf1,2020-02-29T19:52:56.040Z,"37 km S of Champerico, Guatemala",earthquake,6.4,7,0.034,263,reviewed,us,us
+2019-12-01T23:37:43.922Z,14.1349,-90.3879,147.51,4.4,mb,,149,1.03,0.85,us,us70006f32,2020-02-19T18:58:29.040Z,"5 km N of Chiquimulilla, Guatemala",earthquake,5.2,7.6,0.064,70,reviewed,us,us
+2019-11-30T17:59:16.055Z,13.9843,-91.9658,39.47,4.7,mwr,,131,0.597,0.98,us,us70006etm,2020-02-19T18:58:24.040Z,"near the coast of Guatemala",earthquake,6.6,6,0.083,14,reviewed,us,us
+2019-11-30T07:44:21.562Z,13.8429,-91.893,19,5.7,mww,,157,0.704,1.17,us,us70006eqm,2025-12-22T18:22:39.275Z,"49 km S of Champerico, Guatemala",earthquake,7.4,1.9,0.054,33,reviewed,us,us
+2019-11-29T12:56:20.585Z,13.7352,-89.3216,130.34,4.1,mb,,156,0.66,0.8,us,us60006pf2,2020-02-19T18:57:57.040Z,"7 km NW of Santa Tecla, El Salvador",earthquake,7.9,7.7,0.088,38,reviewed,us,us
+2019-11-22T22:32:49.454Z,13.7591,-89.0377,10,3.9,ml,,151,0.709,0.64,us,us70006cjw,2020-02-14T22:02:19.040Z,"4 km SW of Tecoluca, El Salvador",earthquake,5.3,2,0.085,18,reviewed,us,us
+2019-11-21T19:01:47.866Z,13.5661,-91.0786,35,4.5,mb,,123,1.125,1.21,us,us70006b84,2020-02-14T22:02:10.040Z,"48 km SW of Puerto San José, Guatemala",earthquake,6.3,1.9,0.059,83,reviewed,us,us
+2019-11-18T11:21:53.811Z,13.6471,-89.2683,10,3.5,ml,,200,0.752,0.22,us,us700069mp,2022-08-08T16:54:30.046Z,"0 km WSW of Nuevo Cuscatlán, El Salvador",earthquake,6,2,0.091,16,reviewed,us,us
+2019-11-17T04:19:40.767Z,13.6906,-89.376,10,3.4,ml,,229,0.704,0.34,us,us7000692m,2020-02-07T20:21:54.040Z,"10 km W of Santa Tecla, El Salvador",earthquake,6.7,2,0.097,14,reviewed,us,us
+2019-11-13T16:28:52.886Z,13.6755,-90.9373,45,5.5,mww,,48,1.119,1.29,us,us60006b3s,2025-12-22T18:21:28.896Z,"30 km SSW of Puerto San José, Guatemala",earthquake,6.5,1.8,0.065,23,reviewed,us,us
+2019-11-12T13:57:41.561Z,13.74,-89.1921,10,3.8,mb,,154,0.675,0.87,us,us60006aww,2020-02-07T20:20:23.040Z,"1 km ENE of Ayutuxtepeque, El Salvador",earthquake,4.5,1.8,0.51,1,reviewed,us,us
+2019-11-09T08:32:52.323Z,14.5086,-90.2743,200,5.5,mww,,101,0.891,1.01,us,us600069n1,2025-12-22T17:56:08.623Z,"9 km WSW of Mataquescuintla, Guatemala",earthquake,7.7,1.9,0.038,65,reviewed,us,us
+2019-11-01T20:25:21.722Z,15.8191,-89.891,38.68,4,mb,,74,1.091,0.89,us,us7000624r,2020-01-18T20:00:53.040Z,"29 km NNW of Cahabón, Guatemala",earthquake,2.8,17.4,0.106,25,reviewed,us,us
+2019-10-31T03:25:49.574Z,14.4554,-92.0974,64.8,4,mb,,165,0.395,0.9,us,us600068i2,2020-01-18T20:00:31.040Z,"11 km ESE of Ocós, Guatemala",earthquake,6.2,4.5,0.299,3,reviewed,us,us
+2019-10-24T03:54:19.823Z,15.599,-91.9519,214.14,5,mww,,42,0.457,0.86,us,us6000622u,2025-12-22T17:56:01.525Z,"8 km ESE of Potrerillo, Mexico",earthquake,6.4,3.5,0.051,37,reviewed,us,us
+2019-10-19T18:33:54.316Z,14.168,-90.0591,174.35,4.3,mb,,102,0.715,0.62,us,us70005w1e,2020-01-03T16:09:36.040Z,"6 km WNW of Jalpatagua, Guatemala",earthquake,7.3,7.5,0.076,52,reviewed,us,us
+2019-10-12T07:57:29.859Z,13.8665,-91.3676,53.24,4.3,mb,,152,0.727,1.23,us,us70005vkr,2019-12-28T20:46:21.040Z,"37 km S of Nueva Concepción, Guatemala",earthquake,4.1,15.3,0.189,8,reviewed,us,us
+2019-10-07T04:39:32.081Z,14.4197,-92.0714,65.41,4.2,mb,,173,0.379,1.19,us,us70005ria,2019-12-27T15:51:03.040Z,"16 km SE of Ocós, Guatemala",earthquake,6.2,5.3,0.089,35,reviewed,us,us
+2019-10-01T02:45:35.479Z,14.0473,-91.3567,49.54,4.3,mb,,68,0.576,0.47,us,us70005p6p,2019-12-27T15:49:33.040Z,"17 km SSW of Nueva Concepción, Guatemala",earthquake,7.1,2.1,0.053,99,reviewed,us,us
+2019-09-24T08:59:39.917Z,13.8669,-92.4871,10,4.3,mb,,136,1.008,0.9,us,us60005mnq,2019-12-20T19:02:03.040Z,"77 km SSW of Ocós, Guatemala",earthquake,3.7,1.9,0.075,50,reviewed,us,us
+2019-09-17T19:11:42.323Z,14.4531,-91.963,74.47,4.6,mwr,,162,0.269,0.96,us,us70005hl7,2022-08-08T16:03:32.145Z,"18 km NNW of Champerico, Guatemala",earthquake,7.6,6.5,0.086,13,reviewed,us,us
+2019-09-15T12:10:00.108Z,13.7989,-91.3231,47.82,4.1,mb,,176,0.806,0.75,us,us70005gn9,2019-12-05T18:31:07.040Z,"42 km SW of La Gomera, Guatemala",earthquake,8.1,13.5,0.123,19,reviewed,us,us
+2019-09-15T07:41:39.385Z,13.7542,-91.3668,35,4.1,mb,,176,0.829,0.83,us,us70005gm7,2019-12-05T18:31:07.040Z,"49 km SW of La Gomera, Guatemala",earthquake,8.1,2,0.069,58,reviewed,us,us
+2019-09-15T06:59:17.238Z,13.6518,-91.4585,35,5.2,mww,,132,0.897,0.83,us,us70005glk,2025-12-22T18:16:50.859Z,"63 km SSW of Nueva Concepción, Guatemala",earthquake,4,1.8,0.068,21,reviewed,us,us
+2019-09-12T01:33:31.619Z,15.2936,-92.1112,155.98,4.1,mb,,64,0.117,0.77,us,us70005s5i,2019-12-05T18:31:13.040Z,"5 km WSW of Tectitán, Guatemala",earthquake,5.5,6.5,0.151,12,reviewed,us,us
+2019-09-10T23:54:56.710Z,14.1685,-92.2555,35,4.8,mb,,93,0.648,1.1,us,us70005eji,2025-12-22T18:16:29.775Z,"38 km S of Ocós, Guatemala",earthquake,5.9,1.9,0.026,448,reviewed,us,us
+2019-08-29T18:29:01.169Z,14.3074,-92.0114,58.36,4.2,mb,,171,0.375,0.93,us,us700059tu,2019-11-15T17:20:14.040Z,"near the coast of Chiapas, Mexico",earthquake,7.4,7.7,0.07,57,reviewed,us,us
+2019-08-26T09:44:34.963Z,13.536,-92.3469,10,4.4,mb,,196,1.168,1.33,us,us70005889,2019-11-08T22:13:48.040Z,"96 km SSW of Champerico, Guatemala",earthquake,7.4,2,0.061,79,reviewed,us,us
+2019-08-23T17:43:13.868Z,13.8664,-91.6629,47.42,4.2,mb,,152,0.655,1.04,us,us700059q7,2019-11-08T22:13:53.040Z,"53 km SW of Nueva Concepción, Guatemala",earthquake,6.4,9.3,0.068,60,reviewed,us,us
+2019-07-22T01:08:56.185Z,15.6945,-91.0462,10,4.5,mb,,69,0.577,0.7,us,us70004qaj,2019-10-04T16:37:35.040Z,"11 km SSE of San Luis Ixcán, Guatemala",earthquake,5.5,1.9,0.041,175,reviewed,us,us
+2019-07-20T02:14:01.295Z,13.6315,-91.4445,35,4.2,mb,,199,0.92,1.35,us,us60004vzk,2019-10-04T16:37:24.040Z,"64 km SSW of Nueva Concepción, Guatemala",earthquake,2.9,2,0.083,40,reviewed,us,us
+2019-07-20T02:10:46.344Z,13.816,-91.3467,35,4.6,mb,,172,0.781,1.34,us,us70004pha,2019-10-04T16:37:24.040Z,"42 km S of Nueva Concepción, Guatemala",earthquake,7.7,2,0.033,268,reviewed,us,us
+2019-07-18T16:24:24.419Z,14.7687,-92.2878,82.96,4.9,mww,,72,0.139,1.02,us,us70004n85,2025-12-22T18:13:36.775Z,"3 km ESE of Congregación Reforma, Mexico",earthquake,4.5,3.3,0.056,31,reviewed,us,us
+2019-07-14T01:57:16.256Z,15.7229,-91.0273,10,4.8,mww,,56,0.609,1.25,us,us70004jvb,2019-09-28T20:01:20.040Z,"10 km SE of San Luis Ixcán, Guatemala",earthquake,4.3,1.9,0.059,28,reviewed,us,us
+2019-07-13T01:40:22.013Z,13.5788,-91.052,35,4.5,mb,,174,1.128,1.3,us,us70004jfh,2019-09-28T20:01:17.040Z,"45 km SSW of Puerto San José, Guatemala",earthquake,7.3,2,0.036,232,reviewed,us,us
+2019-07-13T01:36:09.745Z,13.6501,-90.9716,35,4.6,mb,,131,1.117,1.18,us,us70004jfe,2019-09-28T20:01:17.040Z,"34 km SSW of Puerto San José, Guatemala",earthquake,8,2,0.033,276,reviewed,us,us
+2019-07-11T11:28:13.060Z,14.658,-92.0248,66.58,4,mb,,174,0.345,0.88,us,us70004hzs,2019-09-28T20:01:11.040Z,"7 km S of Pajapita, Guatemala",earthquake,8.5,5.9,0.139,14,reviewed,us,us
+2019-07-10T00:07:17.121Z,14.0802,-91.162,62.24,4.3,mb,,110,0.679,1.24,us,us70004gfu,2022-08-08T14:49:57.824Z,"11 km W of La Gomera, Guatemala",earthquake,7.6,7,0.053,100,reviewed,us,us
+2019-07-05T00:20:02.428Z,14.3583,-90.429,176.7,4.3,mb,,148,1.036,0.59,us,us70004kq8,2019-09-26T14:31:05.040Z,"7 km WSW of Santa Cruz Naranjo, Guatemala",earthquake,9.6,8.5,0.077,48,reviewed,us,us
+2019-07-03T10:13:26.831Z,15.6556,-90.9873,10,4.2,mb,,80,0.599,0.63,us,us70004970,2019-09-26T14:30:05.040Z,"18 km SE of San Luis Ixcán, Guatemala",earthquake,8,2,0.084,39,reviewed,us,us
+2019-07-03T00:55:09.799Z,15.5701,-90.9159,10,4.5,mb,,88,0.618,0.81,us,us7000491e,2019-09-26T14:30:03.040Z,"15 km NE of Chajul, Guatemala",earthquake,9.1,2,0.045,149,reviewed,us,us
+2019-07-02T19:41:13.418Z,15.8089,-92.1716,233.67,4.3,mb,,79,0.471,0.85,us,us70004i9x,2019-09-26T14:31:04.040Z,"4 km NE of Nueva Independencia, Mexico",earthquake,2.9,7.2,0.107,26,reviewed,us,us
+2019-06-28T02:07:42.713Z,13.565,-91.9167,35,4.1,mb,,231,0.977,1.24,us,us700046df,2019-09-14T16:08:15.040Z,"80 km S of Champerico, Guatemala",earthquake,3.4,2,0.071,54,reviewed,us,us
+2019-06-24T12:34:23.292Z,14.2788,-92.4224,57.65,4.2,mb,,214,0.746,0.68,us,us6000457p,2019-09-11T15:19:42.040Z,"35 km SW of Brisas Barra de Suchiate, Mexico",earthquake,9,11.5,0.092,33,reviewed,us,us
+2019-06-13T03:31:12.130Z,14.4642,-90.3759,208.04,4.7,mb,,125,0.985,0.7,us,us6000408k,2019-09-06T14:25:01.040Z,"7 km E of Fraijanes, Guatemala",earthquake,7.1,6.9,0.056,99,reviewed,us,us
+2019-05-25T22:00:02.073Z,13.5543,-89.4489,90.38,4,mb,,164,0.843,0.79,us,us70003ttc,2019-08-13T14:30:51.040Z,"15 km WNW of La Libertad, El Salvador",earthquake,6.1,10.6,0.134,15,reviewed,us,us
+2019-05-22T04:13:28.605Z,14.0378,-91.3177,63.03,4.5,mb,,177,0.606,0.74,us,us60003qhe,2019-08-13T14:30:29.040Z,"18 km S of Nueva Concepción, Guatemala",earthquake,8.5,9.1,0.057,91,reviewed,us,us
+2019-05-02T21:48:04.407Z,13.5433,-91,35,4.3,mb,,182,1.185,1.41,us,us70003g08,2019-07-25T18:54:10.040Z,"46 km SSW of Puerto San José, Guatemala",earthquake,7.8,2,0.07,57,reviewed,us,us
+2019-04-30T14:13:02.473Z,14.7309,-91.0066,232.52,4.3,mb,,110,0.697,0.38,us,us70003iwd,2019-07-25T18:54:02.040Z,"3 km SSW of Tecpán Guatemala, Guatemala",earthquake,9.2,7.1,0.069,59,reviewed,us,us
+2019-04-29T11:48:15.551Z,15.4126,-91.7271,203.98,4.3,mb,,111,0.236,0.56,us,us70003igb,2019-07-13T18:42:58.040Z,"1 km WNW of Colotenango, Guatemala",earthquake,7,5.4,0.154,12,reviewed,us,us
+2019-04-19T19:43:01.690Z,14.103,-92.3268,35,4.8,mb,,134,0.742,1,us,us700039as,2025-12-22T18:08:08.612Z,"47 km SSW of Ocós, Guatemala",earthquake,5.5,1.9,0.032,297,reviewed,us,us
+2019-04-16T04:04:50.240Z,14.4449,-90.7312,79.12,4.5,mb,,150,0.936,0.58,us,us700036ss,2019-06-26T20:54:41.040Z,"5 km NW of Palín, Guatemala",earthquake,5.8,9.2,0.15,13,reviewed,us,us
+2019-04-14T03:32:32.506Z,13.6993,-90.0088,102.29,4.3,mb,,172,0.937,1.15,us,us700035nx,2019-06-20T19:03:33.040Z,"15 km S of San Francisco Menéndez, El Salvador",earthquake,3.6,7.8,0.084,40,reviewed,us,us
+2019-04-05T23:53:55.870Z,14.5298,-89.1297,10,4.4,mb,,104,0.207,0.97,us,us2000kb2t,2019-06-18T15:50:29.040Z,"10 km NNE of Sinuapa, Honduras",earthquake,4.8,2,0.109,24,reviewed,us,us
+2019-04-04T22:56:14.520Z,13.8112,-91.7266,35,4.4,mb,,159,0.709,1.06,us,us2000kaji,2019-06-18T15:50:22.040Z,"56 km SSE of Champerico, Guatemala",earthquake,8.4,2,0.065,69,reviewed,us,us
+2019-04-01T01:32:20.496Z,14.4915,-90.6463,10,3.3,ml,,155,1.016,0.9,us,us2000k89l,2019-06-08T20:51:29.040Z,"1 km NW of Amatitlán, Guatemala",earthquake,5.4,2,0.091,16,reviewed,us,us
+2019-03-31T12:55:10.234Z,14.5269,-90.7314,10,3.9,ml,,153,0.933,1.13,us,us2000k85l,2019-06-08T20:51:28.040Z,"3 km E of Ciudad Vieja, Guatemala",earthquake,4.6,2,0.077,22,reviewed,us,us
+2019-03-28T22:27:22.645Z,14.4838,-90.653,10,2.8,ml,,179,1.009,0.63,us,us2000k6um,2019-06-08T20:51:21.040Z,"2 km WNW of Amatitlán, Guatemala",earthquake,5.6,2,0.115,10,reviewed,us,us
+2019-03-27T23:44:58.723Z,14.4804,-90.6812,10,3,ml,,179,0.982,0.19,us,us2000k6sg,2019-06-08T20:51:21.040Z,"Guatemala",earthquake,5.2,1.9,0.115,10,reviewed,us,us
+2019-03-27T22:59:12.603Z,14.4476,-90.7597,10.76,3.2,ml,,179,0.909,0.93,us,us2000k6ry,2019-06-08T20:51:20.040Z,"6 km SE of Alotenango, Guatemala",earthquake,3.8,12.9,0.097,14,reviewed,us,us
+2019-03-27T22:46:27.641Z,14.4519,-90.6914,6.48,4.1,mb,,145,0.974,1.05,us,us2000k67m,2019-06-08T20:51:18.040Z,"5 km SSE of Santa María de Jesús, Guatemala",earthquake,4.7,6.4,0.213,6,reviewed,us,us
+2019-03-26T13:38:07.870Z,14.1624,-92.3299,30.66,3.7,mb,,186,0.713,0.62,us,us2000k996,2019-06-08T20:51:08.040Z,"41 km SSW of Ocós, Guatemala",earthquake,7.1,6,0.251,4,reviewed,us,us
+2019-03-14T10:05:25.050Z,15.4869,-92.1619,197.84,4.6,mb,,83,0.584,1.17,us,us1000jff2,2019-06-01T21:24:06.040Z,"3 km N of Bejucal de Ocampo, Mexico",earthquake,4.8,5.7,0.054,103,reviewed,us,us
+2019-03-08T11:07:22.172Z,13.9132,-91.2311,44.9,4.1,mb,,143,0.756,0.85,us,us1000jcbs,2019-05-24T21:21:16.040Z,"26 km SW of La Gomera, Guatemala",earthquake,7.3,9.6,0.07,55,reviewed,us,us
+2019-03-08T02:07:55.704Z,13.7522,-91.3213,10,4.3,mb,,173,0.849,1.11,us,us1000jc80,2019-05-24T21:21:16.040Z,"46 km SW of La Gomera, Guatemala",earthquake,4.7,2,0.063,72,reviewed,us,us
+2019-03-04T17:29:50.120Z,13.7812,-92.3922,23.9,4.6,mb,,181,1.001,1.23,us,us2000k98t,2019-05-14T18:36:34.040Z,"76 km SW of Champerico, Guatemala",earthquake,7.7,8.9,0.141,15,reviewed,us,us
+2019-03-01T02:01:28.610Z,13.6651,-88.4866,200.8,4.5,mb,,166,1.118,0.83,us,us1000j93r,2019-05-14T18:36:14.040Z,"14 km WSW of Sesori, El Salvador",earthquake,9.8,9,0.083,42,reviewed,us,us
+2019-02-27T13:53:23.040Z,15.3486,-91.7524,195.41,4.5,mb,,56,0.243,0.77,us,us2000jpji,2019-05-14T18:36:33.040Z,"5 km SSW of San Gaspar Ixchil, Guatemala",earthquake,7.9,3.2,0.108,25,reviewed,us,us
+2019-02-22T15:57:16.700Z,14.4708,-92.0958,72.76,4,mb,,169,0.392,1.08,us,us1000jag5,2019-05-11T17:40:25.040Z,"11 km ESE of Ocós, Guatemala",earthquake,7.3,7.2,0.196,7,reviewed,us,us
+2019-02-05T16:15:34.060Z,15.6582,-92.4565,164.18,4.9,mb,,108,0.692,0.89,us,us2000jdnt,2025-12-22T18:02:44.974Z,"12 km E of Nueva Independencia, Mexico",earthquake,4.4,4.5,0.034,278,reviewed,us,us
+2019-02-02T09:14:30.990Z,14.7811,-92.4038,79.84,4.2,mb,,155,0.183,0.85,us,us2000jcbs,2019-04-18T19:09:12.040Z,"5 km N of El Encanto, Mexico",earthquake,7.3,6.9,0.058,84,reviewed,us,us
+2019-02-01T16:14:12.329Z,14.6802,-92.4527,66,6.7,mww,,43,0.289,1.36,us,us2000jbub,2025-12-22T18:55:26.669Z,"5 km SW of Puerto Madero, Mexico",earthquake,5.7,1.8,0.065,23,reviewed,us,us
+2019-01-29T02:54:41.530Z,13.8437,-91.3099,35,4.2,mb,,154,0.773,0.82,us,us2000j9xs,2019-04-18T19:09:23.040Z,"38 km SW of La Gomera, Guatemala",earthquake,5.8,2,0.072,54,reviewed,us,us
+2019-01-05T17:08:31.460Z,14.9017,-91.4809,148.06,4.5,mb,,83,0.414,0.73,us,us2000j0ig,2019-03-08T17:50:16.040Z,"0 km SE of San Andrés Xecul, Guatemala",earthquake,5.1,4.8,0.046,140,reviewed,us,us
+2019-01-04T02:30:35.180Z,13.6471,-90.7553,35,4,mb,,178,1.261,1.39,us,us2000j06y,2019-03-08T17:50:15.040Z,"31 km SSE of Puerto San José, Guatemala",earthquake,6,2,0.183,8,reviewed,us,us
+2019-01-01T17:17:08.780Z,14.4508,-91.5356,108.39,4.1,mb,,163,0.17,0.76,us,us2000j5tu,2019-03-08T17:50:21.040Z,"4 km SSW of San Lorenzo, Guatemala",earthquake,9.3,8.6,0.095,32,reviewed,us,us
+2018-12-28T00:49:37.280Z,13.5005,-89.8858,76.5,4.3,mb,,157,1.028,0.95,us,us2000iygt,2019-03-05T17:46:36.040Z,"12 km SSW of Acajutla, El Salvador",earthquake,5,9.9,0.072,54,reviewed,us,us
+2018-12-25T04:46:06.570Z,14.484,-90.4992,204.2,4.4,mb,,132,1.106,0.84,us,us2000j31h,2019-03-05T17:46:33.040Z,"3 km E of Villa Canales, Guatemala",earthquake,7.1,6.2,0.081,44,reviewed,us,us
+2018-12-20T17:01:49.130Z,14.1216,-90.2242,165.54,4.6,mb,,160,0.881,0.88,us,us2000j1sa,2019-02-23T20:23:05.040Z,"6 km NE of San Juan Tecuaco, Guatemala",earthquake,6.9,8.6,0.08,46,reviewed,us,us
+2018-12-12T18:57:17.620Z,15.7143,-92.2369,205.6,4.4,mb,,88,0.572,1.06,us,us2000it04,2019-02-16T22:29:06.040Z,"1 km E of Lázaro Cárdenas, Mexico",earthquake,5.8,6.5,0.127,18,reviewed,us,us
+2018-12-07T23:50:58.810Z,14.1182,-91.1269,62.16,4.2,mb,,153,0.682,0.66,us,us1000i4nw,2019-02-16T19:52:30.040Z,"8 km WNW of La Gomera, Guatemala",earthquake,5.6,8.1,0.055,92,reviewed,us,us
+2018-12-04T19:08:38.610Z,13.8988,-90.9545,65.51,4.2,mb,,190,0.95,1.26,us,us1000i4aw,2019-02-16T19:52:19.040Z,"14 km WSW of Puerto San José, Guatemala",earthquake,6.9,11.2,0.152,12,reviewed,us,us
+2018-11-21T18:39:32.610Z,13.5685,-91.1664,35,4.1,mb,,210,1.08,1.04,us,us1000hv3i,2019-04-16T04:22:38.418Z,"54 km SW of Puerto San José, Guatemala",earthquake,6,2,0.12,19,reviewed,us,us
+2018-11-13T10:26:50.200Z,13.5673,-88.3024,186.11,4.4,mb,,143,0.911,0.67,us,us1000huuu,2019-01-30T18:36:27.040Z,"5 km ENE of Lolotique, El Salvador",earthquake,12.2,9.8,0.065,68,reviewed,us,us
+2018-11-11T17:45:56.840Z,14.3311,-91.5715,75.63,4.1,mb,,169,0.226,1.11,us,us1000hqlt,2019-01-21T16:42:52.040Z,"18 km SSW of San Lorenzo, Guatemala",earthquake,9.1,10.7,0.103,26,reviewed,us,us
+2018-11-09T14:22:35.890Z,13.9195,-89.7207,10,3.6,ml,,172,0.528,0.71,us,us1000hq8y,2019-01-21T16:43:00.040Z,"7 km SSE of Atiquizaya, El Salvador",earthquake,3.6,2,0.091,16,reviewed,us,us
+2018-10-15T15:15:36.850Z,13.9195,-90.8145,37.31,4.3,mb,,148,1.044,0.53,us,us1000hef2,2018-12-21T22:27:05.040Z,"1 km SE of Puerto San José, Guatemala",earthquake,8.2,13.1,0.123,19,reviewed,us,us
+2018-10-12T21:09:49.310Z,14.1973,-91.1973,64.33,5.7,mww,,74,0.581,0.79,us,us1000hbcu,2022-05-03T19:35:21.374Z,"11 km E of Nueva Concepción, Guatemala",earthquake,6.1,3.8,0.043,51,reviewed,us,us
+2018-10-04T00:38:14.850Z,15.2761,-90.9884,10,4,mb,,90,0.497,0.92,us,us1000haj3,2018-12-14T20:32:45.040Z,"7 km SSE of Cunén, Guatemala",earthquake,4.1,1.9,0.143,13,reviewed,us,us
+2018-10-03T23:51:17.300Z,15.2721,-90.9686,10,4,mb,,91,0.517,1.07,us,us1000h6pi,2022-08-08T08:54:06.179Z,"9 km SE of Cunén, Guatemala",earthquake,2.3,1.9,0.116,20,reviewed,us,us
+2018-09-14T09:01:14.760Z,13.9142,-91.9951,35,4.1,mb,,168,0.673,0.99,us,us2000hi7j,2018-11-21T18:19:15.040Z,"42 km SSW of Champerico, Guatemala",earthquake,8,2,0.12,19,reviewed,us,us
+2018-09-08T15:18:28.470Z,13.8599,-92.1297,10,4.1,mb,,185,0.783,1.09,us,us2000hb3m,2018-11-14T17:40:18.040Z,"53 km SSW of Champerico, Guatemala",earthquake,5.7,2,0.074,50,reviewed,us,us
+2018-09-03T18:11:34.460Z,15.0661,-91.5483,179.11,4.6,mb,,96,0.254,1.23,us,us2000h78f,2018-11-14T17:40:12.040Z,"9 km N of San Carlos Sija, Guatemala",earthquake,10.1,6.7,0.042,172,reviewed,us,us
+2018-08-23T00:28:50.140Z,13.9157,-91.5724,21.08,4,mb,,178,0.616,1.24,us,us2000h623,2018-11-01T17:51:04.040Z,"43 km SW of Nueva Concepción, Guatemala",earthquake,7,4.8,0.3,3,reviewed,us,us
+2018-08-09T19:21:51.990Z,13.5731,-91.2308,18,5.6,mww,,79,1.047,1.42,us,us1000g60s,2022-08-08T07:01:06.699Z,"59 km SW of Puerto San José, Guatemala",earthquake,6.9,1.7,0.046,45,reviewed,us,us
+2018-08-05T04:53:10.420Z,14.4934,-91.384,112.98,4.3,mb,,133,0.302,1.13,us,us1000g3r2,2018-10-16T15:34:16.040Z,"4 km SSW of San Miguel Panán, Guatemala",earthquake,6.3,5.1,0.047,126,reviewed,us,us
+2018-07-22T13:40:05.040Z,13.7446,-90.9024,56.02,4.1,mb,,183,1.092,0.96,us,us2000gb89,2018-10-04T14:15:32.040Z,"22 km SSW of Puerto San José, Guatemala",earthquake,7.7,11.1,0.091,33,reviewed,us,us
+2018-07-20T09:26:20.510Z,13.7177,-90.4471,77.7,4.3,mb,,139,1.181,1.02,us,us2000g9kw,2018-10-04T14:15:32.040Z,"36 km SE of Iztapa, Guatemala",earthquake,5.9,7.4,0.048,122,reviewed,us,us
+2018-07-19T01:27:19.230Z,13.6272,-91.255,41.52,4.5,mb,,172,0.989,0.67,us,us2000g8d0,2018-10-04T14:15:32.040Z,"54 km SSW of La Gomera, Guatemala",earthquake,7.8,7.9,0.034,253,reviewed,us,us
+2018-07-14T06:20:42.650Z,14.6466,-91.7346,99.53,4.1,mb,,132,0.127,1.15,us,us2000g4wv,2018-10-02T16:40:40.040Z,"5 km N of El Asintal, Guatemala",earthquake,10,9.9,0.102,26,reviewed,us,us
+2018-07-06T02:17:05.620Z,13.7433,-91.904,52.8,4.4,mb,,185,0.802,0.72,us,us2000fxzk,2018-09-27T14:03:42.040Z,"60 km S of Champerico, Guatemala",earthquake,7.8,8.8,0.047,129,reviewed,us,us
+2018-07-02T20:43:43.700Z,13.7657,-91.6269,45.3,4.4,mb,,185,0.757,1.17,us,us2000fv1p,2018-09-27T14:03:37.040Z,"59 km SW of Nueva Concepción, Guatemala",earthquake,5.4,9.8,0.045,145,reviewed,us,us
+2018-07-02T07:04:33.470Z,13.6645,-91.5987,35,4.3,mb,,110,0.86,1.02,us,us2000ftq2,2018-09-27T14:03:37.040Z,"67 km SSW of Nueva Concepción, Guatemala",earthquake,5.2,2,0.041,167,reviewed,us,us
+2018-07-01T17:21:11.870Z,14.519,-90.6129,207.44,4.1,mb,,132,1.047,0.89,us,us2000ft3z,2018-09-21T16:25:48.040Z,"3 km WSW of Villa Nueva, Guatemala",earthquake,8.8,8.8,0.103,26,reviewed,us,us
+2018-07-01T11:13:58.190Z,13.7381,-91.5878,35,4.1,mb,,179,2.258,1.2,us,us2000fsxm,2018-09-21T16:25:57.040Z,"59 km SSW of Nueva Concepción, Guatemala",earthquake,3.2,2,0.067,60,reviewed,us,us
+2018-06-27T14:45:20.930Z,14.127,-91.5616,68.84,4.8,mb,,170,0.415,0.78,us,us1000f3bt,2025-12-22T17:48:41.352Z,"27 km SW of Tiquisate, Guatemala",earthquake,8.8,8.2,0.065,74,reviewed,us,us
+2018-06-26T14:55:47.500Z,13.7364,-91.3391,35,4.4,mb,,87,0.856,0.79,us,us1000f29f,2018-09-21T16:25:57.040Z,"49 km SW of La Gomera, Guatemala",earthquake,8.2,2,0.062,74,reviewed,us,us
+2018-06-25T05:19:58.830Z,13.6176,-90.7202,53.88,4.5,mb,,120,1.306,0.98,us,us1000f0tn,2018-09-21T16:25:57.040Z,"34 km S of Iztapa, Guatemala",earthquake,6.7,8.3,0.034,249,reviewed,us,us
+2018-06-18T02:32:55.870Z,14.1325,-90.7154,99.17,5.7,mww,,51,0.899,1.45,us,us1000eu39,2022-05-03T19:19:43.027Z,"12 km SW of Guanagazapa, Guatemala",earthquake,6.1,3.2,0.065,23,reviewed,us,us
+2018-06-12T15:57:57.920Z,13.7088,-91.6901,34.01,4.3,mb,,214,0.811,0.58,us,us1000ep7p,2018-09-07T17:47:00.040Z,"68 km SW of Nueva Concepción, Guatemala",earthquake,10.1,10.1,0.089,36,reviewed,us,us
+2018-06-10T19:43:34.720Z,13.9076,-91.447,60.23,4.3,mb,,168,0.658,1.03,us,us1000emv1,2018-08-29T16:36:48.040Z,"36 km SSW of Nueva Concepción, Guatemala",earthquake,6.8,5.2,0.101,28,reviewed,us,us
+2018-06-02T02:12:30.840Z,14.1448,-91.3202,53.8,4,mb,,155,0.523,0.75,us,us1000eh88,2018-08-28T16:30:05.040Z,"6 km SSW of Nueva Concepción, Guatemala",earthquake,7.4,10,0.108,23,reviewed,us,us
+2018-05-27T19:16:40.290Z,14.2623,-89.8769,188.83,4.4,mb,,120,0.597,0.73,us,us1000ed0q,2018-08-21T21:23:54.040Z,"3 km SSE of Jutiapa, Guatemala",earthquake,10.4,8.7,0.109,24,reviewed,us,us
+2018-05-24T12:17:04.470Z,13.9805,-91.3565,49.42,4.1,mb,,189,0.632,0.9,us,us1000eb6s,2018-08-21T21:23:49.040Z,"25 km SSW of Nueva Concepción, Guatemala",earthquake,7.2,14.2,0.123,18,reviewed,us,us
+2018-05-23T01:27:32.060Z,13.7928,-90.8027,57.79,4,mb,,178,1.13,1.19,us,us1000eabu,2018-08-21T21:23:48.040Z,"15 km S of Puerto San José, Guatemala",earthquake,7.7,10.8,0.113,21,reviewed,us,us
+2018-05-22T04:41:57.010Z,13.6936,-92.1335,37.15,4.3,mb,,179,0.929,0.96,us,us1000e9qd,2018-08-21T21:23:47.040Z,"70 km SSW of Champerico, Guatemala",earthquake,3.5,11.9,0.087,37,reviewed,us,us
+2018-05-21T01:38:26.170Z,14.802,-92.0221,113.44,4.1,mb,,153,0.257,0.76,us,us1000eqre,2018-08-21T21:23:57.040Z,"8 km SE of Catarina, Guatemala",earthquake,7.7,6.2,0.116,20,reviewed,us,us
+2018-05-11T21:34:26.750Z,13.545,-91.6757,10,4.5,mb,,201,0.974,0.84,us,us1000e3av,2018-08-08T15:20:56.040Z,"83 km SSW of Nueva Concepción, Guatemala",earthquake,4.8,1.9,0.072,57,reviewed,us,us
+2018-05-11T12:29:34.190Z,13.6755,-91.3897,35,4.3,mb,,179,0.894,1.32,us,us1000e2r2,2018-08-08T15:20:37.040Z,"57 km SW of La Gomera, Guatemala",earthquake,7.5,2,0.048,125,reviewed,us,us
+2018-05-06T07:07:26.040Z,14.4026,-91.7978,81.48,4,mb,,172,0.157,0.81,us,us1000dz83,2018-07-27T20:20:43.040Z,"17 km NE of Champerico, Guatemala",earthquake,4.6,15.4,0.074,49,reviewed,us,us
+2018-05-06T02:41:17.060Z,13.7545,-91.7897,35,4.2,mb,,170,0.771,1.19,us,us1000dz42,2018-07-27T20:20:42.040Z,"61 km SSE of Champerico, Guatemala",earthquake,5.5,2,0.05,110,reviewed,us,us
+2018-05-04T11:09:31.430Z,13.9352,-91.8766,35,4.7,mb,,130,0.611,1.11,us,us1000dxty,2018-07-27T20:20:30.040Z,"39 km S of Champerico, Guatemala",earthquake,7.1,2,0.027,403,reviewed,us,us
+2018-04-29T17:19:27.230Z,14.1423,-89.6989,10,4.2,mb,,178,0.415,0.98,us,us1000duck,2018-07-25T21:38:03.040Z,"5 km SE of Atescatempa, Guatemala",earthquake,6.4,1.9,0.147,13,reviewed,us,us
+2018-04-25T22:18:24.560Z,14.2824,-89.9947,192.89,4.9,mb,,111,0.625,0.88,us,us1000dsd7,2018-07-25T21:36:49.040Z,"5 km ENE of Quesada, Guatemala",earthquake,6.6,4.9,0.05,125,reviewed,us,us
+2018-04-21T11:14:50.940Z,14.3433,-90.2646,193.23,4.4,mb,,163,0.877,1.09,us,us1000dpu1,2018-07-17T02:05:34.040Z,"4 km SSE of Nueva Santa Rosa, Guatemala",earthquake,11.6,11.5,0.107,25,reviewed,us,us
+2018-04-10T17:15:00.830Z,15.3489,-89.6541,10,3.9,mb,,80,0.84,0.88,us,us2000dxti,2022-08-08T02:03:26.040Z,"5 km SSW of Panzos, Guatemala",earthquake,3.2,2,0.182,8,reviewed,us,us
+2018-04-08T08:19:19.290Z,13.7778,-91.6378,35,4.4,mb,,143,0.744,0.65,us,us2000dwdc,2018-06-30T01:11:34.040Z,"59 km SW of Nueva Concepción, Guatemala",earthquake,6.5,2,0.054,99,reviewed,us,us
+2018-04-08T05:34:28.230Z,13.8035,-91.6968,35,4.5,mb,,143,0.716,0.65,us,us2000dwb7,2018-06-30T01:11:34.040Z,"58 km SSE of Champerico, Guatemala",earthquake,8.1,2,0.049,120,reviewed,us,us
+2018-04-08T05:08:20.900Z,13.8832,-91.5365,21.43,5.2,mww,,34,0.655,1.19,us,us2000dwar,2022-05-03T19:10:00.853Z,"43 km SW of Nueva Concepción, Guatemala",earthquake,5.6,2.9,0.058,29,reviewed,us,us
+2018-04-07T08:06:29.100Z,14.2841,-91.3111,45.36,4.1,mb,,127,0.442,0.94,us,us2000dvyg,2018-06-30T01:11:32.040Z,"5 km E of Tiquisate, Guatemala",earthquake,8,16.7,0.157,11,reviewed,us,us
+2018-04-04T01:26:34.020Z,14.0322,-91.6981,63.16,4.3,mb,,194,0.489,0.9,us,us2000dyus,2018-06-30T01:11:27.040Z,"36 km SE of Champerico, Guatemala",earthquake,8,8.9,0.119,20,reviewed,us,us
+2018-04-01T12:13:04.730Z,14.2535,-92.0767,65.9,4.7,mb,,122,0.457,0.85,us,us1000dc3u,2018-06-22T21:32:19.040Z,"18 km WSW of Champerico, Guatemala",earthquake,9.3,7.3,0.057,92,reviewed,us,us
+2018-03-29T01:21:48.590Z,14.117,-91.2375,70.33,4.7,mwr,,121,0.6,0.74,us,us1000daje,2018-06-22T21:32:13.040Z,"11 km SE of Nueva Concepción, Guatemala",earthquake,6.4,6.8,0.086,13,reviewed,us,us
+2018-03-23T20:02:10.590Z,13.7576,-92.1559,10,4.4,mb,,140,0.884,1.03,us,us1000d89s,2018-06-19T01:35:49.040Z,"64 km SSW of Champerico, Guatemala",earthquake,3.6,1.9,0.064,71,reviewed,us,us
+2018-03-23T17:16:25.420Z,14.383,-91.2201,104.24,4.6,mb,,129,0.481,0.95,us,us1000d865,2022-08-08T01:28:14.311Z,"5 km S of Santa Bárbara, Guatemala",earthquake,7.9,5.6,0.044,152,reviewed,us,us
+2018-03-18T22:30:33.920Z,15.4142,-92.0301,208.93,4.6,mb,,71,0.517,0.87,us,us1000d696,2018-06-11T21:53:51.040Z,"8 km W of Cuilco, Guatemala",earthquake,7.8,6.4,0.075,53,reviewed,us,us
+2018-03-11T12:24:34.840Z,14.7683,-91.8761,89.08,4.3,mb,,150,0.299,1.05,us,us1000d32d,2018-06-08T05:12:20.040Z,"5 km ESE of Nuevo Progreso, Guatemala",earthquake,8.2,6.8,0.068,60,reviewed,us,us
+2018-03-07T06:14:01.850Z,14.0389,-91.2896,72.42,4.4,mb,,154,0.622,1.22,us,us2000ddmz,2018-06-08T05:12:13.040Z,"17 km S of Nueva Concepción, Guatemala",earthquake,8.4,10.5,0.061,78,reviewed,us,us
+2018-03-03T14:33:37.290Z,14.1546,-91.7208,61.57,4.4,mb,,197,0.368,1.12,us,us2000dbp8,2018-05-27T01:06:11.040Z,"25 km SE of Champerico, Guatemala",earthquake,7.5,6.5,0.079,46,reviewed,us,us
+2018-02-17T10:06:00.920Z,13.7999,-90.6697,76.99,4.2,mb,,180,1.228,0.9,us,us2000d3tu,2018-05-15T06:29:12.040Z,"15 km SSE of Iztapa, Guatemala",earthquake,7.7,12,0.079,45,reviewed,us,us
+2018-02-14T16:28:55.040Z,15.1429,-91.0858,253.85,4.4,mb,,77,0.438,0.94,us,us2000d6z3,2018-05-15T06:29:06.040Z,"5 km S of San Bartolomé Jocotenango, Guatemala",earthquake,8.8,8.4,0.098,30,reviewed,us,us
+2018-02-10T15:15:32.600Z,14.1487,-91.2282,83.4,4.3,mb,,201,0.586,1.09,us,us2000d09k,2018-05-03T22:15:08.040Z,"9 km SE of Nueva Concepción, Guatemala",earthquake,8,8.7,0.095,31,reviewed,us,us
+2018-02-10T11:04:13.530Z,15.1058,-92.347,94.99,5,mww,,69,0.212,1.33,us,us2000d07k,2025-12-22T17:30:30.232Z,"1 km SSE of Cantón Villaflor, Mexico",earthquake,6.4,3.7,0.061,26,reviewed,us,us
+2018-02-09T10:19:55.490Z,15.3199,-88.8958,10,4.2,mb,,44,0.506,0.98,us,us2000czfr,2022-08-08T00:11:37.565Z,"17 km SSW of Morales, Guatemala",earthquake,5.8,1.9,0.052,102,reviewed,us,us
+2018-02-08T12:04:56.230Z,13.9363,-92.2708,35.68,4.4,mb,,180,0.808,1.03,us,us2000cysz,2018-05-03T22:15:04.040Z,"55 km SW of Champerico, Guatemala",earthquake,6.8,11.4,0.054,100,reviewed,us,us
+2018-02-03T01:02:32.550Z,13.7165,-89.0373,4,4.3,mb,,113,0.191,0.74,us,us1000cevm,2018-04-25T01:39:44.040Z,"7 km ENE of Ilopango, El Salvador",earthquake,3.6,7.3,0.093,33,reviewed,us,us
+2018-02-02T12:22:39.170Z,15.33,-90.4866,10,3.9,ml,,105,0.98,0.83,us,us1000cftj,2018-04-25T01:39:43.040Z,"7 km SW of Santa Cruz Verapaz, Guatemala",earthquake,3.8,2,0.077,22,reviewed,us,us
+2018-01-21T09:45:08.730Z,14.1858,-91.9609,66.8,4.2,mb,,151,2.09,1.06,us,us2000cm3d,2018-04-10T01:11:50.040Z,"13 km SSW of Champerico, Guatemala",earthquake,10.4,14.6,0.092,33,reviewed,us,us
+2018-01-12T22:11:19.560Z,13.7872,-89.4963,118.8,4.8,mb,,169,0.276,0.82,us,us2000cpsh,2018-04-03T01:40:28.040Z,"4 km N of Armenia, El Salvador",earthquake,9.7,6.3,0.277,4,reviewed,us,us
+2018-01-11T18:19:35.900Z,13.7936,-89.1152,10,4.2,mb,,94,0.155,1.29,us,us2000cikm,2022-08-07T23:00:11.392Z,"1 km NNE of Tonacatepeque, El Salvador",earthquake,4.1,2,0.373,2,reviewed,us,us
+2018-01-10T15:43:03.360Z,14.4351,-89.9521,246.21,4.1,mb,,141,0.574,0.77,us,us2000cnvs,2018-04-03T01:40:25.040Z,"11 km SW of Monjas, Guatemala",earthquake,7.8,10.6,0.198,7,reviewed,us,us
+2018-01-04T11:43:06.610Z,15.5007,-90.5691,40.45,4.6,mb,,142,1.696,1.49,us,us1000c0mp,2018-03-23T23:16:50.040Z,"11 km N of San Cristóbal Verapaz, Guatemala",earthquake,8,6.2,0.039,192,reviewed,us,us
+2017-12-30T06:24:30.890Z,14.2139,-92.3939,37.77,4.2,mb,,178,0.7,0.86,us,us1000c0gx,2022-08-07T23:19:05.940Z,"39 km SSW of Ocós, Guatemala",earthquake,7,11.4,0.199,7,reviewed,us,us
+2017-12-29T09:42:40.870Z,13.8443,-92.0527,22.13,5.3,mww,,78,0.76,1.36,us,us1000bxl7,2025-12-22T17:36:14.298Z,"51 km SSW of Champerico, Guatemala",earthquake,4.7,4.4,0.089,12,reviewed,us,us
+2017-12-28T09:16:24.010Z,13.9647,-92.3204,37.78,4.2,mb,,184,0.823,1.44,us,us1000bx34,2018-03-17T01:54:37.040Z,"57 km SW of Champerico, Guatemala",earthquake,6.2,16.6,0.121,19,reviewed,us,us
+2017-12-15T09:07:43.960Z,14.7213,-91.5224,101.12,5.1,mww,,45,0.257,1.3,us,us2000c4rw,2025-12-22T17:36:11.880Z,"8 km SSW of Zunil, Guatemala",earthquake,6.4,3.6,0.058,29,reviewed,us,us
+2017-12-07T16:03:41.200Z,13.774,-89.175,178.74,4.4,mb,,76,0.102,0.7,us,us2000c1ma,2018-02-28T02:32:31.040Z,"3 km S of Apopa, El Salvador",earthquake,7.3,5,0.091,35,reviewed,us,us
+2017-12-07T06:27:16.060Z,13.7699,-92.4752,9.32,4,mb,,184,1.065,0.86,us,us2000c4el,2018-02-28T02:32:30.040Z,"83 km SW of Champerico, Guatemala",earthquake,3.2,7.7,0.211,6,reviewed,us,us
+2017-12-06T18:17:36.680Z,14.4753,-91.9299,66.47,4.6,mb,,165,0.232,1.1,us,us1000bmum,2018-02-28T02:32:29.040Z,"18 km SSW of Flores Costa Cuca, Guatemala",earthquake,7.2,5.1,0.043,159,reviewed,us,us
+2017-11-28T23:34:21.170Z,13.7353,-91.805,35,4.5,mb,,187,0.791,1.12,us,us2000bvpw,2022-08-07T21:39:02.977Z,"62 km S of Champerico, Guatemala",earthquake,2.8,2,0.071,58,reviewed,us,us
+2017-11-28T23:13:20.080Z,13.8226,-91.8318,35,4.3,mb,,200,0.71,0.96,us,us2000bvpj,2018-02-20T09:06:06.040Z,"52 km S of Champerico, Guatemala",earthquake,8.9,2,0.081,43,reviewed,us,us
+2017-11-20T03:37:14.350Z,13.8942,-90.8764,78.73,4.3,mb,,165,1.011,1.03,us,us2000brpw,2018-02-14T02:01:06.040Z,"6 km WSW of Puerto San José, Guatemala",earthquake,8,9.1,0.061,76,reviewed,us,us
+2017-11-19T11:10:29.810Z,15.3118,-91.7635,171.43,4.2,mb,,115,0.251,0.99,us,us2000bvgj,2018-02-14T02:01:03.040Z,"4 km NNW of San Miguel Ixtahuacán, Guatemala",earthquake,9.4,7.3,0.104,26,reviewed,us,us
+2017-11-08T08:28:26.450Z,14.7771,-91.0569,191.87,4.3,mb,,104,0.666,1.3,us,us2000bk9y,2018-01-31T03:04:43.040Z,"7 km WNW of Tecpán Guatemala, Guatemala",earthquake,8.2,8.5,0.133,16,reviewed,us,us
+2017-11-04T18:12:27.820Z,14.2304,-91.9734,50,5.2,mww,,66,0.398,1.33,us,us2000biid,2022-05-03T18:39:49.690Z,"9 km SW of Champerico, Guatemala",earthquake,6.1,1.9,0.066,22,reviewed,us,us
+2017-11-03T11:23:12.560Z,13.647,-91.251,35,4.1,mb,,185,0.972,0.81,us,us2000bhnu,2018-01-24T01:25:07.040Z,"52 km SSW of La Gomera, Guatemala",earthquake,5.8,2,0.097,29,reviewed,us,us
+2017-11-02T22:13:09.410Z,13.6409,-91.4754,35,4.6,mb,,95,0.903,0.93,us,us2000bhe0,2018-01-24T01:25:06.040Z,"64 km SSW of Nueva Concepción, Guatemala",earthquake,7.5,1.9,0.035,247,reviewed,us,us
+2017-10-30T18:21:07.910Z,14.5909,-90.5862,96.04,4.3,mb,,142,1.075,0.51,us,us1000aynt,2018-01-24T01:24:59.040Z,"4 km SSE of Mixco, Guatemala",earthquake,5.1,12,0.2,7,reviewed,us,us
+2017-10-30T14:28:00.540Z,13.9446,-92.008,35,4.5,mb,,177,0.651,1.39,us,us1000ayit,2018-01-24T01:24:59.040Z,"39 km SSW of Champerico, Guatemala",earthquake,5.5,2,0.053,106,reviewed,us,us
+2017-10-30T06:42:39.190Z,14.1578,-92.2109,54.73,4.4,mb,,161,0.618,1.3,us,us1000ayga,2018-01-24T01:24:59.040Z,"35 km WSW of Champerico, Guatemala",earthquake,6.3,7.6,0.051,110,reviewed,us,us
+2017-10-29T14:39:25.380Z,14.2636,-92.2535,44.71,4.6,mb,,166,0.6,0.79,us,us2000bh8x,2018-01-24T01:24:58.040Z,"28 km SSW of Ocós, Guatemala",earthquake,6.1,4.9,0.084,42,reviewed,us,us
+2017-10-28T14:51:43.120Z,13.6491,-90.66,60.97,4,mb,,187,1.328,1.29,us,us1000ay1v,2018-01-17T21:50:37.040Z,"31 km S of Iztapa, Guatemala",earthquake,3.5,16.9,0.139,14,reviewed,us,us
+2017-10-26T04:01:31.480Z,13.6987,-89.2497,10,2.9,ml,,226,0.021,0.46,us,us1000ax8w,2018-01-17T21:50:34.040Z,"3 km N of Antiguo Cuscatlán, El Salvador",earthquake,5.4,2,0.115,10,reviewed,us,us
+2017-10-12T17:44:36.350Z,14.5548,-91.5905,97.09,4.6,mb,,121,0.105,0.82,us,us1000aquq,2022-08-07T20:31:30.516Z,"2 km NW of Cuyotenango, Guatemala",earthquake,12.3,4.9,0.037,214,reviewed,us,us
+2017-10-08T05:00:39.740Z,13.8169,-91.514,18.34,4.1,mb,,157,0.725,0.61,us,us2000b2qv,2018-01-09T02:14:51.040Z,"48 km SSW of Nueva Concepción, Guatemala",earthquake,6.9,8.6,0.102,26,reviewed,us,us
+2017-10-07T21:24:08.770Z,13.5334,-90.5349,57.52,4.1,mb,,183,1.276,1.16,us,us2000b2ly,2018-01-03T01:54:50.040Z,"48 km SSE of Iztapa, Guatemala",earthquake,6.4,13.7,0.131,16,reviewed,us,us
+2017-09-20T02:37:35.560Z,14.5711,-90.9075,178.93,4.9,mb,,174,0.939,1.19,us,us2000arfs,2022-08-07T18:05:17.299Z,"4 km ENE of Acatenango, Guatemala",earthquake,9.8,6.8,0.041,189,reviewed,us,us
+2017-09-17T05:56:49.680Z,14.3944,-88.5593,10,4.3,mb,,102,0.775,0.56,us,us2000apf5,2022-08-07T17:40:41.568Z,"20 km NNW of Erandique, Honduras",earthquake,3.8,2,0.265,4,reviewed,us,us
+2017-09-16T06:30:17.110Z,13.5994,-90.4761,52.27,4.4,mwr,,175,1.213,1.26,us,us2000anze,2022-08-07T17:37:28.425Z,"44 km SE of Iztapa, Guatemala",earthquake,6,9.5,0.075,17,reviewed,us,us
+2017-09-14T02:16:37.400Z,13.9837,-91.5633,53.8,4.1,mb,,155,0.552,0.91,us,us2000aywa,2017-12-13T02:29:42.040Z,"37 km SW of Nueva Concepción, Guatemala",earthquake,8.5,9.7,0.074,50,reviewed,us,us
+2017-09-10T21:23:10.520Z,13.8067,-91.6784,49.57,4.6,mb,,153,0.713,0.92,us,us2000ajp5,2017-12-13T02:29:36.040Z,"59 km SSE of Champerico, Guatemala",earthquake,6.7,8.2,0.043,159,reviewed,us,us
+2017-08-31T07:08:41.390Z,13.8361,-91.5323,40.77,4.3,mb,,150,0.702,1.27,us,us2000ade2,2017-11-28T18:33:54.040Z,"47 km SSW of Nueva Concepción, Guatemala",earthquake,7.9,12.4,0.089,36,reviewed,us,us
+2017-08-31T06:45:24.220Z,13.8871,-91.4558,35,4.2,mb,,197,0.674,0.67,us,us2000ade4,2017-11-28T18:33:54.040Z,"38 km SSW of Nueva Concepción, Guatemala",earthquake,4.7,2,0.098,29,reviewed,us,us
+2017-08-31T05:48:32.240Z,13.7712,-91.5264,35,5,mb,,94,0.766,0.8,us,us2000addm,2022-05-03T18:36:13.001Z,"53 km SSW of Nueva Concepción, Guatemala",earthquake,6.5,2,0.026,488,reviewed,us,us
+2017-08-30T03:04:48.420Z,13.923,-91.3229,36.62,4.2,mb,,187,0.698,0.96,us,us2000ad2d,2017-11-28T18:33:52.040Z,"30 km S of Nueva Concepción, Guatemala",earthquake,7.7,13.9,0.063,70,reviewed,us,us
+2017-08-26T23:33:13.100Z,14.3858,-91.9025,75.77,4.7,mb,,87,0.244,0.77,us,us2000ac50,2022-08-07T15:39:59.348Z,"10 km N of Champerico, Guatemala",earthquake,8.7,5.1,0.057,94,reviewed,us,us
+2017-08-26T05:51:57.950Z,15.4615,-92.1793,175.22,4.1,mb,,122,0.668,0.68,us,us2000aeg2,2017-11-22T03:43:33.040Z,"2 km WNW of Bejucal de Ocampo, Mexico",earthquake,7.9,8.5,0.158,11,reviewed,us,us
+2017-08-20T23:28:57.090Z,14.0033,-91.8497,16,5.3,mww,,115,1.349,1.22,us,us2000aa12,2022-08-07T15:18:13.174Z,"32 km SSE of Champerico, Guatemala",earthquake,6.1,1.8,0.063,24,reviewed,us,us
+2017-08-19T05:42:17.620Z,14.6023,-90.7151,199.34,4.4,mb,,131,0.951,0.57,us,us2000a9ps,2017-11-14T01:42:14.040Z,"3 km NE of Jocotenango, Guatemala",earthquake,9.2,9.4,0.102,28,reviewed,us,us
+2017-08-11T01:07:17.190Z,13.9489,-92.4402,27.51,4.5,mb,,153,0.921,1.24,us,us2000a763,2017-10-25T00:38:07.040Z,"67 km SSW of Ocós, Guatemala",earthquake,6.8,6.8,0.036,228,reviewed,us,us
+2017-08-07T20:14:47.960Z,14.0057,-91.7182,46.57,4.4,mb,,200,0.516,0.8,us,us2000a7b8,2017-10-25T00:38:02.040Z,"38 km SSE of Champerico, Guatemala",earthquake,10.3,5.7,0.139,15,reviewed,us,us
+2017-08-01T11:35:52.300Z,13.5906,-91.1033,10,4.1,mb,,164,1.091,0.89,us,us2000a390,2017-10-18T01:54:13.040Z,"48 km SW of Puerto San José, Guatemala",earthquake,7.4,2,0.091,33,reviewed,us,us
+2017-07-31T20:52:03.000Z,14.2739,-90.4875,10,3.9,ml,,154,1.099,0.95,us,us2000a2zn,2022-08-07T13:21:24.369Z,"5 km NNW of Pueblo Nuevo Viñas, Guatemala",earthquake,2.7,2,0.077,22,reviewed,us,us
+2017-07-25T17:00:36.860Z,14.1582,-90.897,115.38,4.1,mb,,168,0.854,0.77,us,us2000a28b,2017-10-14T00:19:40.040Z,"7 km SW of Masagua, Guatemala",earthquake,8,8,0.369,2,reviewed,us,us
+2017-07-19T11:26:18.080Z,14.4491,-90.4721,194.89,4.8,mb,,135,1.078,0.56,us,us20009xwz,2017-10-11T01:03:56.040Z,"3 km WSW of Fraijanes, Guatemala",earthquake,5.7,7.3,0.047,140,reviewed,us,us
+2017-07-10T22:24:33.500Z,13.7796,-90.6967,72.07,4.4,mb,,161,1.219,1.38,us,us100098nn,2017-10-06T23:56:13.040Z,"17 km S of Iztapa, Guatemala",earthquake,8.3,8.1,0.046,138,reviewed,us,us
+2017-07-05T16:07:36.540Z,13.7152,-90.7273,43.78,5.1,mb,,72,1.236,1.17,us,us100096z1,2022-05-03T18:33:04.919Z,"24 km S of Iztapa, Guatemala",earthquake,8,1.6,0.025,529,reviewed,us,us
+2017-07-05T15:55:05.320Z,13.5814,-90.9309,35,4.3,mb,,146,1.195,1.25,us,us100096yz,2017-10-03T00:47:50.040Z,"40 km SSW of Puerto San José, Guatemala",earthquake,7.5,1.7,0.079,45,reviewed,us,us
+2017-07-05T15:45:43.470Z,13.6093,-90.9189,35,4.6,mb,,151,1.181,1.37,us,us100096yu,2017-10-03T00:47:50.040Z,"36 km SSW of Puerto San José, Guatemala",earthquake,5.9,2,0.036,230,reviewed,us,us
+2017-07-04T12:37:28.690Z,13.6551,-91.007,35,4.2,mb,,184,1.092,1.4,us,us100096n1,2017-10-03T00:47:48.040Z,"36 km SSW of Puerto San José, Guatemala",earthquake,7.4,2,0.066,64,reviewed,us,us
+2017-06-30T13:01:01.250Z,13.5409,-90.8582,47.3,4.9,mb,,89,1.271,1.32,us,us100095hc,2025-12-22T17:24:42.764Z,"42 km S of Puerto San José, Guatemala",earthquake,6.8,5.2,0.046,148,reviewed,us,us
+2017-06-26T13:42:38.680Z,14.0866,-90.8846,35,4.3,mb,,204,0.898,0.86,us,us100096fs,2017-09-27T02:03:13.040Z,"13 km SSW of Masagua, Guatemala",earthquake,6.6,2,0.178,9,reviewed,us,us
+2017-06-23T03:08:13.260Z,13.7279,-91.0928,48.92,4.5,mb,,144,0.984,1.04,us,us20009p75,2017-08-23T16:35:48.040Z,"36 km SW of Puerto San José, Guatemala",earthquake,7.6,7,0.035,234,reviewed,us,us
+2017-06-22T21:09:46.360Z,13.7438,-90.9305,49.93,4.2,mb,,173,1.073,0.66,us,us20009p48,2017-08-23T16:35:47.040Z,"23 km SSW of Puerto San José, Guatemala",earthquake,9.1,11.2,0.089,35,reviewed,us,us
+2017-06-22T14:51:41.920Z,13.9021,-91.0489,35,4.1,mb,,193,0.88,1.34,us,us10009568,2017-08-23T16:35:43.040Z,"19 km S of La Gomera, Guatemala",earthquake,4.6,2,0.135,15,reviewed,us,us
+2017-06-22T14:28:11.820Z,13.6553,-91.067,35,4.3,mb,,187,1.057,1.14,us,us20009p1x,2017-08-23T16:35:47.040Z,"40 km SW of Puerto San José, Guatemala",earthquake,3.8,2,0.079,45,reviewed,us,us
+2017-06-22T12:31:03.490Z,13.7174,-90.9718,38.12,6.8,mww,,38,1.065,1.46,us,us20009p1a,2022-05-03T18:59:48.269Z,"28 km SW of Puerto San José, Guatemala",earthquake,6.8,3.5,0.028,123,reviewed,us,us
+2017-06-20T20:33:58.520Z,13.796,-91.4099,45.74,4.4,mb,,171,0.775,0.84,us,us20009nsv,2017-08-23T16:35:46.040Z,"46 km SSW of Nueva Concepción, Guatemala",earthquake,6.7,8.2,0.058,86,reviewed,us,us
+2017-06-14T21:14:52.460Z,13.9489,-92.3821,10,5.1,mb,,84,0.878,1.11,us,us20009mim,2025-12-22T17:24:28.809Z,"63 km SW of Champerico, Guatemala",earthquake,4.7,1.8,0.04,204,reviewed,us,us
+2017-06-14T07:52:42.430Z,14.7843,-91.9951,91.77,5.1,mb,,88,0.288,1.04,us,us20009mc1,2017-08-18T23:13:27.040Z,"8 km NNE of Pajapita, Guatemala",earthquake,7.5,5,0.035,258,reviewed,us,us
+2017-06-14T07:29:04.390Z,14.9091,-92.0092,93,6.9,mww,,35,0.247,1.42,us,us20009mbt,2022-05-03T19:54:32.174Z,"2 km SSW of San Pablo, Guatemala",earthquake,2.8,2.2,0.026,146,reviewed,us,us
+2017-06-14T02:32:46.830Z,13.7811,-92.4326,10,4.4,mb,,182,1.028,0.96,us,us20009ma8,2017-08-18T23:13:26.040Z,"79 km SW of Champerico, Guatemala",earthquake,5.8,1.9,0.043,158,reviewed,us,us
+2017-06-13T21:36:23.700Z,13.728,-92.2964,10,4.2,mb,,170,0.983,1.02,us,us20009n3i,2017-08-18T23:13:26.040Z,"75 km SSW of Champerico, Guatemala",earthquake,2.5,2,0.141,14,reviewed,us,us
+2017-06-13T21:24:11.150Z,13.8022,-92.3087,10,4.9,mb,,124,0.932,0.86,us,us20009m84,2025-12-22T17:24:28.097Z,"69 km SW of Champerico, Guatemala",earthquake,5.2,1.9,0.049,128,reviewed,us,us
+2017-06-13T14:09:52.460Z,13.8257,-92.3243,10,4.4,mb,,191,0.924,0.87,us,us20009n38,2017-08-18T23:13:26.040Z,"68 km SW of Champerico, Guatemala",earthquake,10.4,2,0.092,34,reviewed,us,us
+2017-06-13T14:03:17.180Z,13.7532,-92.2488,10,4.5,mb,,170,0.936,0.92,us,us20009m4l,2017-08-18T23:13:26.040Z,"69 km SSW of Champerico, Guatemala",earthquake,7.3,1.9,0.065,70,reviewed,us,us
+2017-06-13T08:43:49.150Z,13.8855,-92.3299,10,5,mb,,149,0.884,1.41,us,us20009m3v,2025-12-22T16:52:38.488Z,"63 km SW of Champerico, Guatemala",earthquake,4.9,1.9,0.037,230,reviewed,us,us
+2017-06-13T04:37:23.660Z,13.8183,-92.4073,10,5,mb,,158,0.985,0.8,us,us20009m37,2025-12-22T17:24:26.669Z,"74 km SW of Champerico, Guatemala",earthquake,5.7,1.9,0.028,395,reviewed,us,us
+2017-06-11T04:04:33.910Z,15.761,-92.4442,187.87,4.2,mb,,97,0.596,0.5,us,us100095zi,2017-08-18T23:13:22.040Z,"11 km ESE of Unión Buenavista, Mexico",earthquake,6.7,6.4,0.263,4,reviewed,us,us
+2017-06-04T23:57:15.950Z,14.4741,-90.6383,183.58,4.8,mb,,128,1.024,1.01,us,us20009kp4,2017-08-16T02:42:16.040Z,"0 km SW of Amatitlán, Guatemala",earthquake,6.1,5.3,0.028,385,reviewed,us,us
+2017-05-22T05:42:38.650Z,13.6246,-90.8973,77.74,4.1,mb,,156,1.183,0.79,us,us10008u3e,2017-08-10T01:33:57.040Z,"34 km SSW of Puerto San José, Guatemala",earthquake,7.1,6.8,0.06,75,reviewed,us,us
+2017-05-11T22:02:34.650Z,13.5029,-90.2822,58.02,4.4,mwr,,148,1.037,0.99,us,us10008rpt,2017-08-01T23:02:30.040Z,"47 km SW of San Francisco Menéndez, El Salvador",earthquake,5.7,8,0.093,11,reviewed,us,us
+2017-05-09T14:15:48.140Z,13.7469,-90.5036,77.85,5.1,mb,,176,1.237,0.82,us,us10008qsy,2017-08-01T23:02:22.040Z,"30 km SE of Iztapa, Guatemala",earthquake,7,12,0.091,39,reviewed,us,us
+2017-04-23T15:51:30.790Z,13.6757,-89.2174,10,3.3,ml,,175,0.017,0.54,us,us10008k4n,2017-07-21T02:32:02.040Z,"3 km WSW of San Salvador, El Salvador",earthquake,6.1,2,0.088,17,reviewed,us,us
+2017-04-18T23:39:28.490Z,13.8232,-91.9947,44.61,4.9,mb,,143,0.755,1.02,us,us10008iur,2017-07-11T01:48:37.040Z,"52 km S of Champerico, Guatemala",earthquake,6.9,5.7,0.028,392,reviewed,us,us
+2017-04-10T23:53:58.630Z,13.7664,-89.1547,10,4.8,mb,,64,0.108,0.83,us,us10008ge2,2020-07-10T15:26:40.053Z,"4 km WSW of Tonacatepeque, El Salvador",earthquake,6,1.9,0.03,351,reviewed,us,us
+2017-04-10T23:52:59.050Z,13.7626,-89.2076,10,4.2,mb,,91,0.078,1.08,us,us10008im7,2017-07-05T18:09:55.040Z,"3 km N of Ayutuxtepeque, El Salvador",earthquake,5.4,2,0.128,17,reviewed,us,us
+2017-04-10T22:21:44.330Z,13.6704,-89.3237,5.5,3.4,ml,,164,0.091,0.35,us,us10008gdr,2017-07-05T18:09:55.040Z,"4 km W of Santa Tecla, El Salvador",earthquake,4.6,7.9,0.081,20,reviewed,us,us
+2017-04-10T20:02:03.660Z,13.6702,-89.2695,6.39,3.5,ml,,157,0.04,0.68,us,us10008gdm,2017-07-05T18:09:55.040Z,"1 km SE of Santa Tecla, El Salvador",earthquake,5.2,10.6,0.076,23,reviewed,us,us
+2017-04-10T02:13:17.560Z,13.6363,-89.3209,6.91,3.6,ml,,163,0.1,0.55,us,us10008g5e,2017-07-05T18:09:54.040Z,"6 km WSW of Nuevo Cuscatlán, El Salvador",earthquake,4.7,9.1,0.071,26,reviewed,us,us
+2017-04-01T01:54:19.840Z,14.2309,-91.4768,59.17,4.8,mb,,118,0.36,1.08,us,us10008dqk,2025-12-22T17:22:15.493Z,"13 km WSW of Tiquisate, Guatemala",earthquake,7.3,2.8,0.03,347,reviewed,us,us
+2017-03-21T08:44:13.040Z,13.887,-90.2771,106.16,4.6,mb,,166,1.035,1.11,us,us20008thd,2017-06-12T19:46:52.040Z,"12 km SW of Pasaco, Guatemala",earthquake,7.7,11.6,0.095,33,reviewed,us,us
+2017-03-21T05:56:38.980Z,13.8464,-92.3893,37.13,4.4,mb,,198,0.953,1.41,us,us20008vbq,2017-06-12T19:46:52.040Z,"71 km SW of Champerico, Guatemala",earthquake,7.4,7.4,0.105,26,reviewed,us,us
+2017-03-13T22:56:24.370Z,14.1696,-92.3726,21.73,4,mb,,174,0.741,1.03,us,us10008evm,2017-06-07T00:33:38.040Z,"42 km SSW of Ocós, Guatemala",earthquake,5,9.4,0.259,4,reviewed,us,us
+2017-03-13T21:04:02.570Z,13.9103,-92.3484,10,4.7,mb,,169,0.88,1.3,us,us100088rh,2017-06-07T00:33:38.040Z,"63 km SW of Champerico, Guatemala",earthquake,4.4,1.9,0.044,157,reviewed,us,us
+2017-03-03T11:01:20.530Z,14.0916,-90.8407,115.02,4.6,mb,,181,1.377,1.29,us,us1000887y,2017-05-24T02:48:14.040Z,"12 km S of Masagua, Guatemala",earthquake,8.1,9.4,0.158,12,reviewed,us,us
+2017-02-27T21:07:13.860Z,14.0088,-91.5787,61.82,4.4,mb,,165,0.525,0.67,us,us100087i9,2017-05-24T02:48:10.040Z,"36 km SW of Nueva Concepción, Guatemala",earthquake,7.9,9.5,0.098,30,reviewed,us,us
+2017-02-18T23:31:18.220Z,13.9019,-91.9944,35,4.5,mb,,160,0.683,1.1,us,us20008kq3,2017-05-13T01:03:24.040Z,"44 km SSW of Champerico, Guatemala",earthquake,6,2,0.059,84,reviewed,us,us
+2017-02-16T21:48:30.290Z,13.5357,-91.4545,35,4.5,mb,,167,1.01,0.94,us,us20008kcb,2017-05-13T01:03:22.040Z,"74 km SW of La Gomera, Guatemala",earthquake,3,2,0.047,131,reviewed,us,us
+2017-02-16T13:33:42.080Z,14.481,-90.5585,202.24,4.8,mb,,110,1.101,0.91,us,us20008k7u,2017-05-13T01:03:22.040Z,"2 km S of Petapa, Guatemala",earthquake,7.8,6.8,0.052,117,reviewed,us,us
+2017-01-28T01:08:35.530Z,13.6951,-91.8668,10,4.7,mb,,128,0.841,1.25,us,us10007vvq,2017-04-19T18:31:02.040Z,"66 km S of Champerico, Guatemala",earthquake,7,1.9,0.037,224,reviewed,us,us
+2017-01-15T14:13:00.020Z,14.398,-90.1891,211.92,4.6,mb,,124,0.802,0.69,us,us10007te1,2017-04-12T02:28:57.040Z,"6 km ESE of Casillas, Guatemala",earthquake,7.8,7.4,0.041,181,reviewed,us,us
+2017-01-12T03:22:46.930Z,13.9092,-91.2441,53.5,5.3,mww,,64,0.751,0.98,us,us10007srd,2022-05-03T18:08:42.468Z,"28 km SW of La Gomera, Guatemala",earthquake,6.9,4.6,0.08,15,reviewed,us,us
+2017-01-09T10:27:31.570Z,15.296,-91.8189,190.73,4.6,mb,,119,0.306,1.13,us,us10007s3q,2017-04-01T00:26:06.040Z,"6 km NNE of Concepción Tutuapa, Guatemala",earthquake,9.5,7.1,0.065,70,reviewed,us,us
+2017-01-09T06:18:21.790Z,13.9308,-92.1323,10,4.2,mb,,197,0.726,1.05,us,us10007vhm,2017-04-01T00:26:05.040Z,"46 km SSW of Champerico, Guatemala",earthquake,5.6,2,0.128,17,reviewed,us,us
+2017-01-07T13:27:23.230Z,13.5329,-91.21,43.88,4.9,mb,,124,1.092,1.3,us,us10007rvi,2022-05-03T18:08:27.553Z,"60 km SW of Puerto San José, Guatemala",earthquake,7.2,8.3,0.052,116,reviewed,us,us
+2016-12-19T21:18:32.060Z,14.3637,-91.4191,89.83,4.9,mb,,148,0.311,1.38,us,us200082mc,2017-03-16T02:31:30.040Z,"9 km S of San José El Ídolo, Guatemala",earthquake,7.2,6.1,0.052,115,reviewed,us,us
+2016-12-16T11:34:58.440Z,14.0889,-90.8703,70.61,5.5,mww,,63,1.366,1.27,us,us2000819r,2025-12-22T17:32:45.860Z,"12 km S of Masagua, Guatemala",earthquake,6.6,3.7,,,reviewed,us,us
+2016-12-14T09:40:51.790Z,15.4597,-92.2969,191.28,4,mb,,98,0.549,1.65,us,us10007qib,2017-03-09T02:14:30.040Z,"1 km W of El Porvenir de Velasco Suárez, Mexico",earthquake,7.2,6.3,0.196,7,reviewed,us,us
+2016-12-11T00:03:54.500Z,13.5881,-90.8798,10,3.9,mb,,176,1.221,0.69,us,us10007num,2017-03-09T02:14:26.040Z,"38 km S of Puerto San José, Guatemala",earthquake,4.4,1.7,0.193,7,reviewed,us,us
+2016-11-28T06:37:08.250Z,15.5716,-88.4126,10,4.4,mb,,48,1.347,1.17,us,us10007cvx,2017-02-23T00:11:51.040Z,"Honduras-Guatemala border region",earthquake,5.5,2,0.061,78,reviewed,us,us
+2016-11-26T20:43:49.860Z,13.7132,-90.4924,66.53,4.3,mb,,170,1.225,0.97,us,us10007clm,2017-02-23T00:11:49.040Z,"33 km SE of Iztapa, Guatemala",earthquake,6,10.2,0.093,33,reviewed,us,us
+2016-11-26T20:30:01.970Z,13.949,-90.2753,109.59,4.9,mb,,113,0.993,0.86,us,us10007cli,2017-02-23T00:11:49.040Z,"8 km WSW of Pasaco, Guatemala",earthquake,6.9,7,0.095,35,reviewed,us,us
+2016-11-25T15:08:41.160Z,14.7804,-90.9525,195.31,4.7,mb,,94,0.753,0.91,us,us10007cam,2017-02-23T00:11:47.040Z,"2 km ESE of Santa Apolonia, Guatemala",earthquake,9.1,7.4,0.084,43,reviewed,us,us
+2016-11-24T04:41:09.020Z,13.8941,-90.24,110.98,4.4,mb,,167,0.989,0.55,us,us10007e9x,2017-02-15T23:21:39.040Z,"9 km SSW of Pasaco, Guatemala",earthquake,6.6,8,0.107,25,reviewed,us,us
+2016-11-19T00:46:49.060Z,14.6065,-92.4396,57.53,4.1,mb,,156,0.343,1.42,us,us10007dm2,2017-02-15T23:21:27.040Z,"12 km S of Puerto Madero, Mexico",earthquake,4,10.7,0.123,18,reviewed,us,us
+2016-11-18T00:23:48.070Z,14.1259,-91.2553,66.43,4.5,mwr,,163,0.582,0.84,us,us100079r5,2017-02-15T23:21:26.040Z,"9 km SSE of Nueva Concepción, Guatemala",earthquake,6.2,5.6,0.098,10,reviewed,us,us
+2016-11-02T23:03:32.200Z,13.7695,-90.7266,80.87,4.2,mb,,173,1.202,1.08,us,us100076hb,2017-01-24T02:02:15.040Z,"18 km S of Iztapa, Guatemala",earthquake,5.8,6.3,0.132,16,reviewed,us,us
+2016-10-21T19:51:16.760Z,14.422,-91.4004,98.06,4.6,mb,,144,0.303,1.02,us,us20007fzp,2017-01-20T00:31:00.040Z,"3 km SE of San José El Ídolo, Guatemala",earthquake,6.8,6.3,0.037,217,reviewed,us,us
+2016-10-20T15:13:13.860Z,14.7218,-91.6139,101.58,4.6,mb,,92,0.211,1.05,us,us20007fm9,2017-01-15T01:13:59.040Z,"8 km NNW of El Palmar, Guatemala",earthquake,7.3,4.7,0.038,207,reviewed,us,us
+2016-10-09T22:55:07.580Z,14.309,-90.1269,195.82,4.8,mb,,144,0.8,0.73,us,us20007d06,2017-01-07T00:20:48.040Z,"4 km N of San José Acatempa, Guatemala",earthquake,5.4,6.4,0.078,51,reviewed,us,us
+2016-10-08T23:14:57.500Z,13.8607,-91.0297,64.99,4,mb,,175,1.755,1.1,us,us20007e3n,2017-01-07T00:20:46.040Z,"23 km WSW of Puerto San José, Guatemala",earthquake,8.8,17.5,0.15,12,reviewed,us,us
+2016-10-05T15:50:01.220Z,15.6094,-92.2531,169.86,4.4,mb,,92,0.677,0.8,us,us20007dsz,2017-01-03T21:10:45.040Z,"2 km NE of La Rinconada, Mexico",earthquake,9,8.3,0.105,26,reviewed,us,us
+2016-09-16T00:30:52.940Z,15.435,-91.871,161.81,4.4,mb,,120,0.373,1,us,us10006pzi,2016-12-12T23:01:24.040Z,"8 km ENE of Cuilco, Guatemala",earthquake,9.3,8.9,0.071,58,reviewed,us,us
+2016-09-04T06:14:47.000Z,13.5393,-90.9665,44.66,4.1,mb,,166,1.207,1.14,us,us10006k9g,2016-12-03T02:54:40.040Z,"45 km SSW of Puerto San José, Guatemala",earthquake,7.5,4.5,0.089,35,reviewed,us,us
+2016-08-31T16:09:50.570Z,16.0238,-91.3631,10,4.2,mb,,44,0.714,1.26,us,us10006j2b,2016-11-29T01:28:48.040Z,"13 km SSW of Santo Domingo de las Palmas, Mexico",earthquake,3.5,1.9,0.107,24,reviewed,us,us
+2016-08-31T04:46:45.060Z,14.0604,-89.7138,2.09,4.2,mb,,153,0.48,0.81,us,us10006iz5,2016-11-29T01:28:47.040Z,"5 km SE of Jerez, Guatemala",earthquake,5.1,9.1,0.146,13,reviewed,us,us
+2016-08-29T13:05:04.930Z,14.1231,-89.6443,10,4.6,mb,,165,0.388,1.1,us,us20006v1e,2020-07-10T16:33:13.196Z,"0 km NE of Candelaria de La Frontera, El Salvador",earthquake,4.5,1.5,0.054,104,reviewed,us,us
+2016-08-27T07:53:29.990Z,13.5203,-90.2492,59.17,4,mb,,125,1.003,1.02,us,us20006uhi,2016-11-29T01:28:42.040Z,"43 km SW of San Francisco Menéndez, El Salvador",earthquake,6.8,8.4,0.116,20,reviewed,us,us
+2016-08-25T22:41:07.890Z,13.6423,-90.7846,36.6,4.5,md,,193,1.244,0.95,us,us10006m17,2016-11-19T04:58:40.040Z,"31 km S of Puerto San José, Guatemala",earthquake,7.2,41.7,,,reviewed,us,snet
+2016-08-20T13:59:17.700Z,14.153,-92.2459,38.01,4.4,mb,,206,0.649,0.89,us,us10006ff1,2016-11-19T04:58:32.040Z,"39 km WSW of Champerico, Guatemala",earthquake,5.8,13.5,0.19,8,reviewed,us,us
+2016-08-18T07:41:43.200Z,15.2292,-91.8122,184.26,4.3,mb,,158,0.311,1.01,us,us10006en5,2016-11-15T02:21:53.040Z,"3 km ESE of Concepción Tutuapa, Guatemala",earthquake,7.3,7.2,0.111,23,reviewed,us,us
+2016-08-14T05:13:03.120Z,13.993,-89.9204,139.1,4.8,mb,,121,0.735,0.82,us,us10006dq1,2016-11-15T02:21:48.040Z,"10 km N of Tacuba, El Salvador",earthquake,7.3,6.7,0.034,266,reviewed,us,us
+2016-08-11T22:02:29.660Z,13.6293,-91.2355,55.93,4.2,mb,,181,0.995,0.76,us,us10006d4f,2016-10-26T03:10:26.040Z,"53 km SSW of La Gomera, Guatemala",earthquake,7.5,9.6,0.069,59,reviewed,us,us
+2016-08-07T17:30:33.380Z,13.8953,-90.7577,77.39,4.3,mb,,156,1.103,1.28,us,us10006byt,2016-10-26T03:10:21.040Z,"6 km SW of Iztapa, Guatemala",earthquake,6.7,7.6,0.098,30,reviewed,us,us
+2016-08-04T07:30:04.620Z,14.2384,-91.4872,56.35,4.1,mb,,187,0.348,1.36,us,us10006c31,2016-10-19T04:52:24.040Z,"14 km WSW of Tiquisate, Guatemala",earthquake,7.9,13.1,0.158,11,reviewed,us,us
+2016-07-30T13:53:13.950Z,14.2242,-91.6644,64.13,4.8,mb,,107,0.3,1.06,us,us100068rx,2016-10-19T04:51:50.040Z,"27 km ESE of Champerico, Guatemala",earthquake,5.3,3.8,0.06,87,reviewed,us,us
+2016-07-30T05:25:46.220Z,14.0127,-91.4299,56.16,4.4,mwr,,141,0.57,0.93,us,us100068pd,2016-10-19T04:51:47.040Z,"25 km SW of Nueva Concepción, Guatemala",earthquake,8.1,10,0.086,13,reviewed,us,us
+2016-07-25T12:58:42.790Z,13.6503,-91.6652,45.03,4.2,mb,,212,0.869,0.81,us,us100068c4,2022-08-07T11:12:00.658Z,"72 km SSW of Nueva Concepción, Guatemala",earthquake,7.9,19.1,0.216,6,reviewed,us,us
+2016-07-18T19:02:15.330Z,14.6793,-92.4357,70.73,4.9,mb,,125,0.28,0.84,us,us20006fl8,2025-12-22T17:16:55.386Z,"4 km SSW of Puerto Madero, Mexico",earthquake,5.5,4.8,0.035,253,reviewed,us,us
+2016-07-15T17:17:39.410Z,13.9226,-92.116,35,4,mb,,176,0.724,1.28,us,us20006g63,2016-09-17T01:27:46.040Z,"46 km SSW of Champerico, Guatemala",earthquake,6.7,2,0.164,10,reviewed,us,us
+2016-07-13T07:11:05.290Z,14.1344,-92.3652,24.32,4.3,mb,,162,0.774,1.49,us,us10006376,2016-09-08T01:50:30.040Z,"45 km SSW of Ocós, Guatemala",earthquake,7.3,9.3,0.062,73,reviewed,us,us
+2016-07-05T14:09:37.000Z,13.504,-90.346,46.7,4.2,mb,,,,0.79,us,us100069vu,2016-09-02T21:36:38.040Z,"51 km SW of San Francisco Menéndez, El Salvador",earthquake,7,7.1,0.146,15,reviewed,snet,us
+2016-07-04T15:58:45.070Z,14.1868,-92.4051,16.64,4.5,mb,,199,0.765,1.15,us,us100062k2,2016-09-02T21:36:37.040Z,"42 km SSW of Ocós, Guatemala",earthquake,4.1,5.2,0.118,21,reviewed,us,us
+2016-07-03T23:43:23.970Z,14.2841,-92.4544,23.21,4.5,mb,,140,0.773,1.11,us,us10005zpc,2016-09-02T21:36:35.040Z,"37 km SW of Brisas Barra de Suchiate, Mexico",earthquake,7.8,6,0.036,224,reviewed,us,us
+2016-06-24T14:48:22.890Z,14.3066,-92.2919,67.82,4.2,mb,,172,0.598,0.59,us,us1000611b,2016-08-31T03:08:14.040Z,"24 km SSW of Ocós, Guatemala",earthquake,8.8,8.8,0.526,1,reviewed,us,us
+2016-06-23T05:24:37.860Z,15.4426,-92.0398,201.59,4,mb,,73,0.532,0.82,us,us10006104,2016-08-27T02:15:35.040Z,"8 km E of Amatenango de la Frontera, Mexico",earthquake,5.9,5.9,0.172,9,reviewed,us,us
+2016-06-15T15:31:39.090Z,14.0253,-90.7455,66.61,4,mb,,129,1.045,1.3,us,us200064ja,2016-08-25T01:22:57.040Z,"10 km NNW of Iztapa, Guatemala",earthquake,4.1,9.1,0.149,12,reviewed,us,us
+2016-06-15T13:46:55.140Z,14.1118,-91.6462,61,5.4,mww,,78,0.413,1.22,us,us200064ir,2025-12-22T17:15:29.953Z,"35 km SE of Champerico, Guatemala",earthquake,6.5,1.9,,,reviewed,us,us
+2016-06-15T09:06:46.720Z,13.5606,-89.7956,77.26,4,md,,169,0.562,0.34,us,us20006f5d,2016-08-25T01:22:57.040Z,"4 km SE of Acajutla, El Salvador",earthquake,10.3,25.8,,,reviewed,us,snet
+2016-06-14T11:36:48.170Z,14.3729,-90.5286,10,4.3,mb,,144,1.139,0.86,us,us200064az,2022-08-03T01:46:43.494Z,"12 km S of Villa Canales, Guatemala",earthquake,8.2,1.9,0.066,65,reviewed,us,us
+2016-06-08T10:38:27.510Z,13.5196,-90.8786,35,5.2,mww,,122,1.275,1.21,us,us200062rb,2022-08-03T01:12:51.399Z,"45 km S of Puerto San José, Guatemala",earthquake,5.7,1.9,,,reviewed,us,us
+2016-06-06T04:11:03.420Z,14.3914,-92.0995,67.25,4.3,mb,,117,0.413,1.12,us,us200062ac,2022-08-03T01:00:44.980Z,"16 km SE of Ocós, Guatemala",earthquake,7.6,5.7,0.051,110,reviewed,us,us
+2016-05-24T07:55:47.000Z,13.568,-90.332,73,4,md,,,,1.33,us,us200061n3,2016-08-03T22:33:43.040Z,"45 km SW of San Francisco Menéndez, El Salvador",earthquake,10,9.8,,,reviewed,snet,snet
+2016-05-22T14:51:22.650Z,13.7108,-90.4489,75.73,5,mww,,93,1.183,0.75,us,us10005j8b,2025-12-22T17:14:56.171Z,"37 km SE of Iztapa, Guatemala",earthquake,6.2,4,,,reviewed,us,us
+2016-05-18T22:16:27.330Z,14.0536,-91.3723,59.13,4.3,mb,,170,0.563,1.12,us,us10005ick,2016-07-22T19:39:13.040Z,"17 km SSW of Nueva Concepción, Guatemala",earthquake,5.9,5.5,0.111,23,reviewed,us,us
+2016-05-17T23:46:51.980Z,14.0289,-91.3248,67.84,4.3,mb,,126,0.609,1.04,us,us10005i3r,2016-07-22T19:39:11.040Z,"19 km S of Nueva Concepción, Guatemala",earthquake,8.4,3.9,0.059,82,reviewed,us,us
+2016-05-13T04:52:04.180Z,14.6129,-92.3906,69,4.2,mb,,159,0.317,0.82,us,us10005iuv,2022-08-03T00:45:03.982Z,"12 km SSE of Puerto Madero, Mexico",earthquake,2.8,4.8,0.118,20,reviewed,us,us
+2016-05-08T07:52:41.840Z,14.3617,-91.1382,114.18,4.7,mb,,110,0.563,0.91,us,us10005fu3,2016-07-20T18:10:48.040Z,"7 km SSE of Patulul, Guatemala",earthquake,7.1,5.8,0.032,296,reviewed,us,us
+2016-05-03T07:46:54.180Z,13.6605,-91.2927,35,4.7,mb,,85,0.943,1.48,us,us10005d9n,2016-07-19T20:03:11.040Z,"53 km SSW of La Gomera, Guatemala",earthquake,7,1.9,0.064,73,reviewed,us,us
+2016-05-03T03:13:52.000Z,14.4907,-90.4804,49.41,4.3,mb,,122,1.088,0.61,us,us10005gjq,2016-07-19T20:03:10.040Z,"5 km WNW of Fraijanes, Guatemala",earthquake,7,11.3,0.097,30,reviewed,us,us
+2016-05-03T02:38:51.640Z,13.6199,-91.4026,27.03,4.5,mwr,,136,0.943,0.65,us,us10005d7j,2016-07-19T20:03:10.040Z,"63 km SW of La Gomera, Guatemala",earthquake,6.9,5.4,0.093,11,reviewed,us,us
+2016-05-02T21:49:38.000Z,13.5667,-91.3622,35,4.7,mb,,84,1.005,1.46,us,us10005d61,2022-08-02T21:03:22.083Z,"66 km SSW of La Gomera, Guatemala",earthquake,6.5,1.9,0.03,350,reviewed,us,us
+2016-04-22T10:47:03.500Z,13.6274,-90.1212,86.53,4.3,mb,,115,0.866,1.26,us,us20005ktw,2016-07-08T02:49:17.040Z,"26 km SSW of San Francisco Menéndez, El Salvador",earthquake,7.5,6.4,0.059,82,reviewed,us,us
+2016-04-19T19:21:21.400Z,13.6946,-90.7146,45.53,4.5,mwr,,98,1.259,1.31,us,us20005jw6,2022-08-02T19:18:15.830Z,"26 km S of Iztapa, Guatemala",earthquake,6.9,6,0.086,13,reviewed,us,us
+2016-04-17T06:32:41.680Z,13.8083,-92.3834,32.96,4.5,mb,,150,0.976,1.07,us,us20005j5t,2016-06-27T23:01:56.040Z,"73 km SW of Champerico, Guatemala",earthquake,4,4.9,0.046,139,reviewed,us,us
+2016-04-15T22:55:23.770Z,13.6401,-92.2041,36.62,4.2,mb,,200,1.008,1.04,us,us20005kzt,2016-06-27T23:01:45.040Z,"78 km SSW of Champerico, Guatemala",earthquake,8.8,10.5,0.086,38,reviewed,us,us
+2016-04-15T20:39:09.790Z,13.5021,-92.3332,10,4.6,mb,,172,1.19,1.45,us,us20005irm,2016-06-27T23:01:43.040Z,"98 km SSW of Champerico, Guatemala",earthquake,6.7,1.9,0.081,45,reviewed,us,us
+2016-04-10T16:40:01.160Z,13.642,-91.3957,35,4.4,mb,,203,0.924,1.04,us,us20005iks,2016-06-21T01:14:07.040Z,"61 km SW of La Gomera, Guatemala",earthquake,7.1,2,0.063,72,reviewed,us,us
+2016-04-09T02:05:10.520Z,13.935,-92.2443,10,4.5,mb,,111,0.792,1.17,us,us20005ghy,2016-06-21T01:14:04.040Z,"53 km SW of Champerico, Guatemala",earthquake,7.9,1.8,0.04,184,reviewed,us,us
+2016-04-01T05:48:11.840Z,14.3425,-91.5704,74.96,4.5,mb,,162,0.217,1.32,us,us20005dur,2022-08-07T10:42:58.301Z,"17 km SSW of San Lorenzo, Guatemala",earthquake,8.5,5.3,0.067,65,reviewed,us,us
+2016-03-24T06:11:23.410Z,13.6977,-91.2934,40.12,4.3,mb,,168,0.909,0.74,us,us20005dea,2016-06-09T21:41:58.040Z,"49 km SSW of La Gomera, Guatemala",earthquake,7.3,5.8,0.133,16,reviewed,us,us
+2016-03-20T21:36:29.380Z,13.6387,-91.5533,48.52,4.4,mb,,169,0.891,0.92,us,us20005bb7,2016-06-09T21:41:53.040Z,"67 km SSW of Nueva Concepción, Guatemala",earthquake,7.2,9.3,0.085,40,reviewed,us,us
+2016-03-20T09:33:11.650Z,13.5865,-91.56,50.53,4.2,mb,,190,0.941,0.95,us,us20005b7y,2016-06-09T21:41:52.040Z,"73 km SSW of Nueva Concepción, Guatemala",earthquake,9.4,8.4,0.104,26,reviewed,us,us
+2016-03-16T11:30:46.670Z,14.0111,-91.3577,58.73,4.2,mb,,194,0.606,0.96,us,us20005asl,2022-08-02T17:36:37.501Z,"21 km SSW of Nueva Concepción, Guatemala",earthquake,8.2,8.4,0.14,14,reviewed,us,us
+2016-03-07T13:32:08.050Z,13.832,-91.7673,34.07,4.5,mb,,199,0.692,1.18,us,us10004wjn,2016-05-16T18:01:47.040Z,"53 km SSE of Champerico, Guatemala",earthquake,8.1,7.2,0.205,7,reviewed,us,us
+2016-03-01T18:12:25.670Z,14.0523,-92.435,20.02,4.2,mb,,163,0.857,1.11,us,us10004tvh,2016-05-06T23:34:22.040Z,"56 km SSW of Ocós, Guatemala",earthquake,5.6,5.1,0.092,33,reviewed,us,us
+2016-02-28T16:39:32.100Z,14.8667,-92.4326,100.32,4.4,mb,,127,0.166,0.89,us,us10004vj2,2016-05-06T23:34:18.040Z,"1 km ENE of Mazatán, Mexico",earthquake,7.3,6.5,0.072,55,reviewed,us,us
+2016-02-28T09:49:22.020Z,14.5611,-90.6429,28.21,3.5,ml,,137,1.019,0.75,us,us10004tg1,2022-08-07T10:04:38.355Z,"3 km ENE of Magdalena Milpas Altas, Guatemala",earthquake,4.7,15.7,0.097,14,reviewed,us,us
+2016-02-25T20:43:00.500Z,14.4552,-90.7664,10,3.1,ml,,158,0.902,0.14,us,us10004sr9,2016-05-03T23:44:22.040Z,"5 km SE of Alotenango, Guatemala",earthquake,6.3,2,0.115,10,reviewed,us,us
+2016-02-25T04:23:36.920Z,14.5168,-90.6982,36.42,3.2,ml,,146,0.965,0.28,us,us10004shw,2016-05-03T23:44:21.040Z,"2 km NNE of Santa María de Jesús, Guatemala",earthquake,4.5,64.2,0.115,10,reviewed,us,us
+2016-02-19T04:42:38.920Z,13.8074,-88.8387,201.31,5,mb,,64,0.4,0.94,us,us10004qz4,2016-05-03T23:44:11.040Z,"8 km N of San Sebastián, El Salvador",earthquake,7.6,5.4,0.031,338,reviewed,us,us
+2016-02-14T09:12:28.420Z,13.8638,-91.8933,35,4.1,mb,,199,0.684,0.94,us,us10004qja,2016-04-26T23:28:20.040Z,"47 km S of Champerico, Guatemala",earthquake,5.8,1.9,0.158,11,reviewed,us,us
+2016-02-14T08:18:59.510Z,14.3446,-90.3038,166.91,4.6,mb,,121,0.915,1.02,us,us10004qj7,2016-04-26T23:28:20.040Z,"4 km S of Santa Rosa de Lima, Guatemala",earthquake,7.4,7.2,0.092,35,reviewed,us,us
+2016-02-13T19:47:12.150Z,13.6598,-91.3045,35,4.5,mb,,170,0.939,1.21,us,us20004zzs,2016-04-26T23:28:19.040Z,"54 km SSW of La Gomera, Guatemala",earthquake,7.4,2,0.064,71,reviewed,us,us
+2016-02-09T21:26:49.850Z,15.8664,-92.3409,209.35,4.9,mb,,82,0.457,0.92,us,us20004z3q,2016-04-19T01:33:27.040Z,"7 km SSW of Nueva América, Mexico",earthquake,5.6,2.6,0.038,212,reviewed,us,us
+2016-02-07T10:12:58.270Z,14.0698,-92.1844,60.4,4.3,mb,,200,0.655,1.07,us,us20004yij,2016-04-19T01:33:22.040Z,"38 km SW of Champerico, Guatemala",earthquake,10.2,6.9,0.125,18,reviewed,us,us
+2016-02-04T18:08:35.820Z,14.5184,-92.3823,62.1,4.4,mb,,166,0.403,1.64,us,us20004xfs,2016-04-14T22:51:44.040Z,"17 km W of Brisas Barra de Suchiate, Mexico",earthquake,7.1,4.3,0.077,48,reviewed,us,us
+2016-02-01T16:45:30.510Z,13.994,-89.9384,130.72,4.5,mb,,108,0.69,0.8,us,us20004wai,2016-04-14T22:51:39.040Z,"10 km N of Tacuba, El Salvador",earthquake,8.2,6.2,0.051,113,reviewed,us,us
+2016-01-25T19:49:26.940Z,13.5236,-92.209,10,4.4,mb,,202,1.113,1.08,us,us10004h5k,2022-08-02T07:16:29.499Z,"91 km SSW of Champerico, Guatemala",earthquake,6.1,2,0.063,72,reviewed,us,us
+2016-01-20T15:01:40.480Z,13.7169,-91.6495,33.04,4.3,mb,,99,0.804,1.32,us,us10004fue,2016-04-06T17:30:28.040Z,"65 km SW of Nueva Concepción, Guatemala",earthquake,7.6,6.2,0.085,39,reviewed,us,us
+2016-01-20T04:09:34.890Z,13.5462,-91.1585,32.92,3.7,mb,,202,1.103,0.62,us,us20004uqe,2016-04-06T17:30:28.040Z,"55 km SW of Puerto San José, Guatemala",earthquake,6.3,9.2,0.291,3,reviewed,us,us
+2016-01-19T13:00:35.100Z,14.5901,-91.4145,100.84,4.6,mb,,95,0.279,1.19,us,us10004fkk,2016-04-06T17:30:27.040Z,"4 km E of San Pablo Jocopilas, Guatemala",earthquake,5.9,3.8,0.038,206,reviewed,us,us
+2016-01-17T07:58:45.570Z,13.5284,-89.67,53.37,4,mb,,185,0.454,0.76,us,us2000504n,2016-04-06T17:30:23.040Z,"18 km ESE of Acajutla, El Salvador",earthquake,8.4,19.5,0.367,2,reviewed,us,us
+2016-01-16T02:25:51.440Z,14.2873,-91.8054,77.06,4.3,mb,,124,0.259,1.18,us,us10004g1v,2016-04-06T17:30:21.040Z,"11 km E of Champerico, Guatemala",earthquake,7.4,6.2,0.137,15,reviewed,us,us
+2016-01-04T13:26:53.810Z,14.6604,-90.558,206.33,4.4,mb,,97,1.108,0.95,us,us10004e0t,2016-03-28T22:09:36.040Z,"5 km WNW of Guatemala City, Guatemala",earthquake,8.4,7,0.078,47,reviewed,us,us
