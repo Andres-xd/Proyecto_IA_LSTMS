@@ -248,7 +248,6 @@ function ScreenEntrenamiento({dataset,onBack}){
   const isRunning=progress?.running;
 
   const tabs=["entrenamiento","datos","predicciones"];
-  if(dataset==="sismos") tabs.push("forecast");
 
   return(
     <div className="screen-enter px-grid" style={{
@@ -333,7 +332,7 @@ function ScreenEntrenamiento({dataset,onBack}){
                 color:tab===t?accent:"var(--c-gray)",
                 borderBottom:tab===t?`2px solid ${accentRaw}`:"2px solid transparent",
               }}>
-              {t==="entrenamiento"?"📟 PROCESO":t==="datos"?"📊 RESULTADOS":t==="predicciones"?"🔢 PREDICCIONES":"📅 PRONÓSTICO"}
+              {t==="entrenamiento"?"📟 PROCESO":t==="datos"?"📊 RESULTADOS":"🔢 PREDICCIONES"}
             </button>
           ))}
         </div>
@@ -505,36 +504,106 @@ function ScreenEntrenamiento({dataset,onBack}){
                       ))}
                     </>
                   ) : (
-                    /* Single-step: tabla plana (sismos) */
+                    /* Single-step: CALENDARIO VISUAL (sismos) */
                     <>
-                      <SectionTitle title="PRIMERAS 20 PREDICCIONES VS VALORES REALES" color={accent}/>
-                      <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5"}}>
-                        El modelo recibe <strong style={{color:"#94a3b8"}}>14 días</strong> de historia y predice{" "}
-                        <strong style={{color:accent}}>1 día</strong> siguiente.
-                        Los valores son <strong style={{color:"#94a3b8"}}>normalizados</strong> (escala 0 a 1).
-                        La columna <strong style={{color:"var(--c-green)"}}>Real</strong> es lo que realmente ocurrió.
-                        La columna <strong style={{color:accent}}>Predicción</strong> es lo que el modelo calculó.
-                        El <strong style={{color:"var(--c-seismic)"}}>Error</strong> es la diferencia entre ambos — entre más cercano a 0, mejor.
+                      <SectionTitle title="CALENDARIO SÍSMICO — ÚLTIMOS 30 DÍAS" color={accent}/>
+                      <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5",marginBottom:"16px"}}>
+                        El modelo recibe <strong style={{color:"#94a3b8"}}>14 días</strong> de historia y predice <strong style={{color:accent}}>1 día</strong> siguiente.
+                        Los valores mostrados son <strong style={{color:"#94a3b8"}}>magnitudes normalizadas</strong> (escala 0-1).
+                        <br/>
+                        <strong style={{color:"#b91c1c"}}>Rojo oscuro:</strong> Magnitud ≥ 0.40 (Alto riesgo)  |  
+                        <strong style={{color:"#fca5a5"}}> Rojo claro:</strong> Magnitud &lt; 0.40 (Bajo riesgo)
                       </div>
-                      <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"17px"}}>
-                        <thead>
-                          <tr style={{background:`${accentRaw}20`}}>
-                            {["#","VALOR REAL","PREDICCIÓN","ERROR ABSOLUTO"].map((h,i)=>(
-                              <th key={i} style={{padding:"8px 12px",fontFamily:"var(--font-px)",fontSize:"7px",color:accent,textAlign:"left",borderBottom:`2px solid ${accentRaw}50`}}>{h}</th>
-                            ))}
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {results.pred_table.map((row,i)=>(
-                            <tr key={i} style={{background:i%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
-                              <td style={{padding:"6px 12px",color:"#475569"}}>{row.n}</td>
-                              <td style={{padding:"6px 12px",color:"var(--c-green)"}}>{row.real}</td>
-                              <td style={{padding:"6px 12px",color:accent}}>{row.pred}</td>
-                              <td style={{padding:"6px 12px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"12px"}}>{row.error}</td>
-                            </tr>
+
+                      {/* Calendario de datos REALES */}
+                      <div style={{marginBottom:"24px"}}>
+                        <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:"var(--c-green)",marginBottom:"10px",letterSpacing:"1px"}}>
+                          📊 DATOS REALES (Test Set)
+                        </div>
+                        <div style={{display:"grid",gridTemplateColumns:"repeat(7,1fr)",gap:"6px"}}>
+                          {["L","M","X","J","V","S","D"].map(d=>(
+                            <div key={d} style={{fontFamily:"var(--font-px)",fontSize:"7px",color:"#64748b",textAlign:"center",padding:"4px"}}>{d}</div>
                           ))}
-                        </tbody>
-                      </table>
+                          {results.pred_table.slice(0,Math.min(30,results.pred_table.length)).map((row,i)=>{
+                            const mag = row.real;
+                            const bgColor = mag >= 0.40 ? "#b91c1c" : "#fca5a5";
+                            const nivel = mag >= 0.40 ? "ALTO" : "BAJO";
+                            
+                            return(
+                              <div key={i} style={{
+                                background: bgColor,
+                                border: "1px solid rgba(255,255,255,.1)",
+                                padding: "6px",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                minHeight: "70px",
+                                transition: "transform .1s",
+                                cursor: "pointer",
+                                position: "relative"
+                              }}
+                              onMouseEnter={e=>e.currentTarget.style.transform="scale(1.05)"}
+                              onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}>
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"11px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center"}}>
+                                  {row.fecha ? row.fecha.slice(5) : `D${i+1}`}
+                                </div>
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"18px",color:"#0a0e1a",fontWeight:"bold"}}>
+                                  {mag.toFixed(2)}
+                                </div>
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"11px",color:"rgba(0,0,0,.6)",marginTop:"2px"}}>
+                                  {nivel}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+
+                      {/* Calendario de PREDICCIONES */}
+                      <div>
+                        <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:accent,marginBottom:"10px",letterSpacing:"1px"}}>
+                          🔮 PREDICCIONES DEL MODELO
+                        </div>
+                        <div style={{display:"grid",gridTemplateColumns:"repeat(7,1fr)",gap:"6px"}}>
+                          {["L","M","X","J","V","S","D"].map(d=>(
+                            <div key={d} style={{fontFamily:"var(--font-px)",fontSize:"7px",color:"#64748b",textAlign:"center",padding:"4px"}}>{d}</div>
+                          ))}
+                          {results.pred_table.slice(0,Math.min(30,results.pred_table.length)).map((row,i)=>{
+                            const mag = row.pred;
+                            const bgColor = mag >= 0.40 ? "#b91c1c" : "#fca5a5";
+                            const nivel = mag >= 0.40 ? "ALTO" : "BAJO";
+                            
+                            return(
+                              <div key={i} style={{
+                                background: bgColor,
+                                border: "1px solid rgba(255,255,255,.1)",
+                                padding: "6px",
+                                display: "flex",
+                                flexDirection: "column",
+                                alignItems: "center",
+                                justifyContent: "center",
+                                minHeight: "70px",
+                                transition: "transform .1s",
+                                cursor: "pointer",
+                                position: "relative"
+                              }}
+                              onMouseEnter={e=>e.currentTarget.style.transform="scale(1.05)"}
+                              onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}>
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"11px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center"}}>
+                                  {row.fecha ? row.fecha.slice(5) : `D${i+1}`}
+                                </div>
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"18px",color:"#0a0e1a",fontWeight:"bold"}}>
+                                  {mag.toFixed(2)}
+                                </div>
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"11px",color:"rgba(0,0,0,.6)",marginTop:"2px"}}>
+                                  {nivel}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
                     </>
                   )}
                 </>
@@ -542,45 +611,6 @@ function ScreenEntrenamiento({dataset,onBack}){
             </>
           )}
 
-          {/* TAB: FORECAST (solo sismología) */}
-          {tab==="forecast"&&dataset==="sismos"&&(
-            <>
-              {!results?.forecast?.length&&<EmptyState accent={accent} msg="Entrena o carga un modelo sísmico para ver el pronóstico." />}
-              {results?.forecast?.length>0&&(
-                <>
-                  <SectionTitle title="PRONÓSTICO — PRÓXIMOS 30 DÍAS" color={accent}/>
-                  <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5"}}>
-                    El modelo usa los últimos 14 días conocidos y predice los siguientes 30 días de forma iterativa.
-                    Los valores son la <strong style={{color:"#94a3b8"}}>magnitud promedio diaria normalizada</strong> (escala 0–1).
-                    Valores cercanos a 0 = baja actividad. Valores cercanos a 1 = alta actividad sísmica.
-                    <br/><strong style={{color:"var(--c-energy)"}}>⚠ Este pronóstico es experimental, no un sistema de alerta oficial.</strong>
-                  </div>
-                  <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"17px"}}>
-                    <thead>
-                      <tr style={{background:`${accentRaw}20`}}>
-                        {["DÍA","MAGNITUD PREDICHA (norm.)","NIVEL ESTIMADO"].map((h,i)=>(
-                          <th key={i} style={{padding:"8px 12px",fontFamily:"var(--font-px)",fontSize:"7px",color:accent,textAlign:"left",borderBottom:`2px solid ${accentRaw}50`}}>{h}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {results.forecast.map((row,i)=>{
-                        const nivel=row.valor>0.4?"ALTO":row.valor>0.15?"MEDIO":"BAJO";
-                        const nc=nivel==="ALTO"?"var(--c-seismic)":nivel==="MEDIO"?"var(--c-energy)":"var(--c-green)";
-                        return(
-                          <tr key={i} style={{background:i%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
-                            <td style={{padding:"6px 12px",color:"#64748b"}}>+{row.dia} días</td>
-                            <td style={{padding:"6px 12px",color:accent}}>{row.valor}</td>
-                            <td style={{padding:"6px 12px",color:nc,fontFamily:"var(--font-px)",fontSize:"11px"}}>{nivel}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </>
-              )}
-            </>
-          )}
         </div>
       </div>
     </div>

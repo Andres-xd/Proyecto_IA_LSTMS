@@ -21,8 +21,8 @@ CORS(app)
 CATALOGO_MODELOS = {
     "model_energia":        {"nombre": "LSTM Simple", "arquitectura": "LSTMSimple", "dataset": "energia"},
     "model_sismos":         {"nombre": "LSTM Simple", "arquitectura": "LSTMSimple", "dataset": "sismos"},
-    "stacked_lstm_energia": {"nombre": "Stacked LSTM", "arquitectura": "LSTMSimple", "dataset": "energia"},
-    "stacked_lstm_sismos":  {"nombre": "Stacked LSTM", "arquitectura": "LSTMSimple", "dataset": "sismos"},
+    "stacked_lstm_energia": {"nombre": "Stacked LSTM", "arquitectura": "StackedLSTM", "dataset": "energia"},
+    "stacked_lstm_sismos":  {"nombre": "Stacked LSTM", "arquitectura": "StackedLSTM", "dataset": "sismos"},
     "bilstm_energia":       {"nombre": "Bidirectional LSTM", "arquitectura": "BiLSTM", "dataset": "energia"},
     "bilstm_sismos":        {"nombre": "Bidirectional LSTM", "arquitectura": "BiLSTM", "dataset": "sismos"},
     "cnn_lstm_energia":     {"nombre": "CNN-LSTM Híbrido", "arquitectura": "CNNLSTM", "dataset": "energia"},
@@ -81,6 +81,17 @@ class CNNLSTM(nn.Module):
         x = self.pool(x)
         x = self.dropout_cnn(x)
         x = x.permute(0, 2, 1)
+        out, _ = self.lstm(x)
+        return self.fc(self.dropout(out[:, -1, :]))
+
+
+class StackedLSTM(nn.Module):
+    def __init__(self, input_size, hidden_size=128, num_layers=3, output_size=1):
+        super().__init__()
+        self.lstm    = nn.LSTM(input_size, hidden_size, num_layers=num_layers, dropout=0.3, batch_first=True)
+        self.dropout = nn.Dropout(0.3)
+        self.fc      = nn.Linear(hidden_size, output_size)
+    def forward(self, x):
         out, _ = self.lstm(x)
         return self.fc(self.dropout(out[:, -1, :]))
 
@@ -385,6 +396,8 @@ def load_and_predict():
         model = BiLSTM(input_size, hidden_size, output_size=output_size)
     elif arquitectura == "CNNLSTM":
         model = CNNLSTM(input_size, hidden_size, output_size=output_size)
+    elif arquitectura == "StackedLSTM":
+        model = StackedLSTM(input_size, hidden_size, output_size=output_size)
     else:
         model = LSTMSimple(input_size, hidden_size, output_size=output_size)
     
@@ -396,7 +409,28 @@ def load_and_predict():
             preds.extend(model(Xb).cpu().numpy().flatten()); y_real_list.extend(yb.numpy().flatten())
     preds=np.array(preds); y_real=np.array(y_real_list)
     metricas=calcular_metricas(y_real,preds)
-    pred_table=[{"n":i+1,"real":round(float(y_real[i]),4),"pred":round(float(preds[i]),4),"error":round(abs(float(y_real[i])-float(preds[i])),4)} for i in range(min(20,len(preds)))]
+
+    # Cargar fechas reales para sismos desde sismos_serie_diaria.csv
+    fechas_list = []
+    if dataset_type == "sismos":
+        try:
+            df_serie = pd.read_csv(DATA_DIR / "sismos_serie_diaria.csv", parse_dates=["date"])
+            offset = int(len(df_serie) * 0.85)
+            fechas_test = df_serie["date"].iloc[offset + 14:].reset_index(drop=True)
+            fechas_list = [str(f.date()) for f in fechas_test]
+        except:
+            fechas_list = []
+
+    pred_table = [
+        {
+            "n": i+1,
+            "real": round(float(y_real[i]), 4),
+            "pred": round(float(preds[i]), 4),
+            "error": round(abs(float(y_real[i]) - float(preds[i])), 4),
+            "fecha": fechas_list[i] if i < len(fechas_list) else None
+        }
+        for i in range(min(30, len(preds)))
+    ]
     forecast=[]
     if dataset_type=="sismos":
         ventana=X_test[-1].copy()

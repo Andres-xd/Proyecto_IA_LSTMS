@@ -40,8 +40,8 @@ def main():
 
     print(f"Split aplicado   : {split:,} registros para fit del scaler")
     print(f"Rango Global_active_power: [{df['Global_active_power'].min():.3f}, {df['Global_active_power'].max():.3f}]")
-    print(f"\n✅ Normalizado guardado en : {OUTPUT_FILE}")
-    print(f"✅ Scaler guardado en      : {SCALER_FILE}\n")
+    print(f"\n Normalizado guardado en : {OUTPUT_FILE}")
+    print(f" Scaler guardado en      : {SCALER_FILE}\n")
 
 if __name__ == "__main__":
     main()

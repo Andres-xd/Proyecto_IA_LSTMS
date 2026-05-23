@@ -156,7 +156,7 @@ def agregar_temporalmente(df, minutos=60):
     
     # Guardar
     df_agg.to_csv(OUTPUT_AGG, index=False)
-    print(f"\n✅ Guardado en: {OUTPUT_AGG.name}")
+    print(f"\n Guardado en: {OUTPUT_AGG.name}")
     
     return df_agg
 
@@ -177,5 +177,5 @@ if __name__ == "__main__":
     print("\n" + "=" * 60)
     print("  PROCESO COMPLETADO")
     print("=" * 60)
-    print(f"✅ energia_limpio.csv → datos minuto a minuto")
-    print(f"✅ energia_agregado_{INTERVALO_AGREGACION}min.csv → datos cada {INTERVALO_AGREGACION} min")
+    print(f" energia_limpio.csv → datos minuto a minuto")
+    print(f" energia_agregado_{INTERVALO_AGREGACION}min.csv → datos cada {INTERVALO_AGREGACION} min")
