@@ -222,11 +222,10 @@ function ScreenEntrenamiento({dataset,onBack}){
           if(d.done){
               setPolling(false);clearInterval(intervalRef.current);
               if(!d.error){
-                // Cargar predicciones completas incluyendo calendario
                 try{
                   const r2=await fetch("http://localhost:5000/api/load-model",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({dataset,model_name:config.model_name})});
                   const d2=await r2.json();
-                  if(!d2.error){setResults(d2);setProgress(p=>({...p,...d,epoch_log:d2.epoch_log}));}
+                  if(!d2.error){setResults(d2);setProgress(p=>({...p,epoch_log:d.epoch_log}));}
                   else{setResults(d);}
                 }catch{setResults(d);}
                 setTab("datos");
@@ -315,16 +314,10 @@ function ScreenEntrenamiento({dataset,onBack}){
             <select value={loadName} onChange={e=>setLoadName(e.target.value)}
               style={{width:"100%",background:"#0d1220",color:"#e2e8f0",border:`1px solid ${accentRaw}50`,fontFamily:"var(--font-vt)",fontSize:"16px",padding:"5px"}}>
               <option value="">-- selecciona --</option>
-              {models.filter(m=>{
-                  const otherDs = dataset==="energia"?"sismos":"energia";
-                  return !m.name.includes(otherDs);
-                }).length === 0 ? (
+              {models.filter(m=>m.dataset===dataset||m.name.includes(dataset)).length === 0 ? (
                 <option disabled>No hay modelos entrenados aún</option>
               ) : (
-                models.filter(m=>{
-                  const otherDs = dataset==="energia"?"sismos":"energia";
-                  return !m.name.includes(otherDs);
-                }).map(m=><option key={m.name} value={m.name}>{m.display_name||m.name} ({m.size_kb}KB)</option>)
+                models.filter(m=>m.dataset===dataset||m.name.includes(dataset)).map(m=><option key={m.name} value={m.name}>{m.display_name||m.name} ({m.size_kb}KB)</option>)
               )}
             </select>
             <button className="px-btn" onClick={handleLoad} disabled={!loadName}
@@ -332,7 +325,7 @@ function ScreenEntrenamiento({dataset,onBack}){
               CARGAR Y EVALUAR
             </button>
             <div style={{fontFamily:"var(--font-vt)",fontSize:"14px",color:"var(--c-gray)",marginTop:"6px"}}>
-              {models.filter(m=>{ const o=dataset==="energia"?"sismos":"energia"; return !m.name.includes(o); }).length} modelo(s) disponible(s)
+              {models.filter(m=>m.dataset===dataset||m.name.includes(dataset)).length} modelo(s) disponible(s)
             </div>
           </SideSection>
         </div>
@@ -350,7 +343,7 @@ function ScreenEntrenamiento({dataset,onBack}){
                 color:tab===t?accent:"var(--c-gray)",
                 borderBottom:tab===t?`2px solid ${accentRaw}`:"2px solid transparent",
               }}>
-              {t==="entrenamiento"?"📟 PROCESO":t==="datos"?"📊 RESULTADOS":"🔢 PREDICCIONES"}
+              {t==="entrenamiento"?"📟 PROCESO":t==="datos"?"📊 RESULTADOS":t==="predicciones"?"🔢 PREDICCIONES":"🔢 PREDICCIONES"}
             </button>
           ))}
         </div>
@@ -477,49 +470,71 @@ function ScreenEntrenamiento({dataset,onBack}){
               {results?.pred_table&&(
                 <>
                   {/* Multi-step: bloques de 12 horas (energía) */}
-                  {results.prediction_mode === "multi_step" ? (
+                  {dataset === "energia" ? (
                     <>
-                      <SectionTitle title={`PREDICCIONES — BLOQUES DE ${results.output_hours || 12} HORAS`} color={accent}/>
+                      <SectionTitle title="PREDICCIONES — ENERGÍA ELÉCTRICA" color={accent}/>
                       <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5"}}>
                         El modelo recibe <strong style={{color:"#94a3b8"}}>48 horas</strong> de historia y predice las siguientes{" "}
-                        <strong style={{color:accent}}>{results.output_hours || 12} horas</strong>.
-                        Cada bloque muestra una predicción completa.
+                        <strong style={{color:accent}}>12 horas</strong>.
                         Los valores son <strong style={{color:"#94a3b8"}}>normalizados</strong> (escala 0 a 1).
-                        Las fechas corresponden al dataset real — se pueden verificar en el CSV.
+                        La columna <strong style={{color:"var(--c-green)"}}>Real</strong> es lo que realmente ocurrió.
+                        La columna <strong style={{color:accent}}>Predicción</strong> es lo que el modelo calculó.
+                        El <strong style={{color:"var(--c-seismic)"}}>Error</strong> es la diferencia entre ambos — entre más cercano a 0, mejor.
                       </div>
-                      
-                      {results.pred_table.map((bloque, bi) => (
-                        <div key={bi} style={{marginTop:"14px"}}>
-                          <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:accent,marginBottom:"8px",padding:"6px 10px",background:`${accentRaw}15`,border:`1px solid ${accentRaw}40`}}>
-                            PREDICCIÓN #{bloque.bloque}
-                            {bloque.horas[0]?.fecha && (
-                              <span style={{color:"#64748b",fontFamily:"var(--font-vt)",fontSize:"14px",marginLeft:"12px"}}>
-                                Desde: {bloque.horas[0].fecha.substring(0, 16)}
-                              </span>
-                            )}
-                          </div>
-                          <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"16px"}}>
-                            <thead>
-                              <tr style={{background:`${accentRaw}10`}}>
-                                {["HORA","FECHA","REAL","PREDICCIÓN","ERROR"].map((h,i)=>(
-                                  <th key={i} style={{padding:"6px 10px",fontFamily:"var(--font-px)",fontSize:"6px",color:accent,textAlign:"left",borderBottom:`1px solid ${accentRaw}30`}}>{h}</th>
-                                ))}
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {bloque.horas.map((row, hi) => (
-                                <tr key={hi} style={{background:hi%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
-                                  <td style={{padding:"5px 10px",color:"#475569"}}>+{row.hora}h</td>
-                                  <td style={{padding:"5px 10px",color:"#64748b",fontSize:"14px"}}>{row.fecha ? row.fecha.substring(0, 16) : "—"}</td>
-                                  <td style={{padding:"5px 10px",color:"var(--c-green)"}}>{row.real}</td>
-                                  <td style={{padding:"5px 10px",color:accent}}>{row.pred}</td>
-                                  <td style={{padding:"5px 10px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"11px"}}>{row.error}</td>
+                      {results.pred_table?.length > 0 && results.pred_table[0]?.bloque ? (
+                        results.pred_table.map((bloque, bi) => (
+                          <div key={bi} style={{marginTop:"14px"}}>
+                            <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:accent,marginBottom:"8px",padding:"6px 10px",background:`${accentRaw}15`,border:`1px solid ${accentRaw}40`}}>
+                              PREDICCIÓN #{bloque.bloque}
+                              {bloque.horas[0]?.fecha && (
+                                <span style={{color:"#64748b",fontFamily:"var(--font-vt)",fontSize:"14px",marginLeft:"12px"}}>
+                                  Desde: {bloque.horas[0].fecha.substring(0, 16)}
+                                </span>
+                              )}
+                            </div>
+                            <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"16px"}}>
+                              <thead>
+                                <tr style={{background:`${accentRaw}10`}}>
+                                  {["HORA","FECHA","REAL","PREDICCIÓN","ERROR"].map((h,i)=>(
+                                    <th key={i} style={{padding:"6px 10px",fontFamily:"var(--font-px)",fontSize:"6px",color:accent,textAlign:"left",borderBottom:`1px solid ${accentRaw}30`}}>{h}</th>
+                                  ))}
                                 </tr>
+                              </thead>
+                              <tbody>
+                                {bloque.horas.map((row, hi) => (
+                                  <tr key={hi} style={{background:hi%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
+                                    <td style={{padding:"5px 10px",color:"#475569"}}>+{row.hora}h</td>
+                                    <td style={{padding:"5px 10px",color:"#64748b",fontSize:"14px"}}>{row.fecha ? row.fecha.substring(0, 16) : "—"}</td>
+                                    <td style={{padding:"5px 10px",color:"var(--c-green)"}}>{row.real}</td>
+                                    <td style={{padding:"5px 10px",color:accent}}>{row.pred}</td>
+                                    <td style={{padding:"5px 10px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"11px"}}>{row.error}</td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        ))
+                      ) : (
+                        <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"17px"}}>
+                          <thead>
+                            <tr style={{background:`${accentRaw}20`}}>
+                              {["#","VALOR REAL","PREDICCIÓN","ERROR ABSOLUTO"].map((h,i)=>(
+                                <th key={i} style={{padding:"8px 12px",fontFamily:"var(--font-px)",fontSize:"7px",color:accent,textAlign:"left",borderBottom:`2px solid ${accentRaw}50`}}>{h}</th>
                               ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {results.pred_table.map((row,i)=>(
+                              <tr key={i} style={{background:i%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
+                                <td style={{padding:"6px 12px",color:"#475569"}}>{row.n}</td>
+                                <td style={{padding:"6px 12px",color:"var(--c-green)"}}>{row.real}</td>
+                                <td style={{padding:"6px 12px",color:accent}}>{row.pred}</td>
+                                <td style={{padding:"6px 12px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"12px"}}>{row.error}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      )}
                     </>
                   ) : (
                     /* Single-step: CALENDARIO VISUAL (sismos) */
@@ -533,7 +548,7 @@ function ScreenEntrenamiento({dataset,onBack}){
                         <strong style={{color:"#fca5a5"}}> Rojo claro:</strong> Magnitud &lt; 0.40 (Bajo riesgo)
                       </div>
 
-                      {/* Calendario de datos REALES */}
+                      {/* Calendario REALES */}
                       <div style={{marginBottom:"24px"}}>
                         <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:"var(--c-green)",marginBottom:"10px",letterSpacing:"1px"}}>
                           📊 DATOS REALES (Test Set)
@@ -543,28 +558,15 @@ function ScreenEntrenamiento({dataset,onBack}){
                             <div key={d} style={{fontFamily:"var(--font-px)",fontSize:"7px",color:"#64748b",textAlign:"center",padding:"4px"}}>{d}</div>
                           ))}
                           {results.pred_table.slice(0,Math.min(30,results.pred_table.length)).map((row,i)=>{
-                            const mag = row.real;
-                            const bgColor = mag >= 0.40 ? "#b91c1c" : "#fca5a5";
-                            const nivel = mag >= 0.40 ? "ALTO" : "BAJO";
-                            
+                            const mag=row.real;
+                            const bgColor=mag>=0.40?"#b91c1c":"#fca5a5";
+                            const nivel=mag>=0.40?"ALTO":"BAJO";
                             return(
-                              <div key={i} style={{
-                                background: bgColor,
-                                border: "1px solid rgba(255,255,255,.1)",
-                                padding: "6px",
-                                display: "flex",
-                                flexDirection: "column",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                minHeight: "70px",
-                                transition: "transform .1s",
-                                cursor: "pointer",
-                                position: "relative"
-                              }}
+                              <div key={i} style={{background:bgColor,border:"1px solid rgba(255,255,255,.1)",padding:"6px",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",minHeight:"70px",transition:"transform .1s",cursor:"pointer"}}
                               onMouseEnter={e=>e.currentTarget.style.transform="scale(1.05)"}
                               onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}>
                                 <div style={{fontFamily:"var(--font-vt)",fontSize:"10px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center",letterSpacing:"-0.5px"}}>
-                                  {row.fecha ? row.fecha : `D${i+1}`}
+                                  {row.fecha?row.fecha:`D${i+1}`}
                                 </div>
                                 <div style={{fontFamily:"var(--font-vt)",fontSize:"18px",color:"#0a0e1a",fontWeight:"bold"}}>
                                   {mag.toFixed(2)}
@@ -578,7 +580,7 @@ function ScreenEntrenamiento({dataset,onBack}){
                         </div>
                       </div>
 
-                      {/* Calendario de PREDICCIONES */}
+                      {/* Calendario PREDICCIONES */}
                       <div>
                         <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:accent,marginBottom:"10px",letterSpacing:"1px"}}>
                           🔮 PREDICCIONES DEL MODELO
@@ -588,28 +590,15 @@ function ScreenEntrenamiento({dataset,onBack}){
                             <div key={d} style={{fontFamily:"var(--font-px)",fontSize:"7px",color:"#64748b",textAlign:"center",padding:"4px"}}>{d}</div>
                           ))}
                           {results.pred_table.slice(0,Math.min(30,results.pred_table.length)).map((row,i)=>{
-                            const mag = row.pred;
-                            const bgColor = mag >= 0.40 ? "#b91c1c" : "#fca5a5";
-                            const nivel = mag >= 0.40 ? "ALTO" : "BAJO";
-                            
+                            const mag=row.pred;
+                            const bgColor=mag>=0.40?"#b91c1c":"#fca5a5";
+                            const nivel=mag>=0.40?"ALTO":"BAJO";
                             return(
-                              <div key={i} style={{
-                                background: bgColor,
-                                border: "1px solid rgba(255,255,255,.1)",
-                                padding: "6px",
-                                display: "flex",
-                                flexDirection: "column",
-                                alignItems: "center",
-                                justifyContent: "center",
-                                minHeight: "70px",
-                                transition: "transform .1s",
-                                cursor: "pointer",
-                                position: "relative"
-                              }}
+                              <div key={i} style={{background:bgColor,border:"1px solid rgba(255,255,255,.1)",padding:"6px",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",minHeight:"70px",transition:"transform .1s",cursor:"pointer"}}
                               onMouseEnter={e=>e.currentTarget.style.transform="scale(1.05)"}
                               onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}>
                                 <div style={{fontFamily:"var(--font-vt)",fontSize:"10px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center",letterSpacing:"-0.5px"}}>
-                                  {row.fecha ? row.fecha : `D${i+1}`}
+                                  {row.fecha?row.fecha:`D${i+1}`}
                                 </div>
                                 <div style={{fontFamily:"var(--font-vt)",fontSize:"18px",color:"#0a0e1a",fontWeight:"bold"}}>
                                   {mag.toFixed(2)}
