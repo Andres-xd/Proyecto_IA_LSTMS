@@ -411,14 +411,18 @@ def load_and_predict():
     metricas=calcular_metricas(y_real,preds)
 
     # Cargar fechas reales para sismos desde sismos_serie_diaria.csv
+    # Lógica: pipeline genera N=len(serie)-14 ventanas.
+    # Test set empieza en ventana int(N*0.85).
+    # Ventana i predice el dia i+14 del CSV => test predice dias desde inicio_test+14.
     fechas_list = []
     if dataset_type == "sismos":
         try:
             df_serie = pd.read_csv(DATA_DIR / "sismos_serie_diaria.csv", parse_dates=["date"])
-            offset = int(len(df_serie) * 0.85)
-            fechas_test = df_serie["date"].iloc[offset + 14:].reset_index(drop=True)
+            N_total = len(df_serie) - 14
+            inicio_test = int(N_total * 0.85)
+            fechas_test = df_serie["date"].iloc[inicio_test + 14 : inicio_test + 14 + 30].reset_index(drop=True)
             fechas_list = [str(f.date()) for f in fechas_test]
-        except:
+        except Exception as e:
             fechas_list = []
 
     pred_table = [

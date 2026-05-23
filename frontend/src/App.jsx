@@ -219,7 +219,19 @@ function ScreenEntrenamiento({dataset,onBack}){
           const r=await fetch("http://localhost:5000/api/train/progress");
           const d=await r.json();
           setProgress(d);
-          if(d.done){setPolling(false);clearInterval(intervalRef.current);if(!d.error){setResults(d);setTab("datos");}}
+          if(d.done){
+              setPolling(false);clearInterval(intervalRef.current);
+              if(!d.error){
+                // Cargar predicciones completas incluyendo calendario
+                try{
+                  const r2=await fetch("http://localhost:5000/api/load-model",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({dataset,model_name:config.model_name})});
+                  const d2=await r2.json();
+                  if(!d2.error){setResults(d2);setProgress(p=>({...p,...d,epoch_log:d2.epoch_log}));}
+                  else{setResults(d);}
+                }catch{setResults(d);}
+                setTab("datos");
+              }
+            }
         }catch{}
       },800);
     }
@@ -303,10 +315,16 @@ function ScreenEntrenamiento({dataset,onBack}){
             <select value={loadName} onChange={e=>setLoadName(e.target.value)}
               style={{width:"100%",background:"#0d1220",color:"#e2e8f0",border:`1px solid ${accentRaw}50`,fontFamily:"var(--font-vt)",fontSize:"16px",padding:"5px"}}>
               <option value="">-- selecciona --</option>
-              {models.filter(m=>m.dataset===dataset||m.name.includes(dataset)).length === 0 ? (
+              {models.filter(m=>{
+                  const otherDs = dataset==="energia"?"sismos":"energia";
+                  return !m.name.includes(otherDs);
+                }).length === 0 ? (
                 <option disabled>No hay modelos entrenados aún</option>
               ) : (
-                models.filter(m=>m.dataset===dataset||m.name.includes(dataset)).map(m=><option key={m.name} value={m.name}>{m.display_name||m.name} ({m.size_kb}KB)</option>)
+                models.filter(m=>{
+                  const otherDs = dataset==="energia"?"sismos":"energia";
+                  return !m.name.includes(otherDs);
+                }).map(m=><option key={m.name} value={m.name}>{m.display_name||m.name} ({m.size_kb}KB)</option>)
               )}
             </select>
             <button className="px-btn" onClick={handleLoad} disabled={!loadName}
@@ -314,7 +332,7 @@ function ScreenEntrenamiento({dataset,onBack}){
               CARGAR Y EVALUAR
             </button>
             <div style={{fontFamily:"var(--font-vt)",fontSize:"14px",color:"var(--c-gray)",marginTop:"6px"}}>
-              {models.filter(m=>m.dataset===dataset||m.name.includes(dataset)).length} modelo(s) disponible(s)
+              {models.filter(m=>{ const o=dataset==="energia"?"sismos":"energia"; return !m.name.includes(o); }).length} modelo(s) disponible(s)
             </div>
           </SideSection>
         </div>
@@ -545,8 +563,8 @@ function ScreenEntrenamiento({dataset,onBack}){
                               }}
                               onMouseEnter={e=>e.currentTarget.style.transform="scale(1.05)"}
                               onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}>
-                                <div style={{fontFamily:"var(--font-vt)",fontSize:"11px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center"}}>
-                                  {row.fecha ? row.fecha.slice(5) : `D${i+1}`}
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"10px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center",letterSpacing:"-0.5px"}}>
+                                  {row.fecha ? row.fecha : `D${i+1}`}
                                 </div>
                                 <div style={{fontFamily:"var(--font-vt)",fontSize:"18px",color:"#0a0e1a",fontWeight:"bold"}}>
                                   {mag.toFixed(2)}
@@ -590,8 +608,8 @@ function ScreenEntrenamiento({dataset,onBack}){
                               }}
                               onMouseEnter={e=>e.currentTarget.style.transform="scale(1.05)"}
                               onMouseLeave={e=>e.currentTarget.style.transform="scale(1)"}>
-                                <div style={{fontFamily:"var(--font-vt)",fontSize:"11px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center"}}>
-                                  {row.fecha ? row.fecha.slice(5) : `D${i+1}`}
+                                <div style={{fontFamily:"var(--font-vt)",fontSize:"10px",color:"rgba(0,0,0,.7)",marginBottom:"2px",textAlign:"center",letterSpacing:"-0.5px"}}>
+                                  {row.fecha ? row.fecha : `D${i+1}`}
                                 </div>
                                 <div style={{fontFamily:"var(--font-vt)",fontSize:"18px",color:"#0a0e1a",fontWeight:"bold"}}>
                                   {mag.toFixed(2)}
