@@ -264,7 +264,7 @@ function ScreenEntrenamiento({dataset,onBack}){
           <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:accent,lineHeight:"1.8"}}>
             {isEnergia?"⚡ ENERGÍA ELÉCTRICA":"🌍 ACTIVIDAD SÍSMICA"}
           </div>
-          {isEnergia&&<div style={{fontFamily:"var(--font-vt)",fontSize:"13px",color:"#475569",marginTop:"4px"}}>Prototipo: 25,000 de 1.4M muestras</div>}
+          {isEnergia&&<div style={{fontFamily:"var(--font-vt)",fontSize:"13px",color:"#475569",marginTop:"4px"}}>Dataset completo (agregación horaria)</div>}
         </div>
 
         <div style={{padding:"14px",display:"flex",flexDirection:"column",gap:"14px"}}>
@@ -459,32 +459,84 @@ function ScreenEntrenamiento({dataset,onBack}){
               {!results?.pred_table&&<EmptyState accent={accent} msg="Entrena o carga un modelo para ver las predicciones." />}
               {results?.pred_table&&(
                 <>
-                  <SectionTitle title="PRIMERAS 20 PREDICCIONES VS VALORES REALES" color={accent}/>
-                  <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5"}}>
-                    Estos son valores <strong style={{color:"#94a3b8"}}>normalizados</strong> (escala 0 a 1).
-                    La columna <strong style={{color:"var(--c-green)"}}>Real</strong> es lo que realmente ocurrió.
-                    La columna <strong style={{color:accent}}>Predicción</strong> es lo que el modelo calculó.
-                    El <strong style={{color:"var(--c-seismic)"}}>Error</strong> es la diferencia entre ambos — entre más cercano a 0, mejor.
-                  </div>
-                  <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"17px"}}>
-                    <thead>
-                      <tr style={{background:`${accentRaw}20`}}>
-                        {["#","VALOR REAL","PREDICCIÓN","ERROR ABSOLUTO"].map((h,i)=>(
-                          <th key={i} style={{padding:"8px 12px",fontFamily:"var(--font-px)",fontSize:"7px",color:accent,textAlign:"left",borderBottom:`2px solid ${accentRaw}50`}}>{h}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {results.pred_table.map((row,i)=>(
-                        <tr key={i} style={{background:i%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
-                          <td style={{padding:"6px 12px",color:"#475569"}}>{row.n}</td>
-                          <td style={{padding:"6px 12px",color:"var(--c-green)"}}>{row.real}</td>
-                          <td style={{padding:"6px 12px",color:accent}}>{row.pred}</td>
-                          <td style={{padding:"6px 12px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"12px"}}>{row.error}</td>
-                        </tr>
+                  {/* Multi-step: bloques de 12 horas (energía) */}
+                  {results.prediction_mode === "multi_step" ? (
+                    <>
+                      <SectionTitle title={`PREDICCIONES — BLOQUES DE ${results.output_hours || 12} HORAS`} color={accent}/>
+                      <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5"}}>
+                        El modelo recibe <strong style={{color:"#94a3b8"}}>48 horas</strong> de historia y predice las siguientes{" "}
+                        <strong style={{color:accent}}>{results.output_hours || 12} horas</strong>.
+                        Cada bloque muestra una predicción completa.
+                        Los valores son <strong style={{color:"#94a3b8"}}>normalizados</strong> (escala 0 a 1).
+                        Las fechas corresponden al dataset real — se pueden verificar en el CSV.
+                      </div>
+                      
+                      {results.pred_table.map((bloque, bi) => (
+                        <div key={bi} style={{marginTop:"14px"}}>
+                          <div style={{fontFamily:"var(--font-px)",fontSize:"8px",color:accent,marginBottom:"8px",padding:"6px 10px",background:`${accentRaw}15`,border:`1px solid ${accentRaw}40`}}>
+                            PREDICCIÓN #{bloque.bloque}
+                            {bloque.horas[0]?.fecha && (
+                              <span style={{color:"#64748b",fontFamily:"var(--font-vt)",fontSize:"14px",marginLeft:"12px"}}>
+                                Desde: {bloque.horas[0].fecha.substring(0, 16)}
+                              </span>
+                            )}
+                          </div>
+                          <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"16px"}}>
+                            <thead>
+                              <tr style={{background:`${accentRaw}10`}}>
+                                {["HORA","FECHA","REAL","PREDICCIÓN","ERROR"].map((h,i)=>(
+                                  <th key={i} style={{padding:"6px 10px",fontFamily:"var(--font-px)",fontSize:"6px",color:accent,textAlign:"left",borderBottom:`1px solid ${accentRaw}30`}}>{h}</th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {bloque.horas.map((row, hi) => (
+                                <tr key={hi} style={{background:hi%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
+                                  <td style={{padding:"5px 10px",color:"#475569"}}>+{row.hora}h</td>
+                                  <td style={{padding:"5px 10px",color:"#64748b",fontSize:"14px"}}>{row.fecha ? row.fecha.substring(0, 16) : "—"}</td>
+                                  <td style={{padding:"5px 10px",color:"var(--c-green)"}}>{row.real}</td>
+                                  <td style={{padding:"5px 10px",color:accent}}>{row.pred}</td>
+                                  <td style={{padding:"5px 10px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"11px"}}>{row.error}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
                       ))}
-                    </tbody>
-                  </table>
+                    </>
+                  ) : (
+                    /* Single-step: tabla plana (sismos) */
+                    <>
+                      <SectionTitle title="PRIMERAS 20 PREDICCIONES VS VALORES REALES" color={accent}/>
+                      <div style={{fontFamily:"var(--font-body)",fontSize:"14px",color:"#64748b",marginTop:"-6px",lineHeight:"1.5"}}>
+                        El modelo recibe <strong style={{color:"#94a3b8"}}>14 días</strong> de historia y predice{" "}
+                        <strong style={{color:accent}}>1 día</strong> siguiente.
+                        Los valores son <strong style={{color:"#94a3b8"}}>normalizados</strong> (escala 0 a 1).
+                        La columna <strong style={{color:"var(--c-green)"}}>Real</strong> es lo que realmente ocurrió.
+                        La columna <strong style={{color:accent}}>Predicción</strong> es lo que el modelo calculó.
+                        El <strong style={{color:"var(--c-seismic)"}}>Error</strong> es la diferencia entre ambos — entre más cercano a 0, mejor.
+                      </div>
+                      <table style={{width:"100%",borderCollapse:"collapse",fontFamily:"var(--font-vt)",fontSize:"17px"}}>
+                        <thead>
+                          <tr style={{background:`${accentRaw}20`}}>
+                            {["#","VALOR REAL","PREDICCIÓN","ERROR ABSOLUTO"].map((h,i)=>(
+                              <th key={i} style={{padding:"8px 12px",fontFamily:"var(--font-px)",fontSize:"7px",color:accent,textAlign:"left",borderBottom:`2px solid ${accentRaw}50`}}>{h}</th>
+                            ))}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {results.pred_table.map((row,i)=>(
+                            <tr key={i} style={{background:i%2===0?"transparent":"rgba(255,255,255,.02)",borderBottom:"1px solid var(--c-border)"}}>
+                              <td style={{padding:"6px 12px",color:"#475569"}}>{row.n}</td>
+                              <td style={{padding:"6px 12px",color:"var(--c-green)"}}>{row.real}</td>
+                              <td style={{padding:"6px 12px",color:accent}}>{row.pred}</td>
+                              <td style={{padding:"6px 12px",color:row.error<0.05?"var(--c-green)":row.error<0.15?"var(--c-energy)":"var(--c-seismic)",fontFamily:"var(--font-px)",fontSize:"12px"}}>{row.error}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </>
+                  )}
                 </>
               )}
             </>
